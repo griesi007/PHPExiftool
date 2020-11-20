@@ -494,10 +494,15 @@ class Reader implements \IteratorAggregate
             throw new LogicException('You have not set any files or directory');
         }
 
-        $command = '-n -q -b -X -charset UTF8';
+        $command[] = '-n';
+        $command[] = '-q';
+        $command[] = '-b';
+        $command[] = '-X';
+        $command[] = '-charset';
+        $command[] = 'UTF8';
 
         if ($this->recursive) {
-            $command .= ' -r';
+            $command[] = '-r';
         }
 
         if (!empty($this->extensions)) {
@@ -508,32 +513,36 @@ class Reader implements \IteratorAggregate
             }
 
             foreach ($this->extensions as $extension) {
-                $command .= $extensionPrefix . ' ' . escapeshellarg($extension);
+                $command[] =  $extensionPrefix;
+                $command[] = $extension;
             }
         }
 
         if (! $this->followSymLinks) {
-            $command .= ' -i SYMLINKS';
+            $command[] =  '-i';
+            $command[] = 'SYMLINKS';
         }
 
         if ($this->ignoreDotFile) {
-            $command .= " -if '\$filename !~ /^\./'";
+            $command[] =  " -if";
+            $command[] = "'\$filename !~ /^\./'";
         }
 
         foreach ($this->sort as $sort) {
-            $command .= ' -fileOrder ' . $sort;
+            $command[] =  '-fileOrder ' . $sort;
         }
 
         foreach ($this->computeExcludeDirs($this->excludeDirs, $this->dirs) as $excludedDir) {
-            $command .= ' -i ' . escapeshellarg($excludedDir);
+            $command[] =  '-i';
+            $command[] = $excludedDir;
         }
 
         foreach ($this->dirs as $dir) {
-            $command .= ' ' . escapeshellarg(realpath($dir));
+            $command[] = realpath($dir);
         }
 
         foreach ($this->files as $file) {
-            $command .= ' ' . escapeshellarg(realpath($file));
+            $command[] = realpath($file);
         }
 
         return $command;

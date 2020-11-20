@@ -40,14 +40,16 @@ class Exiftool implements LoggerAwareInterface
     /**
      * Execute a command and return the output
      *
-     * @param  string     $command
+     * @param  array     $command
      * @param  int        $timeout
      * @return string
      * @throws \Exception
      */
     public function executeCommand($command, $timeout = 60)
     {
-        $command = ($this->binaryPath == null? self::getBinary(): $this->binaryPath) . ' ' . $command;
+        $exifTool = $this->binaryPath == null? self::getBinary(): $this->binaryPath;
+
+        array_unshift($command, $exifTool);
         $process = new Process($command);
         $process->setTimeout($timeout);
 
