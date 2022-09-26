@@ -12,8 +12,6 @@
 namespace PHPExiftool;
 
 use Doctrine\Common\Cache\ArrayCache;
-use PHPExiftool\RDFParser;
-use PHPExiftool\FileEntity;
 use PHPExiftool\Driver\Value\ValueInterface;
 use PHPExiftool\Driver\Metadata\MetadataBag;
 
@@ -25,7 +23,6 @@ use PHPExiftool\Driver\Metadata\MetadataBag;
  */
 class FileEntity implements \IteratorAggregate
 {
-
     /**
      *
      * @var \DOMDocument
@@ -70,7 +67,7 @@ class FileEntity implements \IteratorAggregate
         return $this;
     }
 
-    public function getIterator()
+    public function getIterator(): \Traversable
     {
         return $this->getMetadatas()->getIterator();
     }
@@ -114,5 +111,4 @@ class FileEntity implements \IteratorAggregate
     {
         return $this->parser->Query($query);
     }
-
 }
