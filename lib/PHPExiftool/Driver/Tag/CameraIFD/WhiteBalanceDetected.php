@@ -40,67 +40,67 @@ class WhiteBalanceDetected extends AbstractTag
 
     protected $Description = 'White Balance Detected';
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'Auto',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'Daylight',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'Cloudy',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 3,
             'Label' => 'Tungsten',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 4,
             'Label' => 'n/a',
-        ),
-        5 => array(
+        ],
+        5 => [
             'Id' => 5,
             'Label' => 'Flash',
-        ),
-        6 => array(
+        ],
+        6 => [
             'Id' => 6,
             'Label' => 'n/a',
-        ),
-        7 => array(
+        ],
+        7 => [
             'Id' => 7,
             'Label' => 'n/a',
-        ),
-        8 => array(
+        ],
+        8 => [
             'Id' => 8,
             'Label' => 'Custom#1',
-        ),
-        9 => array(
+        ],
+        9 => [
             'Id' => 9,
             'Label' => 'Custom#2',
-        ),
-        10 => array(
+        ],
+        10 => [
             'Id' => 10,
             'Label' => 'Custom#3',
-        ),
-        11 => array(
+        ],
+        11 => [
             'Id' => 11,
             'Label' => 'Custom#4',
-        ),
-        12 => array(
+        ],
+        12 => [
             'Id' => 12,
             'Label' => 'Shade',
-        ),
-        13 => array(
+        ],
+        13 => [
             'Id' => 13,
             'Label' => 'Kelvin',
-        ),
-        16 => array(
+        ],
+        16 => [
             'Id' => 16,
             'Label' => 'AWBc',
-        ),
-    );
+        ],
+    ];
 
 }

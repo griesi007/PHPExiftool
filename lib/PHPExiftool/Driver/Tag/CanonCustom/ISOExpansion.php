@@ -44,15 +44,15 @@ class ISOExpansion extends AbstractTag
 
     protected $Index = 1;
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'Off',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'On',
-        ),
-    );
+        ],
+    ];
 
 }

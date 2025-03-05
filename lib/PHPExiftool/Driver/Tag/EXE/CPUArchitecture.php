@@ -40,24 +40,24 @@ class CPUArchitecture extends AbstractTag
 
     protected $Description = 'CPU Architecture';
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 1,
             'Label' => '32 bit',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 2,
             'Label' => '64 bit',
-        ),
-        'm68k' => array(
+        ],
+        'm68k' => [
             'Id' => 'm68k',
             'Label' => 68000,
-        ),
-        'pwpc' => array(
+        ],
+        'pwpc' => [
             'Id' => 'pwpc',
             'Label' => 'PowerPC',
-        ),
-    );
+        ],
+    ];
 
     protected $MaxLength = 'mixed';
 

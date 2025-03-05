@@ -42,27 +42,27 @@ class QuickControlDialInMeter extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'Exposure comp/Aperture',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'AF point selection',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'ISO speed',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 3,
             'Label' => 'AF point selection swapped with Exposure comp',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 4,
             'Label' => 'ISO speed swapped with Exposure comp',
-        ),
-    );
+        ],
+    ];
 
 }

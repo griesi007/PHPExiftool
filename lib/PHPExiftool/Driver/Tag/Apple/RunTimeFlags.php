@@ -42,27 +42,27 @@ class RunTimeFlags extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        1 => array(
+    protected $Values = [
+        1 => [
             'Id' => 1,
             'Label' => 'Valid',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'Has been rounded',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 4,
             'Label' => 'Positive infinity',
-        ),
-        8 => array(
+        ],
+        8 => [
             'Id' => 8,
             'Label' => 'Negative infinity',
-        ),
-        16 => array(
+        ],
+        16 => [
             'Id' => 16,
             'Label' => 'Indefinite',
-        ),
-    );
+        ],
+    ];
 
 }

@@ -42,11 +42,11 @@ class SceneType extends AbstractTag
 
     protected $local_g1 = 'ExifIFD';
 
-    protected $Values = array(
-        1 => array(
+    protected $Values = [
+        1 => [
             'Id' => 1,
             'Label' => 'Directly photographed',
-        ),
-    );
+        ],
+    ];
 
 }

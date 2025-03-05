@@ -40,15 +40,15 @@ class APP14Flags0 extends AbstractTag
 
     protected $Description = 'APP14 Flags 0';
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => '(none)',
-        ),
-        32768 => array(
+        ],
+        32768 => [
             'Id' => 32768,
             'Label' => 'Encoded with Blend=1 downsampling',
-        ),
-    );
+        ],
+    ];
 
 }

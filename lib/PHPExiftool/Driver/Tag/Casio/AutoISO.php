@@ -42,27 +42,27 @@ class AutoISO extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        1 => array(
+    protected $Values = [
+        1 => [
             'Id' => 1,
             'Label' => 'On',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'Off',
-        ),
-        7 => array(
+        ],
+        7 => [
             'Id' => 7,
             'Label' => 'On (high sensitivity)',
-        ),
-        8 => array(
+        ],
+        8 => [
             'Id' => 8,
             'Label' => 'On (anti-shake)',
-        ),
-        10 => array(
+        ],
+        10 => [
             'Id' => 10,
             'Label' => 'High Speed',
-        ),
-    );
+        ],
+    ];
 
 }

@@ -42,24 +42,24 @@ class InfoButtonWhenShooting extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'Displays camera settings',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'Displays shooting functions',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 0,
             'Label' => 'Displays shooting functions',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 1,
             'Label' => 'Displays camera settings',
-        ),
-    );
+        ],
+    ];
 
     protected $Index = 'mixed';
 

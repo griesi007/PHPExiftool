@@ -40,15 +40,15 @@ class HighISOMode extends AbstractTag
 
     protected $Description = 'High ISO Mode';
 
-    protected $Values = array(
-        1 => array(
+    protected $Values = [
+        1 => [
             'Id' => 1,
             'Label' => 'On',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'Off',
-        ),
-    );
+        ],
+    ];
 
 }

@@ -42,44 +42,44 @@ class FlashMode extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 1,
             'Label' => 'Auto',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 2,
             'Label' => 'On',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 3,
             'Label' => 'Off',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 4,
             'Label' => 'Off',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 5,
             'Label' => 'Red-eye Reduction',
-        ),
-        5 => array(
+        ],
+        5 => [
             'Id' => 1,
             'Label' => 'Auto',
-        ),
-        6 => array(
+        ],
+        6 => [
             'Id' => 2,
             'Label' => 'On',
-        ),
-        7 => array(
+        ],
+        7 => [
             'Id' => 3,
             'Label' => 'Off',
-        ),
-        8 => array(
+        ],
+        8 => [
             'Id' => 4,
             'Label' => 'Red-eye Reduction',
-        ),
-    );
+        ],
+    ];
 
     protected $Index = 'mixed';
 

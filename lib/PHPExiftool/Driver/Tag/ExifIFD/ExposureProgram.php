@@ -44,47 +44,47 @@ class ExposureProgram extends AbstractTag
 
     protected $local_g2 = 'Camera';
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'Not Defined',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'Manual',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'Program AE',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 3,
             'Label' => 'Aperture-priority AE',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 4,
             'Label' => 'Shutter speed priority AE',
-        ),
-        5 => array(
+        ],
+        5 => [
             'Id' => 5,
             'Label' => 'Creative (Slow speed)',
-        ),
-        6 => array(
+        ],
+        6 => [
             'Id' => 6,
             'Label' => 'Action (High speed)',
-        ),
-        7 => array(
+        ],
+        7 => [
             'Id' => 7,
             'Label' => 'Portrait',
-        ),
-        8 => array(
+        ],
+        8 => [
             'Id' => 8,
             'Label' => 'Landscape',
-        ),
-        9 => array(
+        ],
+        9 => [
             'Id' => 9,
             'Label' => 'Bulb',
-        ),
-    );
+        ],
+    ];
 
 }

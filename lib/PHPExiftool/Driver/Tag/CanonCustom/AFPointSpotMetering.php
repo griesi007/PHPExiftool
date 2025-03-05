@@ -42,23 +42,23 @@ class AFPointSpotMetering extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => '45/Center AF point',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => '11/Active AF point',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => '11/Center AF point',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 3,
             'Label' => '9/Active AF point',
-        ),
-    );
+        ],
+    ];
 
 }

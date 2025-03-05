@@ -42,47 +42,47 @@ class UserDef3PictureStyle extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        65 => array(
+    protected $Values = [
+        65 => [
             'Id' => 65,
             'Label' => 'PC 1',
-        ),
-        66 => array(
+        ],
+        66 => [
             'Id' => 66,
             'Label' => 'PC 2',
-        ),
-        67 => array(
+        ],
+        67 => [
             'Id' => 67,
             'Label' => 'PC 3',
-        ),
-        129 => array(
+        ],
+        129 => [
             'Id' => 129,
             'Label' => 'Standard',
-        ),
-        130 => array(
+        ],
+        130 => [
             'Id' => 130,
             'Label' => 'Portrait',
-        ),
-        131 => array(
+        ],
+        131 => [
             'Id' => 131,
             'Label' => 'Landscape',
-        ),
-        132 => array(
+        ],
+        132 => [
             'Id' => 132,
             'Label' => 'Neutral',
-        ),
-        133 => array(
+        ],
+        133 => [
             'Id' => 133,
             'Label' => 'Faithful',
-        ),
-        134 => array(
+        ],
+        134 => [
             'Id' => 134,
             'Label' => 'Monochrome',
-        ),
-        135 => array(
+        ],
+        135 => [
             'Id' => 135,
             'Label' => 'Auto',
-        ),
-    );
+        ],
+    ];
 
 }

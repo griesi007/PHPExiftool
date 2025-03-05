@@ -42,55 +42,55 @@ class ImageStabilization extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'Off',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'On',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'Best Shot',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 3,
             'Label' => 'Movie Anti-Shake',
-        ),
-        '0 0' => array(
+        ],
+        '0 0' => [
             'Id' => '0 0',
             'Label' => 'Off',
-        ),
-        '0 1' => array(
+        ],
+        '0 1' => [
             'Id' => '0 1',
             'Label' => 'Off (1)',
-        ),
-        '0 3' => array(
+        ],
+        '0 3' => [
             'Id' => '0 3',
             'Label' => 'CCD Shift',
-        ),
-        '2 1' => array(
+        ],
+        '2 1' => [
             'Id' => '2 1',
             'Label' => 'High Sensitivity',
-        ),
-        '2 3' => array(
+        ],
+        '2 3' => [
             'Id' => '2 3',
             'Label' => 'CCD Shift + High Sensitivity',
-        ),
-        '16 0' => array(
+        ],
+        '16 0' => [
             'Id' => '16 0',
             'Label' => 'Slow Shutter',
-        ),
-        '18 0' => array(
+        ],
+        '18 0' => [
             'Id' => '18 0',
             'Label' => 'Anti-Shake',
-        ),
-        '20 0' => array(
+        ],
+        '20 0' => [
             'Id' => '20 0',
             'Label' => 'High Sensitivity',
-        ),
-    );
+        ],
+    ];
 
 }

@@ -42,15 +42,15 @@ class GPSTrackRef extends AbstractTag
 
     protected $MaxLength = 2;
 
-    protected $Values = array(
-        'M' => array(
+    protected $Values = [
+        'M' => [
             'Id' => 'M',
             'Label' => 'Magnetic North',
-        ),
-        'T' => array(
+        ],
+        'T' => [
             'Id' => 'T',
             'Label' => 'True North',
-        ),
-    );
+        ],
+    ];
 
 }

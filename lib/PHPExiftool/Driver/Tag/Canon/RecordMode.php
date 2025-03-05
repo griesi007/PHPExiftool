@@ -42,55 +42,55 @@ class RecordMode extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        1 => array(
+    protected $Values = [
+        1 => [
             'Id' => 1,
             'Label' => 'JPEG',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'CRW+THM',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 3,
             'Label' => 'AVI+THM',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 4,
             'Label' => 'TIF',
-        ),
-        5 => array(
+        ],
+        5 => [
             'Id' => 5,
             'Label' => 'TIF+JPEG',
-        ),
-        6 => array(
+        ],
+        6 => [
             'Id' => 6,
             'Label' => 'CR2',
-        ),
-        7 => array(
+        ],
+        7 => [
             'Id' => 7,
             'Label' => 'CR2+JPEG',
-        ),
-        9 => array(
+        ],
+        9 => [
             'Id' => 9,
             'Label' => 'MOV',
-        ),
-        10 => array(
+        ],
+        10 => [
             'Id' => 10,
             'Label' => 'MP4',
-        ),
-        11 => array(
+        ],
+        11 => [
             'Id' => 11,
             'Label' => 'CRM',
-        ),
-        12 => array(
+        ],
+        12 => [
             'Id' => 12,
             'Label' => 'CR3',
-        ),
-        13 => array(
+        ],
+        13 => [
             'Id' => 13,
             'Label' => 'CR3+JPEG',
-        ),
-    );
+        ],
+    ];
 
 }

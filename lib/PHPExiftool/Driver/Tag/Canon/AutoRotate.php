@@ -42,27 +42,27 @@ class AutoRotate extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        '-1' => array(
+    protected $Values = [
+        '-1' => [
             'Id' => '-1',
             'Label' => 'n/a',
-        ),
-        0 => array(
+        ],
+        0 => [
             'Id' => 0,
             'Label' => 'None',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'Rotate 90 CW',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'Rotate 180',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 3,
             'Label' => 'Rotate 270 CW',
-        ),
-    );
+        ],
+    ];
 
 }

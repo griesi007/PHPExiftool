@@ -40,15 +40,15 @@ class DistortionCorrectionOn extends AbstractTag
 
     protected $Description = 'Distortion Correction On';
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'No',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'Yes',
-        ),
-    );
+        ],
+    ];
 
 }

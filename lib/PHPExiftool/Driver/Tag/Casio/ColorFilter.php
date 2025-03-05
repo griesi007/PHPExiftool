@@ -42,71 +42,71 @@ class ColorFilter extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 1,
             'Label' => 'Off',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 2,
             'Label' => 'Black & White',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 3,
             'Label' => 'Sepia',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 4,
             'Label' => 'Red',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 5,
             'Label' => 'Green',
-        ),
-        5 => array(
+        ],
+        5 => [
             'Id' => 6,
             'Label' => 'Blue',
-        ),
-        6 => array(
+        ],
+        6 => [
             'Id' => 7,
             'Label' => 'Yellow',
-        ),
-        7 => array(
+        ],
+        7 => [
             'Id' => 8,
             'Label' => 'Pink',
-        ),
-        8 => array(
+        ],
+        8 => [
             'Id' => 9,
             'Label' => 'Purple',
-        ),
-        9 => array(
+        ],
+        9 => [
             'Id' => 0,
             'Label' => 'Off',
-        ),
-        10 => array(
+        ],
+        10 => [
             'Id' => 1,
             'Label' => 'Blue',
-        ),
-        11 => array(
+        ],
+        11 => [
             'Id' => 3,
             'Label' => 'Green',
-        ),
-        12 => array(
+        ],
+        12 => [
             'Id' => 4,
             'Label' => 'Yellow',
-        ),
-        13 => array(
+        ],
+        13 => [
             'Id' => 5,
             'Label' => 'Red',
-        ),
-        14 => array(
+        ],
+        14 => [
             'Id' => 6,
             'Label' => 'Purple',
-        ),
-        15 => array(
+        ],
+        15 => [
             'Id' => 7,
             'Label' => 'Pink',
-        ),
-    );
+        ],
+    ];
 
 }

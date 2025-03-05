@@ -42,39 +42,39 @@ class Transformation extends AbstractTag
 
     protected $local_g1 = 'ExifIFD';
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'Horizontal (normal)',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'Mirror vertical',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'Mirror horizontal',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 3,
             'Label' => 'Rotate 180',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 4,
             'Label' => 'Rotate 90 CW',
-        ),
-        5 => array(
+        ],
+        5 => [
             'Id' => 5,
             'Label' => 'Mirror horizontal and rotate 90 CW',
-        ),
-        6 => array(
+        ],
+        6 => [
             'Id' => 6,
             'Label' => 'Mirror horizontal and rotate 270 CW',
-        ),
-        7 => array(
+        ],
+        7 => [
             'Id' => 7,
             'Label' => 'Rotate 270 CW',
-        ),
-    );
+        ],
+    ];
 
 }

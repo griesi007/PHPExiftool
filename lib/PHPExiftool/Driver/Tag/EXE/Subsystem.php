@@ -40,55 +40,55 @@ class Subsystem extends AbstractTag
 
     protected $Description = 'Subsystem';
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'Unknown',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'Native',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'Windows GUI',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 3,
             'Label' => 'Windows command line',
-        ),
-        5 => array(
+        ],
+        5 => [
             'Id' => 5,
             'Label' => 'OS/2 command line',
-        ),
-        7 => array(
+        ],
+        7 => [
             'Id' => 7,
             'Label' => 'POSIX command line',
-        ),
-        9 => array(
+        ],
+        9 => [
             'Id' => 9,
             'Label' => 'Windows CE GUI',
-        ),
-        10 => array(
+        ],
+        10 => [
             'Id' => 10,
             'Label' => 'EFI application',
-        ),
-        11 => array(
+        ],
+        11 => [
             'Id' => 11,
             'Label' => 'EFI boot service',
-        ),
-        12 => array(
+        ],
+        12 => [
             'Id' => 12,
             'Label' => 'EFI runtime driver',
-        ),
-        13 => array(
+        ],
+        13 => [
             'Id' => 13,
             'Label' => 'EFI ROM',
-        ),
-        14 => array(
+        ],
+        14 => [
             'Id' => 14,
             'Label' => 'XBOX',
-        ),
-    );
+        ],
+    ];
 
 }

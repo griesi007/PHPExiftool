@@ -42,27 +42,27 @@ class ReleaseMode extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        1 => array(
+    protected $Values = [
+        1 => [
             'Id' => 1,
             'Label' => 'Normal',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 3,
             'Label' => 'AE Bracketing',
-        ),
-        11 => array(
+        ],
+        11 => [
             'Id' => 11,
             'Label' => 'WB Bracketing',
-        ),
-        13 => array(
+        ],
+        13 => [
             'Id' => 13,
             'Label' => 'Contrast Bracketing',
-        ),
-        19 => array(
+        ],
+        19 => [
             'Id' => 19,
             'Label' => 'High Speed Burst',
-        ),
-    );
+        ],
+    ];
 
 }

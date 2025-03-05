@@ -42,43 +42,43 @@ class FaxProfile extends AbstractTag
 
     protected $local_g1 = 'ExifIFD';
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'Unknown',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'Minimal B&W lossless, S',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'Extended B&W lossless, F',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 3,
             'Label' => 'Lossless JBIG B&W, J',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 4,
             'Label' => 'Lossy color and grayscale, C',
-        ),
-        5 => array(
+        ],
+        5 => [
             'Id' => 5,
             'Label' => 'Lossless color and grayscale, L',
-        ),
-        6 => array(
+        ],
+        6 => [
             'Id' => 6,
             'Label' => 'Mixed raster content, M',
-        ),
-        7 => array(
+        ],
+        7 => [
             'Id' => 7,
             'Label' => 'Profile T',
-        ),
-        255 => array(
+        ],
+        255 => [
             'Id' => 255,
             'Label' => 'Multi Profiles',
-        ),
-    );
+        ],
+    ];
 
 }

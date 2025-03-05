@@ -40,47 +40,47 @@ class WorkColorSpace extends AbstractTag
 
     protected $Description = 'Work Color Space';
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 1,
             'Label' => 'sRGB',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 2,
             'Label' => 'Adobe RGB',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 3,
             'Label' => 'Wide Gamut RGB',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 4,
             'Label' => 'Apple RGB',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 5,
             'Label' => 'ColorMatch RGB',
-        ),
-        5 => array(
+        ],
+        5 => [
             'Id' => 0,
             'Label' => 'sRGB',
-        ),
-        6 => array(
+        ],
+        6 => [
             'Id' => 1,
             'Label' => 'Adobe RGB',
-        ),
-        7 => array(
+        ],
+        7 => [
             'Id' => 2,
             'Label' => 'Wide Gamut RGB',
-        ),
-        8 => array(
+        ],
+        8 => [
             'Id' => 3,
             'Label' => 'Apple RGB',
-        ),
-        9 => array(
+        ],
+        9 => [
             'Id' => 4,
             'Label' => 'ColorMatch RGB',
-        ),
-    );
+        ],
+    ];
 
 }

@@ -44,27 +44,27 @@ class CameraType extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'n/a',
-        ),
-        248 => array(
+        ],
+        248 => [
             'Id' => 248,
             'Label' => 'EOS High-end',
-        ),
-        250 => array(
+        ],
+        250 => [
             'Id' => 250,
             'Label' => 'Compact',
-        ),
-        252 => array(
+        ],
+        252 => [
             'Id' => 252,
             'Label' => 'EOS Mid-range',
-        ),
-        255 => array(
+        ],
+        255 => [
             'Id' => 255,
             'Label' => 'DV Camera',
-        ),
-    );
+        ],
+    ];
 
 }

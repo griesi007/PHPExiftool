@@ -42,23 +42,23 @@ class CR2CFAPattern extends AbstractTag
 
     protected $local_g1 = 'ExifIFD';
 
-    protected $Values = array(
-        '0 1 1 2' => array(
+    protected $Values = [
+        '0 1 1 2' => [
             'Id' => '0 1 1 2',
             'Label' => '[Red,Green][Green,Blue]',
-        ),
-        '1 0 2 1' => array(
+        ],
+        '1 0 2 1' => [
             'Id' => '1 0 2 1',
             'Label' => '[Green,Red][Blue,Green]',
-        ),
-        '1 2 0 1' => array(
+        ],
+        '1 2 0 1' => [
             'Id' => '1 2 0 1',
             'Label' => '[Green,Blue][Red,Green]',
-        ),
-        '2 1 1 0' => array(
+        ],
+        '2 1 1 0' => [
             'Id' => '2 1 1 0',
             'Label' => '[Blue,Green][Green,Red]',
-        ),
-    );
+        ],
+    ];
 
 }

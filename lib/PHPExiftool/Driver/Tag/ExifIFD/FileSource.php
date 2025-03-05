@@ -42,23 +42,23 @@ class FileSource extends AbstractTag
 
     protected $local_g1 = 'ExifIFD';
 
-    protected $Values = array(
-        1 => array(
+    protected $Values = [
+        1 => [
             'Id' => 1,
             'Label' => 'Film Scanner',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'Reflection Print Scanner',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 3,
             'Label' => 'Digital Camera',
-        ),
-        '\\x03\\x00\\x00\\x00' => array(
+        ],
+        '\\x03\\x00\\x00\\x00' => [
             'Id' => '\\x03\\x00\\x00\\x00',
             'Label' => 'Sigma Digital Camera',
-        ),
-    );
+        ],
+    ];
 
 }

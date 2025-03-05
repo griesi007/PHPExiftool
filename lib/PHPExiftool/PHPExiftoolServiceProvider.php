@@ -28,21 +28,13 @@ class PHPExiftoolServiceProvider implements ServiceProviderInterface
             return $logger;
         });
 
-        $app['exiftool.processor'] = $app->share(function(Application $app) {
-            return new Exiftool($app['exiftool.logger']);
-        });
+        $app['exiftool.processor'] = $app->share(fn(Application $app) => new Exiftool($app['exiftool.logger']));
 
-        $app['exiftool.reader'] = $app->share(function(Application $app) {
-            return new Reader($app['exiftool.processor'], new RDFParser());
-        });
+        $app['exiftool.reader'] = $app->share(fn(Application $app) => new Reader($app['exiftool.processor'], new RDFParser()));
 
-        $app['exiftool.writer'] = $app->share(function(Application $app) {
-            return new Writer($app['exiftool.processor']);
-        });
+        $app['exiftool.writer'] = $app->share(fn(Application $app) => new Writer($app['exiftool.processor']));
 
-        $app['exiftool.preview-extractor'] = $app->share(function(Application $app) {
-            return new PreviewExtractor($app['exiftool.processor']);
-        });
+        $app['exiftool.preview-extractor'] = $app->share(fn(Application $app) => new PreviewExtractor($app['exiftool.processor']));
     }
 
     public function boot(Application $app)

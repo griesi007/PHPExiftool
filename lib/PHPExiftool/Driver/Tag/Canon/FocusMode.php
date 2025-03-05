@@ -42,51 +42,51 @@ class FocusMode extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'One-shot AF',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'AI Servo AF',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'AI Focus AF',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 3,
             'Label' => 'Manual Focus (3)',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 4,
             'Label' => 'Single',
-        ),
-        5 => array(
+        ],
+        5 => [
             'Id' => 5,
             'Label' => 'Continuous',
-        ),
-        6 => array(
+        ],
+        6 => [
             'Id' => 6,
             'Label' => 'Manual Focus (6)',
-        ),
-        16 => array(
+        ],
+        16 => [
             'Id' => 16,
             'Label' => 'Pan Focus',
-        ),
-        256 => array(
+        ],
+        256 => [
             'Id' => 256,
             'Label' => 'AF + MF',
-        ),
-        512 => array(
+        ],
+        512 => [
             'Id' => 512,
             'Label' => 'Movie Snap Focus',
-        ),
-        519 => array(
+        ],
+        519 => [
             'Id' => 519,
             'Label' => 'Movie Servo AF',
-        ),
-    );
+        ],
+    ];
 
 }

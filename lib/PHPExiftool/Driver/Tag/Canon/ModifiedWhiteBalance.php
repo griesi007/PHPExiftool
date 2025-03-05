@@ -42,95 +42,95 @@ class ModifiedWhiteBalance extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'Auto',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'Daylight',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'Cloudy',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 3,
             'Label' => 'Tungsten',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 4,
             'Label' => 'Fluorescent',
-        ),
-        5 => array(
+        ],
+        5 => [
             'Id' => 5,
             'Label' => 'Flash',
-        ),
-        6 => array(
+        ],
+        6 => [
             'Id' => 6,
             'Label' => 'Custom',
-        ),
-        7 => array(
+        ],
+        7 => [
             'Id' => 7,
             'Label' => 'Black & White',
-        ),
-        8 => array(
+        ],
+        8 => [
             'Id' => 8,
             'Label' => 'Shade',
-        ),
-        9 => array(
+        ],
+        9 => [
             'Id' => 9,
             'Label' => 'Manual Temperature (Kelvin)',
-        ),
-        10 => array(
+        ],
+        10 => [
             'Id' => 10,
             'Label' => 'PC Set1',
-        ),
-        11 => array(
+        ],
+        11 => [
             'Id' => 11,
             'Label' => 'PC Set2',
-        ),
-        12 => array(
+        ],
+        12 => [
             'Id' => 12,
             'Label' => 'PC Set3',
-        ),
-        14 => array(
+        ],
+        14 => [
             'Id' => 14,
             'Label' => 'Daylight Fluorescent',
-        ),
-        15 => array(
+        ],
+        15 => [
             'Id' => 15,
             'Label' => 'Custom 1',
-        ),
-        16 => array(
+        ],
+        16 => [
             'Id' => 16,
             'Label' => 'Custom 2',
-        ),
-        17 => array(
+        ],
+        17 => [
             'Id' => 17,
             'Label' => 'Underwater',
-        ),
-        18 => array(
+        ],
+        18 => [
             'Id' => 18,
             'Label' => 'Custom 3',
-        ),
-        19 => array(
+        ],
+        19 => [
             'Id' => 19,
             'Label' => 'Custom 4',
-        ),
-        20 => array(
+        ],
+        20 => [
             'Id' => 20,
             'Label' => 'PC Set4',
-        ),
-        21 => array(
+        ],
+        21 => [
             'Id' => 21,
             'Label' => 'PC Set5',
-        ),
-        23 => array(
+        ],
+        23 => [
             'Id' => 23,
             'Label' => 'Auto (ambience priority)',
-        ),
-    );
+        ],
+    ];
 
 }

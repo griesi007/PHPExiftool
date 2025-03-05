@@ -42,75 +42,75 @@ class MirrorLockup extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'Disable',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'Enable',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 0,
             'Label' => 'Disable',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 1,
             'Label' => 'Enable',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 2,
             'Label' => 'Enable: Down with Set',
-        ),
-        5 => array(
+        ],
+        5 => [
             'Id' => 0,
             'Label' => 'Disable',
-        ),
-        6 => array(
+        ],
+        6 => [
             'Id' => 1,
             'Label' => 'Enable',
-        ),
-        7 => array(
+        ],
+        7 => [
             'Id' => 0,
             'Label' => 'Disable',
-        ),
-        8 => array(
+        ],
+        8 => [
             'Id' => 1,
             'Label' => 'Enable',
-        ),
-        9 => array(
+        ],
+        9 => [
             'Id' => 0,
             'Label' => 'Disable',
-        ),
-        10 => array(
+        ],
+        10 => [
             'Id' => 1,
             'Label' => 'Enable',
-        ),
-        11 => array(
+        ],
+        11 => [
             'Id' => 0,
             'Label' => 'Disable',
-        ),
-        12 => array(
+        ],
+        12 => [
             'Id' => 1,
             'Label' => 'Enable',
-        ),
-        13 => array(
+        ],
+        13 => [
             'Id' => 0,
             'Label' => 'Disable',
-        ),
-        14 => array(
+        ],
+        14 => [
             'Id' => 1,
             'Label' => 'Enable',
-        ),
-        15 => array(
+        ],
+        15 => [
             'Id' => 0,
             'Label' => 'Disable',
-        ),
-        16 => array(
+        ],
+        16 => [
             'Id' => 1,
             'Label' => 'Enable',
-        ),
-    );
+        ],
+    ];
 
 }

@@ -40,23 +40,23 @@ class ImagePixelFormat extends AbstractTag
 
     protected $Description = 'Image Pixel Format';
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => '2-byte short integer',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => '4-byte long integer',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => '4-byte float',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 3,
             'Label' => '8-byte double',
-        ),
-    );
+        ],
+    ];
 
 }

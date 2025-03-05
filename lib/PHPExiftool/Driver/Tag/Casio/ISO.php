@@ -42,23 +42,23 @@ class ISO extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        3 => array(
+    protected $Values = [
+        3 => [
             'Id' => 3,
             'Label' => 50,
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 4,
             'Label' => 64,
-        ),
-        6 => array(
+        ],
+        6 => [
             'Id' => 6,
             'Label' => 100,
-        ),
-        9 => array(
+        ],
+        9 => [
             'Id' => 9,
             'Label' => 200,
-        ),
-    );
+        ],
+    ];
 
 }

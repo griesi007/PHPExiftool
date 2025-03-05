@@ -40,31 +40,31 @@ class FileFlags extends AbstractTag
 
     protected $Description = 'File Flags';
 
-    protected $Values = array(
-        1 => array(
+    protected $Values = [
+        1 => [
             'Id' => 1,
             'Label' => 'Debug',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'Pre-release',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 4,
             'Label' => 'Patched',
-        ),
-        8 => array(
+        ],
+        8 => [
             'Id' => 8,
             'Label' => 'Private build',
-        ),
-        16 => array(
+        ],
+        16 => [
             'Id' => 16,
             'Label' => 'Info inferred',
-        ),
-        32 => array(
+        ],
+        32 => [
             'Id' => 32,
             'Label' => 'Special build',
-        ),
-    );
+        ],
+    ];
 
 }

@@ -42,19 +42,19 @@ class AFPointAutoSelection extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'Control-direct:disable/Main:enable',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'Control-direct:disable/Main:disable',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'Control-direct:enable/Main:enable',
-        ),
-    );
+        ],
+    ];
 
 }

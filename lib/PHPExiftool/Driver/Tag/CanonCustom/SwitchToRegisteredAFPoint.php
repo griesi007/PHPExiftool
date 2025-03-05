@@ -42,40 +42,40 @@ class SwitchToRegisteredAFPoint extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'Assist + AF',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'Assist',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'Only while pressing assist',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 0,
             'Label' => 'Disable',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 1,
             'Label' => 'Switch with multi-controller',
-        ),
-        5 => array(
+        ],
+        5 => [
             'Id' => 2,
             'Label' => 'Only while AEL is pressed',
-        ),
-        6 => array(
+        ],
+        6 => [
             'Id' => 0,
             'Label' => 'Disable',
-        ),
-        7 => array(
+        ],
+        7 => [
             'Id' => 1,
             'Label' => 'Enable',
-        ),
-    );
+        ],
+    ];
 
     protected $Index = 'mixed';
 

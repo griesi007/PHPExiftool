@@ -42,59 +42,59 @@ class ArtMode extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'Normal',
-        ),
-        8 => array(
+        ],
+        8 => [
             'Id' => 8,
             'Label' => 'Silent Movie',
-        ),
-        39 => array(
+        ],
+        39 => [
             'Id' => 39,
             'Label' => 'HDR',
-        ),
-        45 => array(
+        ],
+        45 => [
             'Id' => 45,
             'Label' => 'Premium Auto',
-        ),
-        47 => array(
+        ],
+        47 => [
             'Id' => 47,
             'Label' => 'Painting',
-        ),
-        49 => array(
+        ],
+        49 => [
             'Id' => 49,
             'Label' => 'Crayon Drawing',
-        ),
-        51 => array(
+        ],
+        51 => [
             'Id' => 51,
             'Label' => 'Panorama',
-        ),
-        52 => array(
+        ],
+        52 => [
             'Id' => 52,
             'Label' => 'Art HDR',
-        ),
-        62 => array(
+        ],
+        62 => [
             'Id' => 62,
             'Label' => 'High Speed Night Shot',
-        ),
-        64 => array(
+        ],
+        64 => [
             'Id' => 64,
             'Label' => 'Monochrome',
-        ),
-        67 => array(
+        ],
+        67 => [
             'Id' => 67,
             'Label' => 'Toy Camera',
-        ),
-        68 => array(
+        ],
+        68 => [
             'Id' => 68,
             'Label' => 'Pop Art',
-        ),
-        69 => array(
+        ],
+        69 => [
             'Id' => 69,
             'Label' => 'Light Tone',
-        ),
-    );
+        ],
+    ];
 
 }

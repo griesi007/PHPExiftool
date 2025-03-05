@@ -42,31 +42,31 @@ class SubfileType extends AbstractTag
 
     protected $MaxLength = 4;
 
-    protected $Values = array(
-        'BM44' => array(
+    protected $Values = [
+        'BM44' => [
             'Id' => 'BM44',
             'Label' => 'Grayscale IW44',
-        ),
-        'DJVI' => array(
+        ],
+        'DJVI' => [
             'Id' => 'DJVI',
             'Label' => 'Shared component',
-        ),
-        'DJVM' => array(
+        ],
+        'DJVM' => [
             'Id' => 'DJVM',
             'Label' => 'Multi-page document',
-        ),
-        'DJVU' => array(
+        ],
+        'DJVU' => [
             'Id' => 'DJVU',
             'Label' => 'Single-page image',
-        ),
-        'PM44' => array(
+        ],
+        'PM44' => [
             'Id' => 'PM44',
             'Label' => 'Color IW44',
-        ),
-        'THUM' => array(
+        ],
+        'THUM' => [
             'Id' => 'THUM',
             'Label' => 'Thumbnail image',
-        ),
-    );
+        ],
+    ];
 
 }

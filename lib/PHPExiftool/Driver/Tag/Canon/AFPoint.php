@@ -42,39 +42,39 @@ class AFPoint extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        8197 => array(
+    protected $Values = [
+        8197 => [
             'Id' => 8197,
             'Label' => 'Manual AF point selection',
-        ),
-        12288 => array(
+        ],
+        12288 => [
             'Id' => 12288,
             'Label' => 'None (MF)',
-        ),
-        12289 => array(
+        ],
+        12289 => [
             'Id' => 12289,
             'Label' => 'Auto AF point selection',
-        ),
-        12290 => array(
+        ],
+        12290 => [
             'Id' => 12290,
             'Label' => 'Right',
-        ),
-        12291 => array(
+        ],
+        12291 => [
             'Id' => 12291,
             'Label' => 'Center',
-        ),
-        12292 => array(
+        ],
+        12292 => [
             'Id' => 12292,
             'Label' => 'Left',
-        ),
-        16385 => array(
+        ],
+        16385 => [
             'Id' => 16385,
             'Label' => 'Auto AF point selection',
-        ),
-        16390 => array(
+        ],
+        16390 => [
             'Id' => 16390,
             'Label' => 'Face Detect',
-        ),
-    );
+        ],
+    ];
 
 }

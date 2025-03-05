@@ -42,15 +42,15 @@ class RFLensMFFocusRingSensitivity extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'Varies With Rotation Speed',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'Linked To Rotation Angle',
-        ),
-    );
+        ],
+    ];
 
 }

@@ -42,27 +42,27 @@ class AutoExposureBracketing extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        '-1' => array(
+    protected $Values = [
+        '-1' => [
             'Id' => '-1',
             'Label' => 'On',
-        ),
-        0 => array(
+        ],
+        0 => [
             'Id' => 0,
             'Label' => 'Off',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'On (shot 1)',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'On (shot 2)',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 3,
             'Label' => 'On (shot 3)',
-        ),
-    );
+        ],
+    ];
 
 }

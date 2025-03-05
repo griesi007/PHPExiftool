@@ -42,15 +42,15 @@ class ErrorCorrectionType extends AbstractTag
 
     protected $MaxLength = 16;
 
-    protected $Values = array(
-        '20FB5700-5B55-11CF-A8FD-00805F5C442B' => array(
+    protected $Values = [
+        '20FB5700-5B55-11CF-A8FD-00805F5C442B' => [
             'Id' => '20FB5700-5B55-11CF-A8FD-00805F5C442B',
             'Label' => 'No Error Correction',
-        ),
-        'BFC3CD50-618F-11CF-8BB2-00AA00B4E220' => array(
+        ],
+        'BFC3CD50-618F-11CF-8BB2-00AA00B4E220' => [
             'Id' => 'BFC3CD50-618F-11CF-8BB2-00AA00B4E220',
             'Label' => 'Audio Spread',
-        ),
-    );
+        ],
+    ];
 
 }

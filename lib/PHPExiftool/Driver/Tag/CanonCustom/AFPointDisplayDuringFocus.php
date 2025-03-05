@@ -42,40 +42,40 @@ class AFPointDisplayDuringFocus extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'On',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'Off',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'On (when focus achieved)',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 0,
             'Label' => 'Selected (constant)',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 1,
             'Label' => 'All (constant)',
-        ),
-        5 => array(
+        ],
+        5 => [
             'Id' => 2,
             'Label' => 'Selected (pre-AF, focused)',
-        ),
-        6 => array(
+        ],
+        6 => [
             'Id' => 3,
             'Label' => 'Selected (focused)',
-        ),
-        7 => array(
+        ],
+        7 => [
             'Id' => 4,
             'Label' => 'Disable display',
-        ),
-    );
+        ],
+    ];
 
     protected $Index = 'mixed';
 

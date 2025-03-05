@@ -40,23 +40,23 @@ class Orientation extends AbstractTag
 
     protected $Description = 'Orientation';
 
-    protected $Values = array(
-        1 => array(
+    protected $Values = [
+        1 => [
             'Id' => 1,
             'Label' => 'Horizontal (normal)',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'Rotate 180',
-        ),
-        5 => array(
+        ],
+        5 => [
             'Id' => 5,
             'Label' => 'Rotate 90 CW',
-        ),
-        6 => array(
+        ],
+        6 => [
             'Id' => 6,
             'Label' => 'Rotate 270 CW',
-        ),
-    );
+        ],
+    ];
 
 }

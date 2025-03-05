@@ -42,124 +42,124 @@ class FlashSyncSpeedAv extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'Auto',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => '1/200 Fixed',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 0,
             'Label' => 'Auto',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 1,
             'Label' => '1/250 Fixed',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 0,
             'Label' => 'Auto',
-        ),
-        5 => array(
+        ],
+        5 => [
             'Id' => 1,
             'Label' => '1/250-1/60 Auto',
-        ),
-        6 => array(
+        ],
+        6 => [
             'Id' => 2,
             'Label' => '1/250 Fixed',
-        ),
-        7 => array(
+        ],
+        7 => [
             'Id' => 0,
             'Label' => 'Auto',
-        ),
-        8 => array(
+        ],
+        8 => [
             'Id' => 1,
             'Label' => '1/200 Fixed',
-        ),
-        9 => array(
+        ],
+        9 => [
             'Id' => 0,
             'Label' => 'Auto',
-        ),
-        10 => array(
+        ],
+        10 => [
             'Id' => 1,
             'Label' => '1/300 Fixed',
-        ),
-        11 => array(
+        ],
+        11 => [
             'Id' => 0,
             'Label' => 'Auto',
-        ),
-        12 => array(
+        ],
+        12 => [
             'Id' => 1,
             'Label' => '1/300-1/60 Auto',
-        ),
-        13 => array(
+        ],
+        13 => [
             'Id' => 2,
             'Label' => '1/300 Fixed',
-        ),
-        14 => array(
+        ],
+        14 => [
             'Id' => 0,
             'Label' => 'Auto',
-        ),
-        15 => array(
+        ],
+        15 => [
             'Id' => 1,
             'Label' => '1/200-1/60 Auto',
-        ),
-        16 => array(
+        ],
+        16 => [
             'Id' => 2,
             'Label' => '1/200 Fixed',
-        ),
-        17 => array(
+        ],
+        17 => [
             'Id' => 0,
             'Label' => 'Auto',
-        ),
-        18 => array(
+        ],
+        18 => [
             'Id' => 1,
             'Label' => '1/250 Fixed',
-        ),
-        19 => array(
+        ],
+        19 => [
             'Id' => 0,
             'Label' => 'Auto',
-        ),
-        20 => array(
+        ],
+        20 => [
             'Id' => 1,
             'Label' => '1/250 Fixed',
-        ),
-        21 => array(
+        ],
+        21 => [
             'Id' => 0,
             'Label' => 'Auto',
-        ),
-        22 => array(
+        ],
+        22 => [
             'Id' => 1,
             'Label' => '1/200 Fixed',
-        ),
-        23 => array(
+        ],
+        23 => [
             'Id' => 0,
             'Label' => 'Auto',
-        ),
-        24 => array(
+        ],
+        24 => [
             'Id' => 1,
             'Label' => '1/200 Fixed',
-        ),
-        25 => array(
+        ],
+        25 => [
             'Id' => 0,
             'Label' => 'Auto',
-        ),
-        26 => array(
+        ],
+        26 => [
             'Id' => 1,
             'Label' => '1/200 Fixed',
-        ),
-        27 => array(
+        ],
+        27 => [
             'Id' => 0,
             'Label' => 'Auto',
-        ),
-        28 => array(
+        ],
+        28 => [
             'Id' => 1,
             'Label' => '1/200 Fixed',
-        ),
-    );
+        ],
+    ];
 
     protected $Index = 'mixed';
 

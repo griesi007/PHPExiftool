@@ -42,11 +42,8 @@ class InformationDumper
 
     const LISTOPTION_MWG             = '-use MWG';
 
-    private $exiftool;
-
-    public function __construct(Exiftool $exiftool)
+    public function __construct(private readonly Exiftool $exiftool)
     {
-        $this->exiftool = $exiftool;
     }
 
     /**
@@ -57,24 +54,24 @@ class InformationDumper
      * @return type
      * @throws \Exception
      */
-    public function listDatas($type = self::LISTTYPE_SUPPORTED_XML, array $options=array())
+    public function listDatas($type = self::LISTTYPE_SUPPORTED_XML, array $options=[])
     {
         if ( ! is_array($options)) {
             throw new InvalidArgumentException('options must be an array');
         }
 
-        $available = array(
+        $available = [
             self::LISTTYPE_WRITABLE, self::LISTTYPE_SUPPORTED_FILEEXT
             , self::LISTTYPE_WRITABLE_FILEEXT, self::LISTTYPE_SUPPORTED_XML
             , self::LISTTYPE_DELETABLE_GROUPS, self::LISTTYPE_GROUPS,
-        );
+        ];
 
         if ( ! in_array($type, $available)) {
             throw new InvalidArgumentException('Unknown list attribute');
         }
 
         $command = "";
-        $available = array(self::LISTOPTION_MWG);
+        $available = [self::LISTOPTION_MWG];
         foreach($options as $option) {
             if ( ! in_array($option, $available)) {
                 throw new InvalidArgumentException('Unknown option');

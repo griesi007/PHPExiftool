@@ -52,13 +52,11 @@ class Writer
     protected $mode;
     protected $modules;
     protected $erase;
-    private $exiftool;
     private $eraseProfile;
     protected $timeout = 60;
 
-    public function __construct(Exiftool $exiftool)
+    public function __construct(private readonly Exiftool $exiftool)
     {
-        $this->exiftool = $exiftool;
         $this->reset();
     }
 
@@ -218,7 +216,7 @@ class Writer
      *
      * @throws InvalidArgumentException
      */
-    public function write($file, MetadataBag $metadatas, $destination = null, array $resolutionXY = array())
+    public function write($file, MetadataBag $metadatas, $destination = null, array $resolutionXY = [])
     {
         if ( ! file_exists($file)) {
             throw new InvalidArgumentException(sprintf('%s does not exists', $file));
@@ -234,7 +232,7 @@ class Writer
 
         $common_args = '-ignoreMinorErrors -preserve -charset UTF8';
 
-        $commands = array();
+        $commands = [];
 
         if ($this->erase) {
             /**
@@ -357,7 +355,7 @@ class Writer
         foreach ($metadatas as $metadata) {
             foreach ($metadata->getValue()->asArray() as $value) {
                 $command .= ($command ? ' -' : '-') . $metadata->getTag()->getTagname() . '='
-                    . escapeshellarg($value);
+                    . escapeshellarg((string) $value);
             }
         }
 
@@ -368,7 +366,7 @@ class Writer
     {
         $syncCommand = '';
 
-        $availableArgs = array(
+        $availableArgs = [
             self::MODE_IPTC2XMP  => 'iptc2xmp.args',
             self::MODE_IPTC2EXIF => 'iptc2exif.args',
             self::MODE_EXIF2IPTC => 'exif2iptc.args',
@@ -379,7 +377,7 @@ class Writer
             self::MODE_XMP2EXIF  => 'xmp2exif.args',
             self::MODE_XMP2IPTC  => 'xmp2iptc.args',
             self::MODE_XMP2GPS   => 'xmp2gps.args',
-        );
+        ];
 
         foreach ($availableArgs as $arg => $cmd) {
             if ($this->mode & $arg) {

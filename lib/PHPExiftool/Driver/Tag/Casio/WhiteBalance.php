@@ -42,91 +42,91 @@ class WhiteBalance extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 1,
             'Label' => 'Auto',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 2,
             'Label' => 'Tungsten',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 3,
             'Label' => 'Daylight',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 4,
             'Label' => 'Fluorescent',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 5,
             'Label' => 'Shade',
-        ),
-        5 => array(
+        ],
+        5 => [
             'Id' => 129,
             'Label' => 'Manual',
-        ),
-        6 => array(
+        ],
+        6 => [
             'Id' => 0,
             'Label' => 'Auto',
-        ),
-        7 => array(
+        ],
+        7 => [
             'Id' => 1,
             'Label' => 'Daylight',
-        ),
-        8 => array(
+        ],
+        8 => [
             'Id' => 2,
             'Label' => 'Shade',
-        ),
-        9 => array(
+        ],
+        9 => [
             'Id' => 3,
             'Label' => 'Tungsten',
-        ),
-        10 => array(
+        ],
+        10 => [
             'Id' => 4,
             'Label' => 'Fluorescent',
-        ),
-        11 => array(
+        ],
+        11 => [
             'Id' => 5,
             'Label' => 'Manual',
-        ),
-        12 => array(
+        ],
+        12 => [
             'Id' => 0,
             'Label' => 'Manual',
-        ),
-        13 => array(
+        ],
+        13 => [
             'Id' => 1,
             'Label' => 'Daylight',
-        ),
-        14 => array(
+        ],
+        14 => [
             'Id' => 2,
             'Label' => 'Cloudy',
-        ),
-        15 => array(
+        ],
+        15 => [
             'Id' => 3,
             'Label' => 'Shade',
-        ),
-        16 => array(
+        ],
+        16 => [
             'Id' => 4,
             'Label' => 'Flash?',
-        ),
-        17 => array(
+        ],
+        17 => [
             'Id' => 6,
             'Label' => 'Fluorescent',
-        ),
-        18 => array(
+        ],
+        18 => [
             'Id' => 9,
             'Label' => 'Tungsten?',
-        ),
-        19 => array(
+        ],
+        19 => [
             'Id' => 10,
             'Label' => 'Tungsten',
-        ),
-        20 => array(
+        ],
+        20 => [
             'Id' => 12,
             'Label' => 'Flash',
-        ),
-    );
+        ],
+    ];
 
 }

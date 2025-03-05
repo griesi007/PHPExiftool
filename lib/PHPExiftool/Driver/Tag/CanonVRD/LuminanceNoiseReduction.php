@@ -40,104 +40,104 @@ class LuminanceNoiseReduction extends AbstractTag
 
     protected $Description = 'Luminance Noise Reduction';
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'Off',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 65,
             'Label' => 'Low',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 100,
             'Label' => 'High',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 0,
             'Label' => 0,
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 65,
             'Label' => 1,
-        ),
-        5 => array(
+        ],
+        5 => [
             'Id' => 100,
             'Label' => 2,
-        ),
-        6 => array(
+        ],
+        6 => [
             'Id' => 110,
             'Label' => 3,
-        ),
-        7 => array(
+        ],
+        7 => [
             'Id' => 120,
             'Label' => 4,
-        ),
-        8 => array(
+        ],
+        8 => [
             'Id' => 130,
             'Label' => 5,
-        ),
-        9 => array(
+        ],
+        9 => [
             'Id' => 140,
             'Label' => 6,
-        ),
-        10 => array(
+        ],
+        10 => [
             'Id' => 150,
             'Label' => 7,
-        ),
-        11 => array(
+        ],
+        11 => [
             'Id' => 160,
             'Label' => 8,
-        ),
-        12 => array(
+        ],
+        12 => [
             'Id' => 170,
             'Label' => 9,
-        ),
-        13 => array(
+        ],
+        13 => [
             'Id' => 180,
             'Label' => 10,
-        ),
-        14 => array(
+        ],
+        14 => [
             'Id' => 181,
             'Label' => 11,
-        ),
-        15 => array(
+        ],
+        15 => [
             'Id' => 182,
             'Label' => 12,
-        ),
-        16 => array(
+        ],
+        16 => [
             'Id' => 183,
             'Label' => 13,
-        ),
-        17 => array(
+        ],
+        17 => [
             'Id' => 184,
             'Label' => 14,
-        ),
-        18 => array(
+        ],
+        18 => [
             'Id' => 185,
             'Label' => 15,
-        ),
-        19 => array(
+        ],
+        19 => [
             'Id' => 186,
             'Label' => 16,
-        ),
-        20 => array(
+        ],
+        20 => [
             'Id' => 187,
             'Label' => 17,
-        ),
-        21 => array(
+        ],
+        21 => [
             'Id' => 188,
             'Label' => 18,
-        ),
-        22 => array(
+        ],
+        22 => [
             'Id' => 189,
             'Label' => 19,
-        ),
-        23 => array(
+        ],
+        23 => [
             'Id' => 190,
             'Label' => 20,
-        ),
-    );
+        ],
+    ];
 
     protected $Index = 'mixed';
 

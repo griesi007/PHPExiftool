@@ -42,51 +42,51 @@ class MultiProfiles extends AbstractTag
 
     protected $local_g1 = 'ExifIFD';
 
-    protected $Values = array(
-        1 => array(
+    protected $Values = [
+        1 => [
             'Id' => 1,
             'Label' => 'Profile S',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'Profile F',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 4,
             'Label' => 'Profile J',
-        ),
-        8 => array(
+        ],
+        8 => [
             'Id' => 8,
             'Label' => 'Profile C',
-        ),
-        16 => array(
+        ],
+        16 => [
             'Id' => 16,
             'Label' => 'Profile L',
-        ),
-        32 => array(
+        ],
+        32 => [
             'Id' => 32,
             'Label' => 'Profile M',
-        ),
-        64 => array(
+        ],
+        64 => [
             'Id' => 64,
             'Label' => 'Profile T',
-        ),
-        128 => array(
+        ],
+        128 => [
             'Id' => 128,
             'Label' => 'Resolution/Image Width',
-        ),
-        256 => array(
+        ],
+        256 => [
             'Id' => 256,
             'Label' => 'N Layer Profile M',
-        ),
-        512 => array(
+        ],
+        512 => [
             'Id' => 512,
             'Label' => 'Shared Data',
-        ),
-        1024 => array(
+        ],
+        1024 => [
             'Id' => 1024,
             'Label' => 'JBIG2 Profile M',
-        ),
-    );
+        ],
+    ];
 
 }

@@ -40,19 +40,19 @@ class ColorTransform extends AbstractTag
 
     protected $Description = 'Color Transform';
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'Unknown (RGB or CMYK)',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'YCbCr',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'YCCK',
-        ),
-    );
+        ],
+    ];
 
 }

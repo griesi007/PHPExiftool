@@ -42,15 +42,15 @@ class AIServoTrackingMethod extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'Main focus point priority',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'Continuous AF track priority',
-        ),
-    );
+        ],
+    ];
 
 }

@@ -13,14 +13,15 @@ namespace PHPExiftool\ClassUtils;
 
 class TagProviderBuilder extends Builder
 {
-    protected $classes = array();
+    protected $classes = [];
 
+    #[\Override]
     public function generateContent()
     {
         $content = "<?php\n\n<license>\n\nnamespace <namespace>;\n\n";
 
         foreach ($this->uses as $use) {
-            $content .= "use " . ltrim($use, "\\") . "\;n";
+            $content .= "use " . ltrim((string) $use, "\\") . "\;n";
         }
         if ($this->uses) {
             $content .= "\n";
@@ -72,10 +73,10 @@ class TagProviderBuilder extends Builder
 
         foreach ($this->classes as $groupname => $group) {
 
-            $content .= "<spaces><spaces><spaces>'" . strtolower($groupname) . "' => array(\n";
+            $content .= "<spaces><spaces><spaces>'" . strtolower((string) $groupname) . "' => array(\n";
 
             foreach ($group as $tagname => $tagclass) {
-                $content .= "<spaces><spaces><spaces><spaces>'" . str_replace(array('\'', '\\'),array('\\\'','\\\\'),strtolower($tagname)) . "' => array(\n";
+                $content .= "<spaces><spaces><spaces><spaces>'" . str_replace(['\'', '\\'],['\\\'','\\\\'],strtolower((string) $tagname)) . "' => array(\n";
                 $content .= "<spaces><spaces><spaces><spaces><spaces>'namespace' => '$groupname',\n";
                 $content .= "<spaces><spaces><spaces><spaces><spaces>'tagname' => '$tagname',\n";
                 $content .= "<spaces><spaces><spaces><spaces><spaces>'classname' => '".str_replace('\'','\\\'',$tagclass)."',\n";
@@ -91,13 +92,13 @@ class TagProviderBuilder extends Builder
 
         $content .= "\n}\n";
 
-        if ( ! is_dir(dirname($this->getPathfile()))) {
-            mkdir(dirname($this->getPathfile()), 0754, true);
+        if ( ! is_dir(dirname((string) $this->getPathfile()))) {
+            mkdir(dirname((string) $this->getPathfile()), 0754, true);
         }
 
         $content = str_replace(
-            array('<license>', '<namespace>', '<classname>', '<spaces>', '<extends>')
-            , array($this->license, $this->namespace, $this->classname, '    ', $this->extends)
+            ['<license>', '<namespace>', '<classname>', '<spaces>', '<extends>']
+            , [$this->license, $this->namespace, $this->classname, '    ', $this->extends]
             , $content
         );
 

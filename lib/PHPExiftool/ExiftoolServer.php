@@ -55,9 +55,10 @@ class ExiftoolServer extends Exiftool
         return null !== $this->server && $this->server->isRunning();
     }
 
+    #[\Override]
     public function executeCommand($commands, $timeout = 4)
     {
-        $optwithargs = array('-i', '-charset', '-if', '-w', '-common_args');
+        $optwithargs = ['-i', '-charset', '-if', '-w', '-common_args'];
         if (true !== $this->isRunning()) {
             throw new RuntimeException('Server is not running');
         }
@@ -83,10 +84,10 @@ class ExiftoolServer extends Exiftool
                 continue;
             }
 
-            if (substr($command, 0, 1) === "'" && substr($command, -1) === "'") {
+            if (str_starts_with($command, "'") && str_ends_with($command, "'")) {
                 $command = substr($command, 1, -1);
             }
-            if (substr($command, 0, 1) === '"' && substr($command, -1) === '"') {
+            if (str_starts_with($command, '"') && str_ends_with($command, '"')) {
                 $command = substr($command, 1, -1);
             }
 
@@ -100,7 +101,7 @@ class ExiftoolServer extends Exiftool
         //$this->server->signal(SIGCONT);
         $start = microtime(true);
 
-        while ((strlen($this->server->getOutput()) <= $this->offset || substr(substr($this->server->getOutput(), $this->offset), -8) !== "{ready}\n") && (microtime(true) - $start) < $timeout) {
+        while ((strlen((string) $this->server->getOutput()) <= $this->offset || !str_ends_with(substr((string) $this->server->getOutput(), $this->offset), "{ready}\n")) && (microtime(true) - $start) < $timeout) {
             usleep(25000);
         }
 
@@ -108,11 +109,11 @@ class ExiftoolServer extends Exiftool
         // server output should be cached here because streams are polled
         // everytime I request the output
 
-        $outputIsValid = substr($this->server->getOutput(), -8) === "{ready}\n";
+        $outputIsValid = str_ends_with((string) $this->server->getOutput(), "{ready}\n");
 
-        $output = $outputIsValid ? substr($this->server->getOutput(), $this->offset, -8) : '';
+        $output = $outputIsValid ? substr((string) $this->server->getOutput(), $this->offset, -8) : '';
 
-        $this->offset = strlen($this->server->getOutput());
+        $this->offset = strlen((string) $this->server->getOutput());
 
         if (trim($output) === '' && $outputIsValid === false && $this->server->getErrorOutput()) {
             throw new RuntimeException('Command failed');

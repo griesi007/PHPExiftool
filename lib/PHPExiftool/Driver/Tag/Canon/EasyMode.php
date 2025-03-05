@@ -42,307 +42,307 @@ class EasyMode extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'Full auto',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'Manual',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'Landscape',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 3,
             'Label' => 'Fast shutter',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 4,
             'Label' => 'Slow shutter',
-        ),
-        5 => array(
+        ],
+        5 => [
             'Id' => 5,
             'Label' => 'Night',
-        ),
-        6 => array(
+        ],
+        6 => [
             'Id' => 6,
             'Label' => 'Gray Scale',
-        ),
-        7 => array(
+        ],
+        7 => [
             'Id' => 7,
             'Label' => 'Sepia',
-        ),
-        8 => array(
+        ],
+        8 => [
             'Id' => 8,
             'Label' => 'Portrait',
-        ),
-        9 => array(
+        ],
+        9 => [
             'Id' => 9,
             'Label' => 'Sports',
-        ),
-        10 => array(
+        ],
+        10 => [
             'Id' => 10,
             'Label' => 'Macro',
-        ),
-        11 => array(
+        ],
+        11 => [
             'Id' => 11,
             'Label' => 'Black & White',
-        ),
-        12 => array(
+        ],
+        12 => [
             'Id' => 12,
             'Label' => 'Pan focus',
-        ),
-        13 => array(
+        ],
+        13 => [
             'Id' => 13,
             'Label' => 'Vivid',
-        ),
-        14 => array(
+        ],
+        14 => [
             'Id' => 14,
             'Label' => 'Neutral',
-        ),
-        15 => array(
+        ],
+        15 => [
             'Id' => 15,
             'Label' => 'Flash Off',
-        ),
-        16 => array(
+        ],
+        16 => [
             'Id' => 16,
             'Label' => 'Long Shutter',
-        ),
-        17 => array(
+        ],
+        17 => [
             'Id' => 17,
             'Label' => 'Super Macro',
-        ),
-        18 => array(
+        ],
+        18 => [
             'Id' => 18,
             'Label' => 'Foliage',
-        ),
-        19 => array(
+        ],
+        19 => [
             'Id' => 19,
             'Label' => 'Indoor',
-        ),
-        20 => array(
+        ],
+        20 => [
             'Id' => 20,
             'Label' => 'Fireworks',
-        ),
-        21 => array(
+        ],
+        21 => [
             'Id' => 21,
             'Label' => 'Beach',
-        ),
-        22 => array(
+        ],
+        22 => [
             'Id' => 22,
             'Label' => 'Underwater',
-        ),
-        23 => array(
+        ],
+        23 => [
             'Id' => 23,
             'Label' => 'Snow',
-        ),
-        24 => array(
+        ],
+        24 => [
             'Id' => 24,
             'Label' => 'Kids & Pets',
-        ),
-        25 => array(
+        ],
+        25 => [
             'Id' => 25,
             'Label' => 'Night Snapshot',
-        ),
-        26 => array(
+        ],
+        26 => [
             'Id' => 26,
             'Label' => 'Digital Macro',
-        ),
-        27 => array(
+        ],
+        27 => [
             'Id' => 27,
             'Label' => 'My Colors',
-        ),
-        28 => array(
+        ],
+        28 => [
             'Id' => 28,
             'Label' => 'Movie Snap',
-        ),
-        29 => array(
+        ],
+        29 => [
             'Id' => 29,
             'Label' => 'Super Macro 2',
-        ),
-        30 => array(
+        ],
+        30 => [
             'Id' => 30,
             'Label' => 'Color Accent',
-        ),
-        31 => array(
+        ],
+        31 => [
             'Id' => 31,
             'Label' => 'Color Swap',
-        ),
-        32 => array(
+        ],
+        32 => [
             'Id' => 32,
             'Label' => 'Aquarium',
-        ),
-        33 => array(
+        ],
+        33 => [
             'Id' => 33,
             'Label' => 'ISO 3200',
-        ),
-        34 => array(
+        ],
+        34 => [
             'Id' => 34,
             'Label' => 'ISO 6400',
-        ),
-        35 => array(
+        ],
+        35 => [
             'Id' => 35,
             'Label' => 'Creative Light Effect',
-        ),
-        36 => array(
+        ],
+        36 => [
             'Id' => 36,
             'Label' => 'Easy',
-        ),
-        37 => array(
+        ],
+        37 => [
             'Id' => 37,
             'Label' => 'Quick Shot',
-        ),
-        38 => array(
+        ],
+        38 => [
             'Id' => 38,
             'Label' => 'Creative Auto',
-        ),
-        39 => array(
+        ],
+        39 => [
             'Id' => 39,
             'Label' => 'Zoom Blur',
-        ),
-        40 => array(
+        ],
+        40 => [
             'Id' => 40,
             'Label' => 'Low Light',
-        ),
-        41 => array(
+        ],
+        41 => [
             'Id' => 41,
             'Label' => 'Nostalgic',
-        ),
-        42 => array(
+        ],
+        42 => [
             'Id' => 42,
             'Label' => 'Super Vivid',
-        ),
-        43 => array(
+        ],
+        43 => [
             'Id' => 43,
             'Label' => 'Poster Effect',
-        ),
-        44 => array(
+        ],
+        44 => [
             'Id' => 44,
             'Label' => 'Face Self-timer',
-        ),
-        45 => array(
+        ],
+        45 => [
             'Id' => 45,
             'Label' => 'Smile',
-        ),
-        46 => array(
+        ],
+        46 => [
             'Id' => 46,
             'Label' => 'Wink Self-timer',
-        ),
-        47 => array(
+        ],
+        47 => [
             'Id' => 47,
             'Label' => 'Fisheye Effect',
-        ),
-        48 => array(
+        ],
+        48 => [
             'Id' => 48,
             'Label' => 'Miniature Effect',
-        ),
-        49 => array(
+        ],
+        49 => [
             'Id' => 49,
             'Label' => 'High-speed Burst',
-        ),
-        50 => array(
+        ],
+        50 => [
             'Id' => 50,
             'Label' => 'Best Image Selection',
-        ),
-        51 => array(
+        ],
+        51 => [
             'Id' => 51,
             'Label' => 'High Dynamic Range',
-        ),
-        52 => array(
+        ],
+        52 => [
             'Id' => 52,
             'Label' => 'Handheld Night Scene',
-        ),
-        53 => array(
+        ],
+        53 => [
             'Id' => 53,
             'Label' => 'Movie Digest',
-        ),
-        54 => array(
+        ],
+        54 => [
             'Id' => 54,
             'Label' => 'Live View Control',
-        ),
-        55 => array(
+        ],
+        55 => [
             'Id' => 55,
             'Label' => 'Discreet',
-        ),
-        56 => array(
+        ],
+        56 => [
             'Id' => 56,
             'Label' => 'Blur Reduction',
-        ),
-        57 => array(
+        ],
+        57 => [
             'Id' => 57,
             'Label' => 'Monochrome',
-        ),
-        58 => array(
+        ],
+        58 => [
             'Id' => 58,
             'Label' => 'Toy Camera Effect',
-        ),
-        59 => array(
+        ],
+        59 => [
             'Id' => 59,
             'Label' => 'Scene Intelligent Auto',
-        ),
-        60 => array(
+        ],
+        60 => [
             'Id' => 60,
             'Label' => 'High-speed Burst HQ',
-        ),
-        61 => array(
+        ],
+        61 => [
             'Id' => 61,
             'Label' => 'Smooth Skin',
-        ),
-        62 => array(
+        ],
+        62 => [
             'Id' => 62,
             'Label' => 'Soft Focus',
-        ),
-        68 => array(
+        ],
+        68 => [
             'Id' => 68,
             'Label' => 'Food',
-        ),
-        84 => array(
+        ],
+        84 => [
             'Id' => 84,
             'Label' => 'HDR Art Standard',
-        ),
-        85 => array(
+        ],
+        85 => [
             'Id' => 85,
             'Label' => 'HDR Art Vivid',
-        ),
-        93 => array(
+        ],
+        93 => [
             'Id' => 93,
             'Label' => 'HDR Art Bold',
-        ),
-        257 => array(
+        ],
+        257 => [
             'Id' => 257,
             'Label' => 'Spotlight',
-        ),
-        258 => array(
+        ],
+        258 => [
             'Id' => 258,
             'Label' => 'Night 2',
-        ),
-        259 => array(
+        ],
+        259 => [
             'Id' => 259,
             'Label' => 'Night+',
-        ),
-        260 => array(
+        ],
+        260 => [
             'Id' => 260,
             'Label' => 'Super Night',
-        ),
-        261 => array(
+        ],
+        261 => [
             'Id' => 261,
             'Label' => 'Sunset',
-        ),
-        263 => array(
+        ],
+        263 => [
             'Id' => 263,
             'Label' => 'Night Scene',
-        ),
-        264 => array(
+        ],
+        264 => [
             'Id' => 264,
             'Label' => 'Surface',
-        ),
-        265 => array(
+        ],
+        265 => [
             'Id' => 265,
             'Label' => 'Low Light 2',
-        ),
-    );
+        ],
+    ];
 
 }

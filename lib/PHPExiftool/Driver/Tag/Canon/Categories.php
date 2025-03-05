@@ -44,39 +44,39 @@ class Categories extends AbstractTag
 
     protected $MaxLength = 2;
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => '(none)',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'People',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'Scenery',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 4,
             'Label' => 'Events',
-        ),
-        8 => array(
+        ],
+        8 => [
             'Id' => 8,
             'Label' => 'User 1',
-        ),
-        16 => array(
+        ],
+        16 => [
             'Id' => 16,
             'Label' => 'User 2',
-        ),
-        32 => array(
+        ],
+        32 => [
             'Id' => 32,
             'Label' => 'User 3',
-        ),
-        64 => array(
+        ],
+        64 => [
             'Id' => 64,
             'Label' => 'To Do',
-        ),
-    );
+        ],
+    ];
 
 }

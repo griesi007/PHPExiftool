@@ -40,23 +40,23 @@ class Rotation extends AbstractTag
 
     protected $Description = 'Rotation';
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 0,
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 90,
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 180,
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 3,
             'Label' => 270,
-        ),
-    );
+        ],
+    ];
 
 }

@@ -42,96 +42,96 @@ class ExposureLevelIncrements extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => '1/2 Stop',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => '1/3 Stop',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 0,
             'Label' => '1/3-stop set, 1/3-stop comp.',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 1,
             'Label' => '1-stop set, 1/3-stop comp.',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 2,
             'Label' => '1/2-stop set, 1/2-stop comp.',
-        ),
-        5 => array(
+        ],
+        5 => [
             'Id' => 0,
             'Label' => '1/3-stop set, 1/3-stop comp.',
-        ),
-        6 => array(
+        ],
+        6 => [
             'Id' => 1,
             'Label' => '1-stop set, 1/3-stop comp.',
-        ),
-        7 => array(
+        ],
+        7 => [
             'Id' => 2,
             'Label' => '1/2-stop set, 1/2-stop comp.',
-        ),
-        8 => array(
+        ],
+        8 => [
             'Id' => 0,
             'Label' => '1/3 Stop',
-        ),
-        9 => array(
+        ],
+        9 => [
             'Id' => 1,
             'Label' => '1/2 Stop',
-        ),
-        10 => array(
+        ],
+        10 => [
             'Id' => 0,
             'Label' => '1/3 Stop',
-        ),
-        11 => array(
+        ],
+        11 => [
             'Id' => 1,
             'Label' => '1/2 Stop',
-        ),
-        12 => array(
+        ],
+        12 => [
             'Id' => 0,
             'Label' => '1/3 Stop',
-        ),
-        13 => array(
+        ],
+        13 => [
             'Id' => 1,
             'Label' => '1/2 Stop',
-        ),
-        14 => array(
+        ],
+        14 => [
             'Id' => 0,
             'Label' => '1/3 Stop',
-        ),
-        15 => array(
+        ],
+        15 => [
             'Id' => 1,
             'Label' => '1/2 Stop',
-        ),
-        16 => array(
+        ],
+        16 => [
             'Id' => 0,
             'Label' => '1/3 Stop',
-        ),
-        17 => array(
+        ],
+        17 => [
             'Id' => 1,
             'Label' => '1/2 Stop',
-        ),
-        18 => array(
+        ],
+        18 => [
             'Id' => 0,
             'Label' => '1/3 Stop',
-        ),
-        19 => array(
+        ],
+        19 => [
             'Id' => 1,
             'Label' => '1/2 Stop',
-        ),
-        20 => array(
+        ],
+        20 => [
             'Id' => 0,
             'Label' => '1/2 Stop',
-        ),
-        21 => array(
+        ],
+        21 => [
             'Id' => 1,
             'Label' => '1/3 Stop',
-        ),
-    );
+        ],
+    ];
 
     protected $Index = 'mixed';
 

@@ -42,15 +42,15 @@ class FlashType extends AbstractTag
 
     protected $local_g2 = 'Camera';
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'Built-In Flash',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'External',
-        ),
-    );
+        ],
+    ];
 
 }

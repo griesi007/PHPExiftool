@@ -42,43 +42,43 @@ class CameraPictureStyle extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        33 => array(
+    protected $Values = [
+        33 => [
             'Id' => 33,
             'Label' => 'User Defined 1',
-        ),
-        34 => array(
+        ],
+        34 => [
             'Id' => 34,
             'Label' => 'User Defined 2',
-        ),
-        35 => array(
+        ],
+        35 => [
             'Id' => 35,
             'Label' => 'User Defined 3',
-        ),
-        129 => array(
+        ],
+        129 => [
             'Id' => 129,
             'Label' => 'Standard',
-        ),
-        130 => array(
+        ],
+        130 => [
             'Id' => 130,
             'Label' => 'Portrait',
-        ),
-        131 => array(
+        ],
+        131 => [
             'Id' => 131,
             'Label' => 'Landscape',
-        ),
-        132 => array(
+        ],
+        132 => [
             'Id' => 132,
             'Label' => 'Neutral',
-        ),
-        133 => array(
+        ],
+        133 => [
             'Id' => 133,
             'Label' => 'Faithful',
-        ),
-        134 => array(
+        ],
+        134 => [
             'Id' => 134,
             'Label' => 'Monochrome',
-        ),
-    );
+        ],
+    ];
 
 }

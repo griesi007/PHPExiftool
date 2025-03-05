@@ -44,39 +44,39 @@ class AFPointsInFocus extends AbstractTag
 
     protected $local_g2 = 'mixed';
 
-    protected $Values = array(
-        12288 => array(
+    protected $Values = [
+        12288 => [
             'Id' => 12288,
             'Label' => 'None (MF)',
-        ),
-        12289 => array(
+        ],
+        12289 => [
             'Id' => 12289,
             'Label' => 'Right',
-        ),
-        12290 => array(
+        ],
+        12290 => [
             'Id' => 12290,
             'Label' => 'Center',
-        ),
-        12291 => array(
+        ],
+        12291 => [
             'Id' => 12291,
             'Label' => 'Center+Right',
-        ),
-        12292 => array(
+        ],
+        12292 => [
             'Id' => 12292,
             'Label' => 'Left',
-        ),
-        12293 => array(
+        ],
+        12293 => [
             'Id' => 12293,
             'Label' => 'Left+Right',
-        ),
-        12294 => array(
+        ],
+        12294 => [
             'Id' => 12294,
             'Label' => 'Left+Center',
-        ),
-        12295 => array(
+        ],
+        12295 => [
             'Id' => 12295,
             'Label' => 'All',
-        ),
-    );
+        ],
+    ];
 
 }

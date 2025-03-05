@@ -30,9 +30,7 @@ class MetadataBag extends ArrayCollection
      */
     public function filterKeysByRegExp($regexp)
     {
-        $partitions = $this->partition(function($key, $element) use ($regexp) {
-            return preg_match($regexp, $key);
-        });
+        $partitions = $this->partition(fn($key, $element) => preg_match($regexp, (string) $key));
 
         return array_shift($partitions);
     }

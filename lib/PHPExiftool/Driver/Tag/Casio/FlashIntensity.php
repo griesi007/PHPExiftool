@@ -42,39 +42,39 @@ class FlashIntensity extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 11,
             'Label' => 'Weak',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 12,
             'Label' => 'Low',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 13,
             'Label' => 'Normal',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 14,
             'Label' => 'High',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 15,
             'Label' => 'Strong',
-        ),
-        5 => array(
+        ],
+        5 => [
             'Id' => 1,
             'Label' => 'Normal',
-        ),
-        6 => array(
+        ],
+        6 => [
             'Id' => 2,
             'Label' => 'Weak',
-        ),
-        7 => array(
+        ],
+        7 => [
             'Id' => 3,
             'Label' => 'Strong',
-        ),
-    );
+        ],
+    ];
 
 }

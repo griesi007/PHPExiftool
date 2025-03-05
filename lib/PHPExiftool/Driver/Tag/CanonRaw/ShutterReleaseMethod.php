@@ -42,15 +42,15 @@ class ShutterReleaseMethod extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'Single Shot',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'Continuous Shooting',
-        ),
-    );
+        ],
+    ];
 
 }

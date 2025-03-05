@@ -42,31 +42,31 @@ class SelectAFAreaSelectionMode extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        1 => array(
+    protected $Values = [
+        1 => [
             'Id' => 1,
             'Label' => 'Single-point AF',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'Auto',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 4,
             'Label' => 'Zone AF',
-        ),
-        8 => array(
+        ],
+        8 => [
             'Id' => 8,
             'Label' => 'AF Point Expansion (4 point)',
-        ),
-        16 => array(
+        ],
+        16 => [
             'Id' => 16,
             'Label' => 'Spot AF',
-        ),
-        32 => array(
+        ],
+        32 => [
             'Id' => 32,
             'Label' => 'AF Point Expansion (8 point)',
-        ),
-    );
+        ],
+    ];
 
 }

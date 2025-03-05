@@ -42,23 +42,23 @@ class FileFormat extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        65536 => array(
+    protected $Values = [
+        65536 => [
             'Id' => 65536,
             'Label' => 'JPEG (lossy)',
-        ),
-        65538 => array(
+        ],
+        65538 => [
             'Id' => 65538,
             'Label' => 'JPEG (non-quantization)',
-        ),
-        65539 => array(
+        ],
+        65539 => [
             'Id' => 65539,
             'Label' => 'JPEG (lossy/non-quantization toggled)',
-        ),
-        131073 => array(
+        ],
+        131073 => [
             'Id' => 131073,
             'Label' => 'CRW',
-        ),
-    );
+        ],
+    ];
 
 }

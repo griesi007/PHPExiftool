@@ -42,96 +42,96 @@ class FocusingScreen extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'Ec-N, R',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'Ec-A,B,C,CII,CIII,D,H,I,L',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 0,
             'Label' => 'Ef-A',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 1,
             'Label' => 'Ef-D',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 2,
             'Label' => 'Ef-S',
-        ),
-        5 => array(
+        ],
+        5 => [
             'Id' => 0,
             'Label' => 'Eg-A',
-        ),
-        6 => array(
+        ],
+        6 => [
             'Id' => 1,
             'Label' => 'Eg-D',
-        ),
-        7 => array(
+        ],
+        7 => [
             'Id' => 2,
             'Label' => 'Eg-S',
-        ),
-        8 => array(
+        ],
+        8 => [
             'Id' => 0,
             'Label' => 'Eg-A II',
-        ),
-        9 => array(
+        ],
+        9 => [
             'Id' => 1,
             'Label' => 'Eg-D',
-        ),
-        10 => array(
+        ],
+        10 => [
             'Id' => 2,
             'Label' => 'Eg-S',
-        ),
-        11 => array(
+        ],
+        11 => [
             'Id' => 0,
             'Label' => 'Eh-A',
-        ),
-        12 => array(
+        ],
+        12 => [
             'Id' => 1,
             'Label' => 'Eh-S',
-        ),
-        13 => array(
+        ],
+        13 => [
             'Id' => 0,
             'Label' => 'Ec-CV',
-        ),
-        14 => array(
+        ],
+        14 => [
             'Id' => 1,
             'Label' => 'Ec-A,B,D,H,I,L',
-        ),
-        15 => array(
+        ],
+        15 => [
             'Id' => 0,
             'Label' => 'Ec-CIV',
-        ),
-        16 => array(
+        ],
+        16 => [
             'Id' => 1,
             'Label' => 'Ec-A,B,C,CII,CIII,D,H,I,L',
-        ),
-        17 => array(
+        ],
+        17 => [
             'Id' => 2,
             'Label' => 'Ec-S',
-        ),
-        18 => array(
+        ],
+        18 => [
             'Id' => 3,
             'Label' => 'Ec-N,R',
-        ),
-        19 => array(
+        ],
+        19 => [
             'Id' => 0,
             'Label' => 'Ee-A',
-        ),
-        20 => array(
+        ],
+        20 => [
             'Id' => 1,
             'Label' => 'Ee-D',
-        ),
-        21 => array(
+        ],
+        21 => [
             'Id' => 2,
             'Label' => 'Ee-S',
-        ),
-    );
+        ],
+    ];
 
     protected $Index = 'mixed';
 

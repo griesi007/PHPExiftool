@@ -39,7 +39,7 @@ class Binary implements ValueInterface
 
     public function asBase64()
     {
-        return base64_encode($this->value);
+        return base64_encode((string) $this->value);
     }
 
     public function set($value)
@@ -51,7 +51,7 @@ class Binary implements ValueInterface
 
     public function setBase64Value($base64Value)
     {
-        if (false === $value = base64_decode($base64Value, true)) {
+        if (false === $value = base64_decode((string) $base64Value, true)) {
             throw new InvalidArgumentException('The value should be base64 encoded');
         }
 
@@ -62,7 +62,7 @@ class Binary implements ValueInterface
 
     public static function loadFromBase64($base64Value)
     {
-        if (false === $value = base64_decode($base64Value, true)) {
+        if (false === $value = base64_decode((string) $base64Value, true)) {
             throw new InvalidArgumentException('The value should be base64 encoded');
         }
 

@@ -42,63 +42,63 @@ class FocusMode extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 2,
             'Label' => 'Macro',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 3,
             'Label' => 'Auto',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 4,
             'Label' => 'Manual',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 5,
             'Label' => 'Infinity',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 7,
             'Label' => 'Spot AF',
-        ),
-        5 => array(
+        ],
+        5 => [
             'Id' => 0,
             'Label' => 'Normal',
-        ),
-        6 => array(
+        ],
+        6 => [
             'Id' => 1,
             'Label' => 'Macro',
-        ),
-        7 => array(
+        ],
+        7 => [
             'Id' => 0,
             'Label' => 'Manual',
-        ),
-        8 => array(
+        ],
+        8 => [
             'Id' => 1,
             'Label' => 'Focus Lock',
-        ),
-        9 => array(
+        ],
+        9 => [
             'Id' => 2,
             'Label' => 'Macro',
-        ),
-        10 => array(
+        ],
+        10 => [
             'Id' => 3,
             'Label' => 'Single-Area Auto Focus',
-        ),
-        11 => array(
+        ],
+        11 => [
             'Id' => 5,
             'Label' => 'Infinity',
-        ),
-        12 => array(
+        ],
+        12 => [
             'Id' => 6,
             'Label' => 'Multi-Area Auto Focus',
-        ),
-        13 => array(
+        ],
+        13 => [
             'Id' => 8,
             'Label' => 'Super Macro',
-        ),
-    );
+        ],
+    ];
 
 }

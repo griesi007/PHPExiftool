@@ -42,19 +42,19 @@ class ColorSpace extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        1 => array(
+    protected $Values = [
+        1 => [
             'Id' => 1,
             'Label' => 'sRGB',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'Adobe RGB',
-        ),
-        65535 => array(
+        ],
+        65535 => [
             'Id' => 65535,
             'Label' => 'Uncalibrated',
-        ),
-    );
+        ],
+    ];
 
 }

@@ -44,15 +44,15 @@ class TimerLength extends AbstractTag
 
     protected $MaxLength = 4;
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'Disable',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'Enable',
-        ),
-    );
+        ],
+    ];
 
 }

@@ -42,43 +42,43 @@ class Saturation extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'Normal',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'Low',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'High',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 16,
             'Label' => 'Normal',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 17,
             'Label' => '+1',
-        ),
-        5 => array(
+        ],
+        5 => [
             'Id' => 18,
             'Label' => '-1',
-        ),
-        6 => array(
+        ],
+        6 => [
             'Id' => 0,
             'Label' => 'Low',
-        ),
-        7 => array(
+        ],
+        7 => [
             'Id' => 1,
             'Label' => 'Normal',
-        ),
-        8 => array(
+        ],
+        8 => [
             'Id' => 2,
             'Label' => 'High',
-        ),
-    );
+        ],
+    ];
 
 }

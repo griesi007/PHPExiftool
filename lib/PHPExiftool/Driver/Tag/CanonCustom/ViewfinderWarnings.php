@@ -42,35 +42,35 @@ class ViewfinderWarnings extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        1 => array(
+    protected $Values = [
+        1 => [
             'Id' => 1,
             'Label' => 'Monochrome',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'WB corrected',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 4,
             'Label' => 'One-touch image quality',
-        ),
-        8 => array(
+        ],
+        8 => [
             'Id' => 8,
             'Label' => 'ISO expansion',
-        ),
-        16 => array(
+        ],
+        16 => [
             'Id' => 16,
             'Label' => 'Spot metering',
-        ),
-        64 => array(
+        ],
+        64 => [
             'Id' => 64,
             'Label' => 'Noise reduction',
-        ),
-        128 => array(
+        ],
+        128 => [
             'Id' => 128,
             'Label' => 'HDR',
-        ),
-    );
+        ],
+    ];
 
 }

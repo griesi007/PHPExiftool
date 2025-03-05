@@ -42,92 +42,92 @@ class AFAssistBeam extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'Emits',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'Does not emit',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'IR AF assist beam only',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 0,
             'Label' => 'Emits',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 1,
             'Label' => 'Does not emit',
-        ),
-        5 => array(
+        ],
+        5 => [
             'Id' => 2,
             'Label' => 'Only ext. flash emits',
-        ),
-        6 => array(
+        ],
+        6 => [
             'Id' => 3,
             'Label' => 'IR AF assist beam only',
-        ),
-        7 => array(
+        ],
+        7 => [
             'Id' => 0,
             'Label' => 'Emits',
-        ),
-        8 => array(
+        ],
+        8 => [
             'Id' => 1,
             'Label' => 'Does not emit',
-        ),
-        9 => array(
+        ],
+        9 => [
             'Id' => 2,
             'Label' => 'Only ext. flash emits',
-        ),
-        10 => array(
+        ],
+        10 => [
             'Id' => 0,
             'Label' => 'Emits',
-        ),
-        11 => array(
+        ],
+        11 => [
             'Id' => 1,
             'Label' => 'Does not emit',
-        ),
-        12 => array(
+        ],
+        12 => [
             'Id' => 2,
             'Label' => 'Only ext. flash emits',
-        ),
-        13 => array(
+        ],
+        13 => [
             'Id' => 0,
             'Label' => 'Emits',
-        ),
-        14 => array(
+        ],
+        14 => [
             'Id' => 1,
             'Label' => 'Does not emit',
-        ),
-        15 => array(
+        ],
+        15 => [
             'Id' => 2,
             'Label' => 'Only ext. flash emits',
-        ),
-        16 => array(
+        ],
+        16 => [
             'Id' => 0,
             'Label' => 'Emits',
-        ),
-        17 => array(
+        ],
+        17 => [
             'Id' => 1,
             'Label' => 'Does not emit',
-        ),
-        18 => array(
+        ],
+        18 => [
             'Id' => 2,
             'Label' => 'Only ext. flash emits',
-        ),
-        19 => array(
+        ],
+        19 => [
             'Id' => 0,
             'Label' => 'Emits',
-        ),
-        20 => array(
+        ],
+        20 => [
             'Id' => 1,
             'Label' => 'Does not emit',
-        ),
-    );
+        ],
+    ];
 
     protected $Index = 'mixed';
 

@@ -42,19 +42,19 @@ class NDFilter extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        '-1' => array(
+    protected $Values = [
+        '-1' => [
             'Id' => '-1',
             'Label' => 'n/a',
-        ),
-        0 => array(
+        ],
+        0 => [
             'Id' => 0,
             'Label' => 'Off',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'On',
-        ),
-    );
+        ],
+    ];
 
 }

@@ -42,27 +42,27 @@ class AFPointActivationArea extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'Single AF point',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'Expanded (TTL. of 7 AF points)',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'Automatic expanded (max. 13)',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 0,
             'Label' => 'Standard',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 1,
             'Label' => 'Expanded',
-        ),
-    );
+        ],
+    ];
 
 }

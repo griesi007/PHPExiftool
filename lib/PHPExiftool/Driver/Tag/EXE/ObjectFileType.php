@@ -40,103 +40,103 @@ class ObjectFileType extends AbstractTag
 
     protected $Description = 'Object File Type';
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'None',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'Relocatable file',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'Executable file',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 3,
             'Label' => 'Shared object file',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 4,
             'Label' => 'Core file',
-        ),
-        5 => array(
+        ],
+        5 => [
             'Id' => '-1',
             'Label' => 'Static library',
-        ),
-        6 => array(
+        ],
+        6 => [
             'Id' => 1,
             'Label' => 'Relocatable object',
-        ),
-        7 => array(
+        ],
+        7 => [
             'Id' => 2,
             'Label' => 'Demand paged executable',
-        ),
-        8 => array(
+        ],
+        8 => [
             'Id' => 3,
             'Label' => 'Fixed VM shared library',
-        ),
-        9 => array(
+        ],
+        9 => [
             'Id' => 4,
             'Label' => 'Core',
-        ),
-        10 => array(
+        ],
+        10 => [
             'Id' => 5,
             'Label' => 'Preloaded executable',
-        ),
-        11 => array(
+        ],
+        11 => [
             'Id' => 6,
             'Label' => 'Dynamically bound shared library',
-        ),
-        12 => array(
+        ],
+        12 => [
             'Id' => 7,
             'Label' => 'Dynamic link editor',
-        ),
-        13 => array(
+        ],
+        13 => [
             'Id' => 8,
             'Label' => 'Dynamically bound bundle',
-        ),
-        14 => array(
+        ],
+        14 => [
             'Id' => 9,
             'Label' => 'Shared library stub for static linking',
-        ),
-        15 => array(
+        ],
+        15 => [
             'Id' => 10,
             'Label' => 'Debug information',
-        ),
-        16 => array(
+        ],
+        16 => [
             'Id' => 11,
             'Label' => 'x86_64 kexts',
-        ),
-        17 => array(
+        ],
+        17 => [
             'Id' => 0,
             'Label' => 'Unknown',
-        ),
-        18 => array(
+        ],
+        18 => [
             'Id' => 1,
             'Label' => 'Executable application',
-        ),
-        19 => array(
+        ],
+        19 => [
             'Id' => 2,
             'Label' => 'Dynamic link library',
-        ),
-        20 => array(
+        ],
+        20 => [
             'Id' => 3,
             'Label' => 'Driver',
-        ),
-        21 => array(
+        ],
+        21 => [
             'Id' => 4,
             'Label' => 'Font',
-        ),
-        22 => array(
+        ],
+        22 => [
             'Id' => 5,
             'Label' => 'VxD',
-        ),
-        23 => array(
+        ],
+        23 => [
             'Id' => 7,
             'Label' => 'Static library',
-        ),
-    );
+        ],
+    ];
 
 }

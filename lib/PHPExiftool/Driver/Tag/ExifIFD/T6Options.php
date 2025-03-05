@@ -42,11 +42,11 @@ class T6Options extends AbstractTag
 
     protected $local_g1 = 'ExifIFD';
 
-    protected $Values = array(
-        2 => array(
+    protected $Values = [
+        2 => [
             'Id' => 2,
             'Label' => 'Uncompressed',
-        ),
-    );
+        ],
+    ];
 
 }

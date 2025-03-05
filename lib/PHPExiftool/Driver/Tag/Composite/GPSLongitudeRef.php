@@ -42,15 +42,15 @@ class GPSLongitudeRef extends AbstractTag
 
     protected $local_g2 = 'Location';
 
-    protected $Values = array(
-        'E' => array(
+    protected $Values = [
+        'E' => [
             'Id' => 'E',
             'Label' => 'East',
-        ),
-        'W' => array(
+        ],
+        'W' => [
             'Id' => 'W',
             'Label' => 'West',
-        ),
-    );
+        ],
+    ];
 
 }

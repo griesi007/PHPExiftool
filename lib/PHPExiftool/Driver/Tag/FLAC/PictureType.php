@@ -40,91 +40,91 @@ class PictureType extends AbstractTag
 
     protected $Description = 'Picture Type';
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'Other',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => '32x32 PNG Icon',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'Other Icon',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 3,
             'Label' => 'Front Cover',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 4,
             'Label' => 'Back Cover',
-        ),
-        5 => array(
+        ],
+        5 => [
             'Id' => 5,
             'Label' => 'Leaflet',
-        ),
-        6 => array(
+        ],
+        6 => [
             'Id' => 6,
             'Label' => 'Media',
-        ),
-        7 => array(
+        ],
+        7 => [
             'Id' => 7,
             'Label' => 'Lead Artist',
-        ),
-        8 => array(
+        ],
+        8 => [
             'Id' => 8,
             'Label' => 'Artist',
-        ),
-        9 => array(
+        ],
+        9 => [
             'Id' => 9,
             'Label' => 'Conductor',
-        ),
-        10 => array(
+        ],
+        10 => [
             'Id' => 10,
             'Label' => 'Band',
-        ),
-        11 => array(
+        ],
+        11 => [
             'Id' => 11,
             'Label' => 'Composer',
-        ),
-        12 => array(
+        ],
+        12 => [
             'Id' => 12,
             'Label' => 'Lyricist',
-        ),
-        13 => array(
+        ],
+        13 => [
             'Id' => 13,
             'Label' => 'Recording Studio or Location',
-        ),
-        14 => array(
+        ],
+        14 => [
             'Id' => 14,
             'Label' => 'Recording Session',
-        ),
-        15 => array(
+        ],
+        15 => [
             'Id' => 15,
             'Label' => 'Performance',
-        ),
-        16 => array(
+        ],
+        16 => [
             'Id' => 16,
             'Label' => 'Capture from Movie or Video',
-        ),
-        17 => array(
+        ],
+        17 => [
             'Id' => 17,
             'Label' => 'Bright(ly) Colored Fish',
-        ),
-        18 => array(
+        ],
+        18 => [
             'Id' => 18,
             'Label' => 'Illustration',
-        ),
-        19 => array(
+        ],
+        19 => [
             'Id' => 19,
             'Label' => 'Band Logo',
-        ),
-        20 => array(
+        ],
+        20 => [
             'Id' => 20,
             'Label' => 'Publisher Logo',
-        ),
-    );
+        ],
+    ];
 
 }

@@ -42,11 +42,11 @@ class GrainyBWFilter extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        '-1' => array(
+    protected $Values = [
+        '-1' => [
             'Id' => '-1',
             'Label' => 'Off',
-        ),
-    );
+        ],
+    ];
 
 }

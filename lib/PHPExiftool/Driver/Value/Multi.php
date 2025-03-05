@@ -11,9 +11,9 @@
 
 namespace PHPExiftool\Driver\Value;
 
-class Multi implements ValueInterface
+class Multi implements ValueInterface, \Stringable
 {
-    protected $value = array();
+    protected $value = [];
 
     public function __construct($value = null)
     {
@@ -43,7 +43,7 @@ class Multi implements ValueInterface
 
     public function reset()
     {
-        $this->value = array();
+        $this->value = [];
 
         return $this;
     }
@@ -63,8 +63,8 @@ class Multi implements ValueInterface
         return $this->value;
     }
 
-    public function __toString()
+    public function __toString(): string
     {
-        return $this->serialize();
+        return (string) $this->serialize();
     }
 }

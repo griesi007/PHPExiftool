@@ -40,15 +40,15 @@ class CPUByteOrder extends AbstractTag
 
     protected $Description = 'CPU Byte Order';
 
-    protected $Values = array(
-        1 => array(
+    protected $Values = [
+        1 => [
             'Id' => 1,
             'Label' => 'Little endian',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'Big endian',
-        ),
-    );
+        ],
+    ];
 
 }

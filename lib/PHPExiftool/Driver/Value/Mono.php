@@ -11,7 +11,7 @@
 
 namespace PHPExiftool\Driver\Value;
 
-class Mono implements ValueInterface
+class Mono implements ValueInterface, \Stringable
 {
     protected $value;
 
@@ -42,8 +42,8 @@ class Mono implements ValueInterface
         return (array) $this->value;
     }
 
-    public function __toString()
+    public function __toString(): string
     {
-        return $this->value;
+        return (string) $this->value;
     }
 }

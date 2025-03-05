@@ -40,47 +40,47 @@ class CheckMark extends AbstractTag
 
     protected $Description = 'Check Mark';
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'Clear',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 1,
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 2,
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 3,
             'Label' => 3,
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 4,
             'Label' => 4,
-        ),
-        5 => array(
+        ],
+        5 => [
             'Id' => 5,
             'Label' => 5,
-        ),
-        6 => array(
+        ],
+        6 => [
             'Id' => 0,
             'Label' => 'Clear',
-        ),
-        7 => array(
+        ],
+        7 => [
             'Id' => 1,
             'Label' => 1,
-        ),
-        8 => array(
+        ],
+        8 => [
             'Id' => 2,
             'Label' => 2,
-        ),
-        9 => array(
+        ],
+        9 => [
             'Id' => 3,
             'Label' => 3,
-        ),
-    );
+        ],
+    ];
 
 }

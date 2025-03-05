@@ -42,171 +42,171 @@ class LensAFStopButton extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'AF stop',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'AF start',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'AE lock while metering',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 3,
             'Label' => 'AF point: M->Auto/Auto->ctr',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 4,
             'Label' => 'One Shot <-> AI servo',
-        ),
-        5 => array(
+        ],
+        5 => [
             'Id' => 5,
             'Label' => 'IS start',
-        ),
-        6 => array(
+        ],
+        6 => [
             'Id' => 0,
             'Label' => 'AF stop',
-        ),
-        7 => array(
+        ],
+        7 => [
             'Id' => 1,
             'Label' => 'AF start',
-        ),
-        8 => array(
+        ],
+        8 => [
             'Id' => 2,
             'Label' => 'AE lock while metering',
-        ),
-        9 => array(
+        ],
+        9 => [
             'Id' => 3,
             'Label' => 'AF point: M -> Auto / Auto -> Ctr.',
-        ),
-        10 => array(
+        ],
+        10 => [
             'Id' => 4,
             'Label' => 'AF mode: ONE SHOT <-> AI SERVO',
-        ),
-        11 => array(
+        ],
+        11 => [
             'Id' => 5,
             'Label' => 'IS start',
-        ),
-        12 => array(
+        ],
+        12 => [
             'Id' => 0,
             'Label' => 'AF stop',
-        ),
-        13 => array(
+        ],
+        13 => [
             'Id' => 1,
             'Label' => 'AF start',
-        ),
-        14 => array(
+        ],
+        14 => [
             'Id' => 2,
             'Label' => 'AE lock',
-        ),
-        15 => array(
+        ],
+        15 => [
             'Id' => 3,
             'Label' => 'AF point: M->Auto/Auto->ctr',
-        ),
-        16 => array(
+        ],
+        16 => [
             'Id' => 4,
             'Label' => 'One Shot <-> AI servo',
-        ),
-        17 => array(
+        ],
+        17 => [
             'Id' => 5,
             'Label' => 'IS start',
-        ),
-        18 => array(
+        ],
+        18 => [
             'Id' => 6,
             'Label' => 'Switch to registered AF point',
-        ),
-        19 => array(
+        ],
+        19 => [
             'Id' => 7,
             'Label' => 'Spot AF',
-        ),
-        20 => array(
+        ],
+        20 => [
             'Id' => 0,
             'Label' => 'AF stop',
-        ),
-        21 => array(
+        ],
+        21 => [
             'Id' => 1,
             'Label' => 'AF start',
-        ),
-        22 => array(
+        ],
+        22 => [
             'Id' => 2,
             'Label' => 'AE lock while metering',
-        ),
-        23 => array(
+        ],
+        23 => [
             'Id' => 3,
             'Label' => 'AF point: M -> Auto / Auto -> Ctr.',
-        ),
-        24 => array(
+        ],
+        24 => [
             'Id' => 4,
             'Label' => 'ONE SHOT <-> AI SERVO',
-        ),
-        25 => array(
+        ],
+        25 => [
             'Id' => 5,
             'Label' => 'IS start',
-        ),
-        26 => array(
+        ],
+        26 => [
             'Id' => 0,
             'Label' => 'AF stop',
-        ),
-        27 => array(
+        ],
+        27 => [
             'Id' => 1,
             'Label' => 'AF start',
-        ),
-        28 => array(
+        ],
+        28 => [
             'Id' => 2,
             'Label' => 'AE lock while metering',
-        ),
-        29 => array(
+        ],
+        29 => [
             'Id' => 3,
             'Label' => 'AF point: M -> Auto / Auto -> Ctr.',
-        ),
-        30 => array(
+        ],
+        30 => [
             'Id' => 4,
             'Label' => 'ONE SHOT <-> AI SERVO',
-        ),
-        31 => array(
+        ],
+        31 => [
             'Id' => 5,
             'Label' => 'IS start',
-        ),
-        32 => array(
+        ],
+        32 => [
             'Id' => 0,
             'Label' => 'AF stop',
-        ),
-        33 => array(
+        ],
+        33 => [
             'Id' => 1,
             'Label' => 'AF start',
-        ),
-        34 => array(
+        ],
+        34 => [
             'Id' => 2,
             'Label' => 'AE lock while metering',
-        ),
-        35 => array(
+        ],
+        35 => [
             'Id' => 3,
             'Label' => 'AF point: M -> Auto / Auto -> Ctr.',
-        ),
-        36 => array(
+        ],
+        36 => [
             'Id' => 4,
             'Label' => 'ONE SHOT <-> AI SERVO',
-        ),
-        37 => array(
+        ],
+        37 => [
             'Id' => 5,
             'Label' => 'IS start',
-        ),
-        38 => array(
+        ],
+        38 => [
             'Id' => 0,
             'Label' => 'AF Stop',
-        ),
-        39 => array(
+        ],
+        39 => [
             'Id' => 1,
             'Label' => 'Operate AF',
-        ),
-        40 => array(
+        ],
+        40 => [
             'Id' => 2,
             'Label' => 'Lock AE and start timer',
-        ),
-    );
+        ],
+    ];
 
 }

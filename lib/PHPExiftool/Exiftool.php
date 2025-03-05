@@ -18,13 +18,8 @@ use Symfony\Component\Process\Process;
 
 class Exiftool implements LoggerAwareInterface
 {
-    private $logger;
-    private $binaryPath;
-
-    public function __construct(LoggerInterface $logger, $binaryPath = null)
+    public function __construct(private LoggerInterface $logger, private $binaryPath = null)
     {
-        $this->logger = $logger;
-        $this->binaryPath = $binaryPath;
     }
 
     /**
@@ -83,7 +78,7 @@ class Exiftool implements LoggerAwareInterface
         $dev = __DIR__ . '/../../vendor/exiftool/exiftool/exiftool';
         $packaged = __DIR__ . '/../../../../exiftool/exiftool/exiftool';
 
-        foreach (array($packaged, $dev) as $location) {
+        foreach ([$packaged, $dev] as $location) {
 
             if (defined('PHP_WINDOWS_VERSION_BUILD')) {
                 $location .= '.exe';

@@ -42,31 +42,31 @@ class ManualTv extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'Tv=Main/Av=Control',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'Tv=Control/Av=Main',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'Tv=Main/Av=Main w/o lens',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 3,
             'Label' => 'Tv=Control/Av=Main w/o lens',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 0,
             'Label' => 'Tv=Main/Av=Control',
-        ),
-        5 => array(
+        ],
+        5 => [
             'Id' => 1,
             'Label' => 'Tv=Control/Av=Main',
-        ),
-    );
+        ],
+    ];
 
 }

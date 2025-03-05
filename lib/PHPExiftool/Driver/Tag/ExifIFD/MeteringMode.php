@@ -44,39 +44,39 @@ class MeteringMode extends AbstractTag
 
     protected $local_g2 = 'Camera';
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'Unknown',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'Average',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'Center-weighted average',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 3,
             'Label' => 'Spot',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 4,
             'Label' => 'Multi-spot',
-        ),
-        5 => array(
+        ],
+        5 => [
             'Id' => 5,
             'Label' => 'Multi-segment',
-        ),
-        6 => array(
+        ],
+        6 => [
             'Id' => 6,
             'Label' => 'Partial',
-        ),
-        255 => array(
+        ],
+        255 => [
             'Id' => 255,
             'Label' => 'Other',
-        ),
-    );
+        ],
+    ];
 
 }

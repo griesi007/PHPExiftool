@@ -42,64 +42,64 @@ class AFPointSelectionMethod extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'Normal',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'Multi-controller direct',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'Quick Control Dial direct',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 0,
             'Label' => 'AF point button: Activate AF Sel; Rear dial: Select AF points',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 1,
             'Label' => 'AF point button: Auto selection; Rear dial: Manual selection',
-        ),
-        5 => array(
+        ],
+        5 => [
             'Id' => 0,
             'Label' => 'Normal',
-        ),
-        6 => array(
+        ],
+        6 => [
             'Id' => 1,
             'Label' => 'Multi-controller direct',
-        ),
-        7 => array(
+        ],
+        7 => [
             'Id' => 2,
             'Label' => 'Quick Control Dial direct',
-        ),
-        8 => array(
+        ],
+        8 => [
             'Id' => 0,
             'Label' => 'Normal',
-        ),
-        9 => array(
+        ],
+        9 => [
             'Id' => 1,
             'Label' => 'Multi-controller direct',
-        ),
-        10 => array(
+        ],
+        10 => [
             'Id' => 2,
             'Label' => 'Quick Control Dial direct',
-        ),
-        11 => array(
+        ],
+        11 => [
             'Id' => 0,
             'Label' => 'Normal',
-        ),
-        12 => array(
+        ],
+        12 => [
             'Id' => 1,
             'Label' => 'Multi-controller direct',
-        ),
-        13 => array(
+        ],
+        13 => [
             'Id' => 2,
             'Label' => 'Quick Control Dial direct',
-        ),
-    );
+        ],
+    ];
 
     protected $Index = 'mixed';
 

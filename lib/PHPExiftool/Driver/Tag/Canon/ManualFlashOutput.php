@@ -42,27 +42,27 @@ class ManualFlashOutput extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'n/a',
-        ),
-        1280 => array(
+        ],
+        1280 => [
             'Id' => 1280,
             'Label' => 'Full',
-        ),
-        1282 => array(
+        ],
+        1282 => [
             'Id' => 1282,
             'Label' => 'Medium',
-        ),
-        1284 => array(
+        ],
+        1284 => [
             'Id' => 1284,
             'Label' => 'Low',
-        ),
-        32767 => array(
+        ],
+        32767 => [
             'Id' => 32767,
             'Label' => 'n/a',
-        ),
-    );
+        ],
+    ];
 
 }

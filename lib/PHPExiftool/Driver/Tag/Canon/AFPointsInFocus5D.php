@@ -42,71 +42,71 @@ class AFPointsInFocus5D extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => '(none)',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'Center',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'Top',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 4,
             'Label' => 'Bottom',
-        ),
-        8 => array(
+        ],
+        8 => [
             'Id' => 8,
             'Label' => 'Upper-left',
-        ),
-        16 => array(
+        ],
+        16 => [
             'Id' => 16,
             'Label' => 'Upper-right',
-        ),
-        32 => array(
+        ],
+        32 => [
             'Id' => 32,
             'Label' => 'Lower-left',
-        ),
-        64 => array(
+        ],
+        64 => [
             'Id' => 64,
             'Label' => 'Lower-right',
-        ),
-        128 => array(
+        ],
+        128 => [
             'Id' => 128,
             'Label' => 'Left',
-        ),
-        256 => array(
+        ],
+        256 => [
             'Id' => 256,
             'Label' => 'Right',
-        ),
-        512 => array(
+        ],
+        512 => [
             'Id' => 512,
             'Label' => 'AI Servo1',
-        ),
-        1024 => array(
+        ],
+        1024 => [
             'Id' => 1024,
             'Label' => 'AI Servo2',
-        ),
-        2048 => array(
+        ],
+        2048 => [
             'Id' => 2048,
             'Label' => 'AI Servo3',
-        ),
-        4096 => array(
+        ],
+        4096 => [
             'Id' => 4096,
             'Label' => 'AI Servo4',
-        ),
-        8192 => array(
+        ],
+        8192 => [
             'Id' => 8192,
             'Label' => 'AI Servo5',
-        ),
-        16384 => array(
+        ],
+        16384 => [
             'Id' => 16384,
             'Label' => 'AI Servo6',
-        ),
-    );
+        ],
+    ];
 
 }

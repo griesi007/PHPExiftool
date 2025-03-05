@@ -42,47 +42,47 @@ class ImageStabilization extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'Off',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'On',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'Shoot Only',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 3,
             'Label' => 'Panning',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 4,
             'Label' => 'Dynamic',
-        ),
-        256 => array(
+        ],
+        256 => [
             'Id' => 256,
             'Label' => 'Off (2)',
-        ),
-        257 => array(
+        ],
+        257 => [
             'Id' => 257,
             'Label' => 'On (2)',
-        ),
-        258 => array(
+        ],
+        258 => [
             'Id' => 258,
             'Label' => 'Shoot Only (2)',
-        ),
-        259 => array(
+        ],
+        259 => [
             'Id' => 259,
             'Label' => 'Panning (2)',
-        ),
-        260 => array(
+        ],
+        260 => [
             'Id' => 260,
             'Label' => 'Dynamic (2)',
-        ),
-    );
+        ],
+    ];
 
 }

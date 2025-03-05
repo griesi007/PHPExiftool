@@ -42,27 +42,27 @@ class SecurityClassification extends AbstractTag
 
     protected $local_g1 = 'ExifIFD';
 
-    protected $Values = array(
-        'C' => array(
+    protected $Values = [
+        'C' => [
             'Id' => 'C',
             'Label' => 'Confidential',
-        ),
-        'R' => array(
+        ],
+        'R' => [
             'Id' => 'R',
             'Label' => 'Restricted',
-        ),
-        'S' => array(
+        ],
+        'S' => [
             'Id' => 'S',
             'Label' => 'Secret',
-        ),
-        'T' => array(
+        ],
+        'T' => [
             'Id' => 'T',
             'Label' => 'Top Secret',
-        ),
-        'U' => array(
+        ],
+        'U' => [
             'Id' => 'U',
             'Label' => 'Unclassified',
-        ),
-    );
+        ],
+    ];
 
 }

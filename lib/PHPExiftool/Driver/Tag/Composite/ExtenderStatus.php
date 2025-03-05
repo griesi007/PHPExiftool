@@ -42,19 +42,19 @@ class ExtenderStatus extends AbstractTag
 
     protected $local_g2 = 'Camera';
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'Not attached',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'Attached',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'Removed',
-        ),
-    );
+        ],
+    ];
 
 }

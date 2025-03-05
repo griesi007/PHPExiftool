@@ -42,31 +42,31 @@ class DigitalZoom extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        65536 => array(
+    protected $Values = [
+        65536 => [
             'Id' => 65536,
             'Label' => 'Off',
-        ),
-        65537 => array(
+        ],
+        65537 => [
             'Id' => 65537,
             'Label' => '2x',
-        ),
-        104857 => array(
+        ],
+        104857 => [
             'Id' => 104857,
             'Label' => '1.6x',
-        ),
-        131072 => array(
+        ],
+        131072 => [
             'Id' => 131072,
             'Label' => '2x',
-        ),
-        209715 => array(
+        ],
+        209715 => [
             'Id' => 209715,
             'Label' => '3.2x',
-        ),
-        262144 => array(
+        ],
+        262144 => [
             'Id' => 262144,
             'Label' => '4x',
-        ),
-    );
+        ],
+    ];
 
 }

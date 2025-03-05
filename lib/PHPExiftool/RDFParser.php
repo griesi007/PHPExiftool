@@ -72,7 +72,7 @@ class RDFParser
         $this->XML = null;
         $this->DOMXpath = null;
         $this->DOM = null;
-        $this->registeredPrefixes = array();
+        $this->registeredPrefixes = [];
 
         return $this;
     }
@@ -133,7 +133,7 @@ class RDFParser
 
             try {
                 $tag = TagFactory::getFromRDFTagname($tagname);
-            } catch (TagUnknown $e) {
+            } catch (TagUnknown) {
                 continue;
             }
 
@@ -180,12 +180,12 @@ class RDFParser
      */
     protected function normalize($tagname)
     {
-        static $namespacesRedirection = array(
-        'CIFF' => array('Canon', 'CanonRaw'),
-        );
+        static $namespacesRedirection = [
+        'CIFF' => ['Canon', 'CanonRaw'],
+        ];
 
         foreach ($namespacesRedirection as $from => $to) {
-            if (strpos($tagname, $from . ':') !== 0) {
+            if (!str_starts_with($tagname, $from . ':')) {
                 continue;
             }
 
@@ -209,7 +209,7 @@ class RDFParser
      */
     protected static function getNamespacesFromXml(\DOMDocument $dom)
     {
-        $namespaces = array();
+        $namespaces = [];
 
         $XML = $dom->saveXML();
 
@@ -231,7 +231,7 @@ class RDFParser
      * @param  TagInterface   $tag  The tag associated
      * @return ValueInterface The value extracted
      */
-    protected function readNodeValue(\DOMNode $node, TagInterface $tag = null)
+    protected function readNodeValue(\DOMNode $node, ?TagInterface $tag = null)
     {
         $nodeName = $this->normalize($node->nodeName);
 
@@ -241,7 +241,7 @@ class RDFParser
 
         if ($node->getElementsByTagNameNS(self::RDF_NAMESPACE, 'Bag')->length > 0) {
 
-            $ret = array();
+            $ret = [];
 
             foreach ($node->getElementsByTagNameNS(self::RDF_NAMESPACE, 'li') as $nodeElement) {
                 $ret[] = $nodeElement->nodeValue;
@@ -255,9 +255,9 @@ class RDFParser
         } elseif ($node->getAttribute('rdf:datatype') === 'http://www.w3.org/2001/XMLSchema#base64Binary') {
 
             if (is_null($tag) || $tag->isBinary()) {
-                return Binary::loadFromBase64(trim($node->nodeValue));
+                return Binary::loadFromBase64(trim((string) $node->nodeValue));
             } else {
-                return new Mono(base64_decode(trim($node->nodeValue)));
+                return new Mono(base64_decode(trim((string) $node->nodeValue)));
             }
         } else {
 
@@ -309,7 +309,7 @@ class RDFParser
         if (! $this->DOMXpath) {
             try {
                 $this->DOMXpath = new \DOMXPath($this->getDom());
-            } catch (ParseError $e) {
+            } catch (ParseError) {
                 throw new RuntimeException('Unable to parse the XML');
             }
 

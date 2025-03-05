@@ -11,7 +11,6 @@
 
 namespace PHPExiftool;
 
-use Doctrine\Common\Cache\ArrayCache;
 use PHPExiftool\Driver\Value\ValueInterface;
 use PHPExiftool\Driver\Metadata\MetadataBag;
 
@@ -23,23 +22,7 @@ use PHPExiftool\Driver\Metadata\MetadataBag;
  */
 class FileEntity implements \IteratorAggregate
 {
-    /**
-     *
-     * @var \DOMDocument
-     */
-    private $dom;
-
-    /**
-     *
-     * @var \SplFileInfo
-     */
-    private $file;
-
-    /**
-     *
-     * @var ArrayCache
-     */
-    private $cache;
+    private array $cache = [];
 
     /**
      *
@@ -55,14 +38,9 @@ class FileEntity implements \IteratorAggregate
      * @param  RDFParser    $parser
      * @return FileEntity
      */
-    public function __construct($file, \DOMDocument $dom, RDFParser $parser)
+    public function __construct(private $file, private readonly \DOMDocument $dom, RDFParser $parser)
     {
-        $this->dom = $dom;
-        $this->file = $file;
-
-        $this->cache = new ArrayCache();
-
-        $this->parser = $parser->open($dom->saveXML());
+        $this->parser = $parser->open($this->dom->saveXML());
 
         return $this;
     }
@@ -89,13 +67,13 @@ class FileEntity implements \IteratorAggregate
     {
         $key = realpath($this->file);
 
-        if ($this->cache->contains($key)) {
-            return $this->cache->fetch($key);
+        if (array_key_exists($key, $this->cache)) {
+            return $this->cache[$key];
         }
 
         $metadatas = $this->parser->ParseMetadatas();
 
-        $this->cache->save($key, $metadatas);
+        $this->cache[$key] = $metadatas;
 
         return $metadatas;
     }

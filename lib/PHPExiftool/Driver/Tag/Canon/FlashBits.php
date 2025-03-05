@@ -42,47 +42,47 @@ class FlashBits extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => '(none)',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'Manual',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'TTL',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 4,
             'Label' => 'A-TTL',
-        ),
-        8 => array(
+        ],
+        8 => [
             'Id' => 8,
             'Label' => 'E-TTL',
-        ),
-        16 => array(
+        ],
+        16 => [
             'Id' => 16,
             'Label' => 'FP sync enabled',
-        ),
-        128 => array(
+        ],
+        128 => [
             'Id' => 128,
             'Label' => '2nd-curtain sync used',
-        ),
-        2048 => array(
+        ],
+        2048 => [
             'Id' => 2048,
             'Label' => 'FP sync used',
-        ),
-        8192 => array(
+        ],
+        8192 => [
             'Id' => 8192,
             'Label' => 'Built-in',
-        ),
-        16384 => array(
+        ],
+        16384 => [
             'Id' => 16384,
             'Label' => 'External',
-        ),
-    );
+        ],
+    ];
 
 }

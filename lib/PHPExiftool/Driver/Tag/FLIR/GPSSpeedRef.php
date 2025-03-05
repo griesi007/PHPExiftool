@@ -42,19 +42,19 @@ class GPSSpeedRef extends AbstractTag
 
     protected $MaxLength = 2;
 
-    protected $Values = array(
-        'K' => array(
+    protected $Values = [
+        'K' => [
             'Id' => 'K',
             'Label' => 'km/h',
-        ),
-        'M' => array(
+        ],
+        'M' => [
             'Id' => 'M',
             'Label' => 'mph',
-        ),
-        'N' => array(
+        ],
+        'N' => [
             'Id' => 'N',
             'Label' => 'knots',
-        ),
-    );
+        ],
+    ];
 
 }

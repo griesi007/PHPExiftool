@@ -42,15 +42,15 @@ class ShutterCurtainHack extends AbstractTag
 
     protected $local_g2 = 'Camera';
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => '1st-curtain sync',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => '2nd-curtain sync',
-        ),
-    );
+        ],
+    ];
 
 }

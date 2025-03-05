@@ -40,35 +40,35 @@ class AutoLightingOptimizer extends AbstractTag
 
     protected $Description = 'Auto Lighting Optimizer';
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'Low',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'Standard',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'Strong',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 100,
             'Label' => 'Low',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 200,
             'Label' => 'Standard',
-        ),
-        5 => array(
+        ],
+        5 => [
             'Id' => 300,
             'Label' => 'Strong',
-        ),
-        6 => array(
+        ],
+        6 => [
             'Id' => 32767,
             'Label' => 'n/a',
-        ),
-    );
+        ],
+    ];
 
 }

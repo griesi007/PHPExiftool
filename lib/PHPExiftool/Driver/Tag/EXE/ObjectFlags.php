@@ -40,95 +40,95 @@ class ObjectFlags extends AbstractTag
 
     protected $Description = 'Object Flags';
 
-    protected $Values = array(
-        1 => array(
+    protected $Values = [
+        1 => [
             'Id' => 1,
             'Label' => 'No undefs',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'Incrementa link',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 4,
             'Label' => 'Dyld link',
-        ),
-        8 => array(
+        ],
+        8 => [
             'Id' => 8,
             'Label' => 'Bind at load',
-        ),
-        16 => array(
+        ],
+        16 => [
             'Id' => 16,
             'Label' => 'Prebound',
-        ),
-        32 => array(
+        ],
+        32 => [
             'Id' => 32,
             'Label' => 'Split segs',
-        ),
-        64 => array(
+        ],
+        64 => [
             'Id' => 64,
             'Label' => 'Lazy init',
-        ),
-        128 => array(
+        ],
+        128 => [
             'Id' => 128,
             'Label' => 'Two level',
-        ),
-        256 => array(
+        ],
+        256 => [
             'Id' => 256,
             'Label' => 'Force flat',
-        ),
-        512 => array(
+        ],
+        512 => [
             'Id' => 512,
             'Label' => 'No multi defs',
-        ),
-        1024 => array(
+        ],
+        1024 => [
             'Id' => 1024,
             'Label' => 'No fix prebinding',
-        ),
-        2048 => array(
+        ],
+        2048 => [
             'Id' => 2048,
             'Label' => 'Prebindable',
-        ),
-        4096 => array(
+        ],
+        4096 => [
             'Id' => 4096,
             'Label' => 'All mods bound',
-        ),
-        8192 => array(
+        ],
+        8192 => [
             'Id' => 8192,
             'Label' => 'Subsections via symbols',
-        ),
-        16384 => array(
+        ],
+        16384 => [
             'Id' => 16384,
             'Label' => 'Canonical',
-        ),
-        32768 => array(
+        ],
+        32768 => [
             'Id' => 32768,
             'Label' => 'Weak defines',
-        ),
-        65536 => array(
+        ],
+        65536 => [
             'Id' => 65536,
             'Label' => 'Binds to weak',
-        ),
-        131072 => array(
+        ],
+        131072 => [
             'Id' => 131072,
             'Label' => 'Allow stack execution',
-        ),
-        262144 => array(
+        ],
+        262144 => [
             'Id' => 262144,
             'Label' => 'Dead strippable dylib',
-        ),
-        524288 => array(
+        ],
+        524288 => [
             'Id' => 524288,
             'Label' => 'Root safe',
-        ),
-        1048576 => array(
+        ],
+        1048576 => [
             'Id' => 1048576,
             'Label' => 'No reexported dylibs',
-        ),
-        2097152 => array(
+        ],
+        2097152 => [
             'Id' => 2097152,
             'Label' => 'Random address',
-        ),
-    );
+        ],
+    ];
 
 }

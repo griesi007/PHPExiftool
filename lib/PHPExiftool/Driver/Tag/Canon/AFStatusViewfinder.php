@@ -42,15 +42,15 @@ class AFStatusViewfinder extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'Show in Field of View',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'Show Outside View',
-        ),
-    );
+        ],
+    ];
 
 }

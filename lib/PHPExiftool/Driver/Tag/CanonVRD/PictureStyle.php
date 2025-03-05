@@ -40,79 +40,79 @@ class PictureStyle extends AbstractTag
 
     protected $Description = 'Picture Style';
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 129,
             'Label' => 'Standard',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 130,
             'Label' => 'Portrait',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 131,
             'Label' => 'Landscape',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 132,
             'Label' => 'Neutral',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 133,
             'Label' => 'Faithful',
-        ),
-        5 => array(
+        ],
+        5 => [
             'Id' => 134,
             'Label' => 'Monochrome',
-        ),
-        6 => array(
+        ],
+        6 => [
             'Id' => 135,
             'Label' => 'Auto',
-        ),
-        7 => array(
+        ],
+        7 => [
             'Id' => 136,
             'Label' => 'Fine Detail',
-        ),
-        8 => array(
+        ],
+        8 => [
             'Id' => 240,
             'Label' => 'Shot Settings',
-        ),
-        9 => array(
+        ],
+        9 => [
             'Id' => 255,
             'Label' => 'Custom',
-        ),
-        10 => array(
+        ],
+        10 => [
             'Id' => 0,
             'Label' => 'Standard',
-        ),
-        11 => array(
+        ],
+        11 => [
             'Id' => 1,
             'Label' => 'Portrait',
-        ),
-        12 => array(
+        ],
+        12 => [
             'Id' => 2,
             'Label' => 'Landscape',
-        ),
-        13 => array(
+        ],
+        13 => [
             'Id' => 3,
             'Label' => 'Neutral',
-        ),
-        14 => array(
+        ],
+        14 => [
             'Id' => 4,
             'Label' => 'Faithful',
-        ),
-        15 => array(
+        ],
+        15 => [
             'Id' => 5,
             'Label' => 'Monochrome',
-        ),
-        16 => array(
+        ],
+        16 => [
             'Id' => 6,
             'Label' => 'Unknown?',
-        ),
-        17 => array(
+        ],
+        17 => [
             'Id' => 7,
             'Label' => 'Custom',
-        ),
-    );
+        ],
+    ];
 
 }

@@ -42,31 +42,31 @@ class USMLensElectronicMF extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'Turns on after one-shot AF',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'Turns off after one-shot AF',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'Always turned off',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 0,
             'Label' => 'Enable after one-shot AF',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 1,
             'Label' => 'Disable after one-shot AF',
-        ),
-        5 => array(
+        ],
+        5 => [
             'Id' => 2,
             'Label' => 'Disable in AF mode',
-        ),
-    );
+        ],
+    ];
 
 }

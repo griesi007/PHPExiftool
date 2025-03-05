@@ -22,7 +22,7 @@ use JMS\Serializer\Annotation\ExclusionPolicy;
  * @author      Romain Neutron - imprec@gmail.com
  * @license     http://opensource.org/licenses/MIT MIT
  */
-abstract class AbstractTag implements TagInterface
+abstract class AbstractTag implements TagInterface, \Stringable
 {
 
     protected $Id;
@@ -185,9 +185,9 @@ abstract class AbstractTag implements TagInterface
      *
      * @return string
      */
-    public function __toString()
+    public function __toString(): string
     {
-        return $this->getTagname();
+        return (string) $this->getTagname();
     }
 
 }

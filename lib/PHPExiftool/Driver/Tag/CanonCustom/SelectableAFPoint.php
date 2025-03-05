@@ -42,52 +42,52 @@ class SelectableAFPoint extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => '45 points',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => '19 points',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => '11 points',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 3,
             'Label' => 'Inner 9 points',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 4,
             'Label' => 'Outer 9 points',
-        ),
-        5 => array(
+        ],
+        5 => [
             'Id' => 0,
             'Label' => '19 points',
-        ),
-        6 => array(
+        ],
+        6 => [
             'Id' => 1,
             'Label' => 'Inner 9 points',
-        ),
-        7 => array(
+        ],
+        7 => [
             'Id' => 2,
             'Label' => 'Outer 9 points',
-        ),
-        8 => array(
+        ],
+        8 => [
             'Id' => 3,
             'Label' => '19 Points, Multi-controller selectable',
-        ),
-        9 => array(
+        ],
+        9 => [
             'Id' => 4,
             'Label' => 'Inner 9 Points, Multi-controller selectable',
-        ),
-        10 => array(
+        ],
+        10 => [
             'Id' => 5,
             'Label' => 'Outer 9 Points, Multi-controller selectable',
-        ),
-    );
+        ],
+    ];
 
     protected $Index = 'mixed';
 

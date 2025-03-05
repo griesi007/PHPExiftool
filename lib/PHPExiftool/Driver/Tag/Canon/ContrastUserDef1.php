@@ -42,11 +42,11 @@ class ContrastUserDef1 extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        '-559038737' => array(
+    protected $Values = [
+        '-559038737' => [
             'Id' => '-559038737',
             'Label' => 'n/a',
-        ),
-    );
+        ],
+    ];
 
 }

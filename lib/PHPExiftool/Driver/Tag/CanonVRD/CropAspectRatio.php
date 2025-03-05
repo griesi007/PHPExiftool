@@ -40,107 +40,107 @@ class CropAspectRatio extends AbstractTag
 
     protected $Description = 'Crop Aspect Ratio';
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'Free',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'Custom',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => '1:1',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 3,
             'Label' => '3:2',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 4,
             'Label' => '2:3',
-        ),
-        5 => array(
+        ],
+        5 => [
             'Id' => 5,
             'Label' => '4:3',
-        ),
-        6 => array(
+        ],
+        6 => [
             'Id' => 6,
             'Label' => '3:4',
-        ),
-        7 => array(
+        ],
+        7 => [
             'Id' => 7,
             'Label' => '5:4',
-        ),
-        8 => array(
+        ],
+        8 => [
             'Id' => 8,
             'Label' => '4:5',
-        ),
-        9 => array(
+        ],
+        9 => [
             'Id' => 9,
             'Label' => '16:9',
-        ),
-        10 => array(
+        ],
+        10 => [
             'Id' => 10,
             'Label' => '9:16',
-        ),
-        11 => array(
+        ],
+        11 => [
             'Id' => 0,
             'Label' => 'Free',
-        ),
-        12 => array(
+        ],
+        12 => [
             'Id' => 1,
             'Label' => '3:2',
-        ),
-        13 => array(
+        ],
+        13 => [
             'Id' => 2,
             'Label' => '2:3',
-        ),
-        14 => array(
+        ],
+        14 => [
             'Id' => 3,
             'Label' => '4:3',
-        ),
-        15 => array(
+        ],
+        15 => [
             'Id' => 4,
             'Label' => '3:4',
-        ),
-        16 => array(
+        ],
+        16 => [
             'Id' => 5,
             'Label' => 'A-size Landscape',
-        ),
-        17 => array(
+        ],
+        17 => [
             'Id' => 6,
             'Label' => 'A-size Portrait',
-        ),
-        18 => array(
+        ],
+        18 => [
             'Id' => 7,
             'Label' => 'Letter-size Landscape',
-        ),
-        19 => array(
+        ],
+        19 => [
             'Id' => 8,
             'Label' => 'Letter-size Portrait',
-        ),
-        20 => array(
+        ],
+        20 => [
             'Id' => 9,
             'Label' => '4:5',
-        ),
-        21 => array(
+        ],
+        21 => [
             'Id' => 10,
             'Label' => '5:4',
-        ),
-        22 => array(
+        ],
+        22 => [
             'Id' => 11,
             'Label' => '1:1',
-        ),
-        23 => array(
+        ],
+        23 => [
             'Id' => 12,
             'Label' => 'Circle',
-        ),
-        24 => array(
+        ],
+        24 => [
             'Id' => 65535,
             'Label' => 'Custom',
-        ),
-    );
+        ],
+    ];
 
 }

@@ -42,147 +42,147 @@ class TimeZoneCity extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'n/a',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'Chatham Islands',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'Wellington',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 3,
             'Label' => 'Solomon Islands',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 4,
             'Label' => 'Sydney',
-        ),
-        5 => array(
+        ],
+        5 => [
             'Id' => 5,
             'Label' => 'Adelaide',
-        ),
-        6 => array(
+        ],
+        6 => [
             'Id' => 6,
             'Label' => 'Tokyo',
-        ),
-        7 => array(
+        ],
+        7 => [
             'Id' => 7,
             'Label' => 'Hong Kong',
-        ),
-        8 => array(
+        ],
+        8 => [
             'Id' => 8,
             'Label' => 'Bangkok',
-        ),
-        9 => array(
+        ],
+        9 => [
             'Id' => 9,
             'Label' => 'Yangon',
-        ),
-        10 => array(
+        ],
+        10 => [
             'Id' => 10,
             'Label' => 'Dhaka',
-        ),
-        11 => array(
+        ],
+        11 => [
             'Id' => 11,
             'Label' => 'Kathmandu',
-        ),
-        12 => array(
+        ],
+        12 => [
             'Id' => 12,
             'Label' => 'Delhi',
-        ),
-        13 => array(
+        ],
+        13 => [
             'Id' => 13,
             'Label' => 'Karachi',
-        ),
-        14 => array(
+        ],
+        14 => [
             'Id' => 14,
             'Label' => 'Kabul',
-        ),
-        15 => array(
+        ],
+        15 => [
             'Id' => 15,
             'Label' => 'Dubai',
-        ),
-        16 => array(
+        ],
+        16 => [
             'Id' => 16,
             'Label' => 'Tehran',
-        ),
-        17 => array(
+        ],
+        17 => [
             'Id' => 17,
             'Label' => 'Moscow',
-        ),
-        18 => array(
+        ],
+        18 => [
             'Id' => 18,
             'Label' => 'Cairo',
-        ),
-        19 => array(
+        ],
+        19 => [
             'Id' => 19,
             'Label' => 'Paris',
-        ),
-        20 => array(
+        ],
+        20 => [
             'Id' => 20,
             'Label' => 'London',
-        ),
-        21 => array(
+        ],
+        21 => [
             'Id' => 21,
             'Label' => 'Azores',
-        ),
-        22 => array(
+        ],
+        22 => [
             'Id' => 22,
             'Label' => 'Fernando de Noronha',
-        ),
-        23 => array(
+        ],
+        23 => [
             'Id' => 23,
             'Label' => 'Sao Paulo',
-        ),
-        24 => array(
+        ],
+        24 => [
             'Id' => 24,
             'Label' => 'Newfoundland',
-        ),
-        25 => array(
+        ],
+        25 => [
             'Id' => 25,
             'Label' => 'Santiago',
-        ),
-        26 => array(
+        ],
+        26 => [
             'Id' => 26,
             'Label' => 'Caracas',
-        ),
-        27 => array(
+        ],
+        27 => [
             'Id' => 27,
             'Label' => 'New York',
-        ),
-        28 => array(
+        ],
+        28 => [
             'Id' => 28,
             'Label' => 'Chicago',
-        ),
-        29 => array(
+        ],
+        29 => [
             'Id' => 29,
             'Label' => 'Denver',
-        ),
-        30 => array(
+        ],
+        30 => [
             'Id' => 30,
             'Label' => 'Los Angeles',
-        ),
-        31 => array(
+        ],
+        31 => [
             'Id' => 31,
             'Label' => 'Anchorage',
-        ),
-        32 => array(
+        ],
+        32 => [
             'Id' => 32,
             'Label' => 'Honolulu',
-        ),
-        33 => array(
+        ],
+        33 => [
             'Id' => 33,
             'Label' => 'Samoa',
-        ),
-        32766 => array(
+        ],
+        32766 => [
             'Id' => 32766,
             'Label' => '(not set)',
-        ),
-    );
+        ],
+    ];
 
 }

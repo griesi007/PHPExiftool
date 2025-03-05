@@ -42,35 +42,35 @@ class AspectRatio extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => '3:2',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => '1:1',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => '4:3',
-        ),
-        7 => array(
+        ],
+        7 => [
             'Id' => 7,
             'Label' => '16:9',
-        ),
-        8 => array(
+        ],
+        8 => [
             'Id' => 8,
             'Label' => '4:5',
-        ),
-        12 => array(
+        ],
+        12 => [
             'Id' => 12,
             'Label' => '3:2 (APS-H crop)',
-        ),
-        13 => array(
+        ],
+        13 => [
             'Id' => 13,
             'Label' => '3:2 (APS-C crop)',
-        ),
-    );
+        ],
+    ];
 
 }

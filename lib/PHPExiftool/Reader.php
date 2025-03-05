@@ -53,15 +53,15 @@ use Psr\Log\LoggerInterface;
  */
 class Reader implements \IteratorAggregate
 {
-    protected $files = array();
-    protected $dirs = array();
-    protected $excludeDirs = array();
-    protected $extensions = array();
+    protected $files = [];
+    protected $dirs = [];
+    protected $excludeDirs = [];
+    protected $extensions = [];
     protected $extensionsToggle = null;
     protected $followSymLinks = false;
     protected $recursive = true;
     protected $ignoreDotFile = false;
-    protected $sort = array();
+    protected $sort = [];
     protected $parser;
     protected $exiftool;
     protected $timeout = 60;
@@ -71,7 +71,7 @@ class Reader implements \IteratorAggregate
      * @var ArrayCollection
      */
     protected $collection;
-    protected $readers = array();
+    protected $readers = [];
 
     /**
      *  Constructor
@@ -102,7 +102,7 @@ class Reader implements \IteratorAggregate
             = $this->excludeDirs
             = $this->extensions
             = $this->sort
-            = $this->readers = array();
+            = $this->readers = [];
 
         $this->recursive = true;
         $this->ignoreDotFile = $this->followSymLinks = false;
@@ -196,9 +196,9 @@ class Reader implements \IteratorAggregate
      */
     public function sort($by)
     {
-        static $availableSorts = array(
+        static $availableSorts = [
         'directory', 'filename', 'createdate', 'modifydate', 'filesize'
-        );
+        ];
 
         foreach ((array) $by as $sort) {
 
@@ -387,7 +387,7 @@ class Reader implements \IteratorAggregate
         $result = '';
 
         try {
-            $result = trim($this->exiftool->executeCommand($this->buildQuery(), $this->timeout));
+            $result = trim((string) $this->exiftool->executeCommand($this->buildQuery(), $this->timeout));
         } catch (RuntimeException $e) {
             /**
              * In case no file found, an exit code 1 is returned
@@ -416,7 +416,7 @@ class Reader implements \IteratorAggregate
      */
     protected function computeExcludeDirs($rawExcludeDirs, $rawSearchDirs)
     {
-        $excludeDirs = array();
+        $excludeDirs = [];
 
         foreach ($rawExcludeDirs as $excludeDir) {
             $found = false;
@@ -432,7 +432,7 @@ class Reader implements \IteratorAggregate
                     continue;
                 }
 
-                if (strpos($supposedExcluded, DIRECTORY_SEPARATOR) === false) {
+                if (!str_contains($supposedExcluded, DIRECTORY_SEPARATOR)) {
                     $excludeDirs[] = $supposedExcluded;
                     $found = true;
                     break;
@@ -454,11 +454,11 @@ class Reader implements \IteratorAggregate
 
                     $supposedRelative = str_replace($searchDir, '', $supposedExcluded);
 
-                    if (strpos($supposedRelative, DIRECTORY_SEPARATOR) !== false) {
+                    if (str_contains($supposedRelative, DIRECTORY_SEPARATOR)) {
                         continue;
                     }
 
-                    if (strpos($supposedExcluded, $searchDir) !== 0) {
+                    if (!str_starts_with($supposedExcluded, $searchDir)) {
                         continue;
                     }
 

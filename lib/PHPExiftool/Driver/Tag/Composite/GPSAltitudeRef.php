@@ -42,15 +42,15 @@ class GPSAltitudeRef extends AbstractTag
 
     protected $local_g2 = 'Location';
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'Above Sea Level',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'Below Sea Level',
-        ),
-    );
+        ],
+    ];
 
 }

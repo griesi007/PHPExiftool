@@ -42,35 +42,35 @@ class StreamType extends AbstractTag
 
     protected $MaxLength = 16;
 
-    protected $Values = array(
-        '35907DE0-E415-11CF-A917-00805F5C442B' => array(
+    protected $Values = [
+        '35907DE0-E415-11CF-A917-00805F5C442B' => [
             'Id' => '35907DE0-E415-11CF-A917-00805F5C442B',
             'Label' => 'Degradable JPEG',
-        ),
-        '3AFB65E2-47EF-40F2-AC2C-70A90D71D343' => array(
+        ],
+        '3AFB65E2-47EF-40F2-AC2C-70A90D71D343' => [
             'Id' => '3AFB65E2-47EF-40F2-AC2C-70A90D71D343',
             'Label' => 'Binary',
-        ),
-        '59DACFC0-59E6-11D0-A3AC-00A0C90348F6' => array(
+        ],
+        '59DACFC0-59E6-11D0-A3AC-00A0C90348F6' => [
             'Id' => '59DACFC0-59E6-11D0-A3AC-00A0C90348F6',
             'Label' => 'Command',
-        ),
-        '91BD222C-F21C-497A-8B6D-5AA86BFC0185' => array(
+        ],
+        '91BD222C-F21C-497A-8B6D-5AA86BFC0185' => [
             'Id' => '91BD222C-F21C-497A-8B6D-5AA86BFC0185',
             'Label' => 'File Transfer',
-        ),
-        'B61BE100-5B4E-11CF-A8FD-00805F5C442B' => array(
+        ],
+        'B61BE100-5B4E-11CF-A8FD-00805F5C442B' => [
             'Id' => 'B61BE100-5B4E-11CF-A8FD-00805F5C442B',
             'Label' => 'JFIF',
-        ),
-        'BC19EFC0-5B4D-11CF-A8FD-00805F5C442B' => array(
+        ],
+        'BC19EFC0-5B4D-11CF-A8FD-00805F5C442B' => [
             'Id' => 'BC19EFC0-5B4D-11CF-A8FD-00805F5C442B',
             'Label' => 'Video',
-        ),
-        'F8699E40-5B4D-11CF-A8FD-00805F5C442B' => array(
+        ],
+        'F8699E40-5B4D-11CF-A8FD-00805F5C442B' => [
             'Id' => 'F8699E40-5B4D-11CF-A8FD-00805F5C442B',
             'Label' => 'Audio',
-        ),
-    );
+        ],
+    ];
 
 }

@@ -44,23 +44,23 @@ class SpecialEffectMode extends AbstractTag
 
     protected $MaxLength = 3;
 
-    protected $Values = array(
-        '0 0 0' => array(
+    protected $Values = [
+        '0 0 0' => [
             'Id' => '0 0 0',
             'Label' => 'Off',
-        ),
-        '1 0 0' => array(
+        ],
+        '1 0 0' => [
             'Id' => '1 0 0',
             'Label' => 'Makeup',
-        ),
-        '2 0 0' => array(
+        ],
+        '2 0 0' => [
             'Id' => '2 0 0',
             'Label' => 'Mist Removal',
-        ),
-        '3 0 0' => array(
+        ],
+        '3 0 0' => [
             'Id' => '3 0 0',
             'Label' => 'Vivid Landscape',
-        ),
-    );
+        ],
+    ];
 
 }

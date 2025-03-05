@@ -16,11 +16,8 @@ use PHPExiftool\Exception\RuntimeException;
 
 class PreviewExtractor extends Exiftool
 {
-    private $exiftool;
-
-    public function __construct(Exiftool $exiftool)
+    public function __construct(private readonly Exiftool $exiftool)
     {
-        $this->exiftool = $exiftool;
     }
 
     public function extract($pathfile, $outputDir)
@@ -45,7 +42,7 @@ class PreviewExtractor extends Exiftool
 
         try {
             $this->exiftool->executeCommand($command);
-        } catch (RuntimeException $e) {
+        } catch (RuntimeException) {
 
         }
 

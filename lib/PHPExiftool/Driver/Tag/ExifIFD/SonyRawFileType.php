@@ -42,23 +42,23 @@ class SonyRawFileType extends AbstractTag
 
     protected $local_g1 = 'ExifIFD';
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'Sony Uncompressed 14-bit RAW',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'Sony Uncompressed 12-bit RAW',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'Sony Compressed RAW',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 3,
             'Label' => 'Sony Lossless Compressed RAW',
-        ),
-    );
+        ],
+    ];
 
 }

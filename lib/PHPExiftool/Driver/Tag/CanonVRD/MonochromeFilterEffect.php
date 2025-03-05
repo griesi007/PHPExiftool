@@ -40,47 +40,47 @@ class MonochromeFilterEffect extends AbstractTag
 
     protected $Description = 'Monochrome Filter Effect';
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'None',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'Yellow',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'Orange',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 3,
             'Label' => 'Red',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 4,
             'Label' => 'Green',
-        ),
-        5 => array(
+        ],
+        5 => [
             'Id' => '-2',
             'Label' => 'None',
-        ),
-        6 => array(
+        ],
+        6 => [
             'Id' => '-1',
             'Label' => 'Yellow',
-        ),
-        7 => array(
+        ],
+        7 => [
             'Id' => 0,
             'Label' => 'Orange',
-        ),
-        8 => array(
+        ],
+        8 => [
             'Id' => 1,
             'Label' => 'Red',
-        ),
-        9 => array(
+        ],
+        9 => [
             'Id' => 2,
             'Label' => 'Green',
-        ),
-    );
+        ],
+    ];
 
 }

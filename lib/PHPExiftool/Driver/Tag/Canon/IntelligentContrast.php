@@ -42,19 +42,19 @@ class IntelligentContrast extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'Off',
-        ),
-        8 => array(
+        ],
+        8 => [
             'Id' => 8,
             'Label' => 'On',
-        ),
-        65535 => array(
+        ],
+        65535 => [
             'Id' => 65535,
             'Label' => 'n/a',
-        ),
-    );
+        ],
+    ];
 
 }

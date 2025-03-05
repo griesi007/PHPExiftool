@@ -42,59 +42,59 @@ class RecordMode extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        2 => array(
+    protected $Values = [
+        2 => [
             'Id' => 2,
             'Label' => 'Program AE',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 3,
             'Label' => 'Shutter Priority',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 4,
             'Label' => 'Aperture Priority',
-        ),
-        5 => array(
+        ],
+        5 => [
             'Id' => 5,
             'Label' => 'Manual',
-        ),
-        6 => array(
+        ],
+        6 => [
             'Id' => 6,
             'Label' => 'Best Shot',
-        ),
-        17 => array(
+        ],
+        17 => [
             'Id' => 17,
             'Label' => 'Movie',
-        ),
-        19 => array(
+        ],
+        19 => [
             'Id' => 19,
             'Label' => 'Movie (19)',
-        ),
-        20 => array(
+        ],
+        20 => [
             'Id' => 20,
             'Label' => 'YouTube Movie',
-        ),
-        '2 0' => array(
+        ],
+        '2 0' => [
             'Id' => '2 0',
             'Label' => 'Program AE',
-        ),
-        '3 0' => array(
+        ],
+        '3 0' => [
             'Id' => '3 0',
             'Label' => 'Shutter Priority',
-        ),
-        '4 0' => array(
+        ],
+        '4 0' => [
             'Id' => '4 0',
             'Label' => 'Aperture Priority',
-        ),
-        '5 0' => array(
+        ],
+        '5 0' => [
             'Id' => '5 0',
             'Label' => 'Manual',
-        ),
-        '6 0' => array(
+        ],
+        '6 0' => [
             'Id' => '6 0',
             'Label' => 'Best Shot',
-        ),
-    );
+        ],
+    ];
 
 }

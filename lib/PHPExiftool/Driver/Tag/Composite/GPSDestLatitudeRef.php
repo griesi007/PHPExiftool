@@ -42,15 +42,15 @@ class GPSDestLatitudeRef extends AbstractTag
 
     protected $local_g2 = 'Location';
 
-    protected $Values = array(
-        'N' => array(
+    protected $Values = [
+        'N' => [
             'Id' => 'N',
             'Label' => 'North',
-        ),
-        'S' => array(
+        ],
+        'S' => [
             'Id' => 'S',
             'Label' => 'South',
-        ),
-    );
+        ],
+    ];
 
 }

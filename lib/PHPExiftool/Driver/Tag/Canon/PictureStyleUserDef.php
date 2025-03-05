@@ -44,103 +44,103 @@ class PictureStyleUserDef extends AbstractTag
 
     protected $MaxLength = 3;
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'None',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'Standard',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'Portrait',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 3,
             'Label' => 'High Saturation',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 4,
             'Label' => 'Adobe RGB',
-        ),
-        5 => array(
+        ],
+        5 => [
             'Id' => 5,
             'Label' => 'Low Saturation',
-        ),
-        6 => array(
+        ],
+        6 => [
             'Id' => 6,
             'Label' => 'CM Set 1',
-        ),
-        7 => array(
+        ],
+        7 => [
             'Id' => 7,
             'Label' => 'CM Set 2',
-        ),
-        33 => array(
+        ],
+        33 => [
             'Id' => 33,
             'Label' => 'User Def. 1',
-        ),
-        34 => array(
+        ],
+        34 => [
             'Id' => 34,
             'Label' => 'User Def. 2',
-        ),
-        35 => array(
+        ],
+        35 => [
             'Id' => 35,
             'Label' => 'User Def. 3',
-        ),
-        65 => array(
+        ],
+        65 => [
             'Id' => 65,
             'Label' => 'PC 1',
-        ),
-        66 => array(
+        ],
+        66 => [
             'Id' => 66,
             'Label' => 'PC 2',
-        ),
-        67 => array(
+        ],
+        67 => [
             'Id' => 67,
             'Label' => 'PC 3',
-        ),
-        129 => array(
+        ],
+        129 => [
             'Id' => 129,
             'Label' => 'Standard',
-        ),
-        130 => array(
+        ],
+        130 => [
             'Id' => 130,
             'Label' => 'Portrait',
-        ),
-        131 => array(
+        ],
+        131 => [
             'Id' => 131,
             'Label' => 'Landscape',
-        ),
-        132 => array(
+        ],
+        132 => [
             'Id' => 132,
             'Label' => 'Neutral',
-        ),
-        133 => array(
+        ],
+        133 => [
             'Id' => 133,
             'Label' => 'Faithful',
-        ),
-        134 => array(
+        ],
+        134 => [
             'Id' => 134,
             'Label' => 'Monochrome',
-        ),
-        135 => array(
+        ],
+        135 => [
             'Id' => 135,
             'Label' => 'Auto',
-        ),
-        136 => array(
+        ],
+        136 => [
             'Id' => 136,
             'Label' => 'Fine Detail',
-        ),
-        255 => array(
+        ],
+        255 => [
             'Id' => 255,
             'Label' => 'n/a',
-        ),
-        65535 => array(
+        ],
+        65535 => [
             'Id' => 65535,
             'Label' => 'n/a',
-        ),
-    );
+        ],
+    ];
 
 }

@@ -42,15 +42,15 @@ class MagnifiedView extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'Image playback only',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'Image review and playback',
-        ),
-    );
+        ],
+    ];
 
 }

@@ -42,15 +42,15 @@ class HDRImageType extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        3 => array(
+    protected $Values = [
+        3 => [
             'Id' => 3,
             'Label' => 'HDR Image',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 4,
             'Label' => 'Original Image',
-        ),
-    );
+        ],
+    ];
 
 }

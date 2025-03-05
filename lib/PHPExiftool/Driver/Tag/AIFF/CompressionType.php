@@ -42,63 +42,63 @@ class CompressionType extends AbstractTag
 
     protected $MaxLength = 4;
 
-    protected $Values = array(
-        'ACE2' => array(
+    protected $Values = [
+        'ACE2' => [
             'Id' => 'ACE2',
             'Label' => 'ACE 2-to-1',
-        ),
-        'ACE8' => array(
+        ],
+        'ACE8' => [
             'Id' => 'ACE8',
             'Label' => 'ACE 8-to-3',
-        ),
-        'ALAW' => array(
+        ],
+        'ALAW' => [
             'Id' => 'ALAW',
             'Label' => 'A-law',
-        ),
-        'G722' => array(
+        ],
+        'G722' => [
             'Id' => 'G722',
             'Label' => 'G722',
-        ),
-        'G726' => array(
+        ],
+        'G726' => [
             'Id' => 'G726',
             'Label' => 'G726',
-        ),
-        'G728' => array(
+        ],
+        'G728' => [
             'Id' => 'G728',
             'Label' => 'G728',
-        ),
-        'GSM ' => array(
+        ],
+        'GSM ' => [
             'Id' => 'GSM ',
             'Label' => 'GSM',
-        ),
-        'MAC3' => array(
+        ],
+        'MAC3' => [
             'Id' => 'MAC3',
             'Label' => 'MAC 3-to-1',
-        ),
-        'MAC6' => array(
+        ],
+        'MAC6' => [
             'Id' => 'MAC6',
             'Label' => 'MAC 6-to-1',
-        ),
-        'NONE' => array(
+        ],
+        'NONE' => [
             'Id' => 'NONE',
             'Label' => 'None',
-        ),
-        'ULAW' => array(
+        ],
+        'ULAW' => [
             'Id' => 'ULAW',
             'Label' => 'Mu-law',
-        ),
-        'alaw' => array(
+        ],
+        'alaw' => [
             'Id' => 'alaw',
             'Label' => 'a-law',
-        ),
-        'sowt' => array(
+        ],
+        'sowt' => [
             'Id' => 'sowt',
             'Label' => 'Little-endian, no compression',
-        ),
-        'ulaw' => array(
+        ],
+        'ulaw' => [
             'Id' => 'ulaw',
             'Label' => 'mu-law',
-        ),
-    );
+        ],
+    ];
 
 }

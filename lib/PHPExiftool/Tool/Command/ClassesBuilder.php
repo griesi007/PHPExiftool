@@ -43,13 +43,13 @@ class ClassesBuilder extends Command
      *
      * @var array
      */
-    protected $classes = array();
+    protected $classes = [];
 
     /**
      *
      * @var array
      */
-    protected $types = array();
+    protected $types = [];
 
     /**
      * @see Console\Command\Command
@@ -86,7 +86,7 @@ class ClassesBuilder extends Command
 
         $dumper = new InformationDumper(new Exiftool($logger));
 
-        $options = array();
+        $options = [];
         if($input->getOption('with-mwg')) {
             $options[] = InformationDumper::LISTOPTION_MWG;
         }
@@ -129,25 +129,25 @@ class ClassesBuilder extends Command
     {
         $n = 0;
 
-        $classesBuffer = new TagProviderBuilder('', 'TagProvider', array(), '\\Pimple');
-        $buffer = array();
+        $classesBuffer = new TagProviderBuilder('', 'TagProvider', [], '\\Pimple');
+        $buffer = [];
 
         foreach ($this->classes as $class) {
             try {
 
                 $class->write($force);
 
-                if (strpos($class->getNamespace(), 'PHPExiftool\\Driver\\Tag') === 0) {
+                if (str_starts_with((string) $class->getNamespace(), 'PHPExiftool\\Driver\\Tag')) {
 
                     if ( ! isset($buffer[$class->getProperty('GroupName')])) {
-                        $buffer[$class->getProperty('GroupName')] = array();
+                        $buffer[$class->getProperty('GroupName')] = [];
                     }
 
                     $buffer[$class->getProperty('GroupName')][$class->getProperty('Name')] = $class->getNamespace() . '\\' . $class->getClassname();
                 }
 
                 $this->output->write(sprintf("\rwriting class #%5d", $n ++ ));
-            } catch (\Exception $e) {
+            } catch (\Exception) {
                 $this->output->writeln(
                     sprintf("\n<error>Error while writing class %s</error>", $class->getPathfile())
                 );
@@ -175,14 +175,14 @@ class ClassesBuilder extends Command
                 continue;
             }
 
-            $properties = array(
+            $properties = [
                 'ExiftoolName' => $data,
                 'PHPMap'       => $this->getTypeMap($type),
-            );
+            ];
 
             $classpath = sprintf('%s', $classname);
 
-            $this->classes[$classpath] = new Builder('Type', $classname, $properties, 'AbstractType', array('\\PHPExiftool\\Driver\\AbstractType'));
+            $this->classes[$classpath] = new Builder('Type', $classname, $properties, 'AbstractType', [\PHPExiftool\Driver\AbstractType::class]);
         }
 
         return;
@@ -321,12 +321,12 @@ class ClassesBuilder extends Command
         if (isset($this->classes[$classpath])) {
             foreach ($properties as $property => $value) {
                 if ($this->classes[$classpath]->getProperty($property) != $value) {
-                    if (in_array($property, array('Writable', 'flag_Binary', 'flag_List'))) {
+                    if (in_array($property, ['Writable', 'flag_Binary', 'flag_List'])) {
 
                         $this->classes[$classpath]->setProperty($property, 'false');
                     } elseif ($property === 'Values') {
 
-                        $new_value = array();
+                        $new_value = [];
 
                         if ( ! is_array($this->classes[$classpath]->getProperty($property))) {
                             if (is_array($value)) {
@@ -347,7 +347,7 @@ class ClassesBuilder extends Command
                 }
             }
         } else {
-            $this->classes[$classpath] = new Builder($namespace, $classname, $properties, 'AbstractTag', array('JMS\\Serializer\\Annotation\\ExclusionPolicy', '\\PHPExiftool\\Driver\\AbstractTag'), array('@ExclusionPolicy("all")'));
+            $this->classes[$classpath] = new Builder($namespace, $classname, $properties, 'AbstractTag', ['JMS\\Serializer\\Annotation\\ExclusionPolicy', \PHPExiftool\Driver\AbstractTag::class], ['@ExclusionPolicy("all")']);
         }
 
         return;
@@ -391,13 +391,13 @@ class ClassesBuilder extends Command
                 $tag_crawler = new Crawler();
                 $tag_crawler->addNode($tag);
 
-                $extra = array();
+                $extra = [];
 
                 if ($tag_crawler->attr('g0')) {
                     $extra['local_g0'] = $tag_crawler->attr('g0');
                 }
 
-                if ($tag_crawler->attr('g1') && ! in_array($tag_crawler->attr('g1'), array('MakerNotes', 'Chapter#'))) {
+                if ($tag_crawler->attr('g1') && ! in_array($tag_crawler->attr('g1'), ['MakerNotes', 'Chapter#'])) {
                     $g_name = $tag_crawler->attr('g1');
                     $extra['local_g1'] = $tag_crawler->attr('g1');
                 } else {
@@ -448,7 +448,7 @@ class ClassesBuilder extends Command
                 $classname = self::generateClassname($tag_name);
                 $tag_id = $tag_crawler->attr('id');
 
-                $properties = array_merge(array(
+                $properties = array_merge([
                     'Id'          => $tag_id,
                     'Name'        => $tag_name,
                     'FullName'    => $tag_full_name,
@@ -459,7 +459,7 @@ class ClassesBuilder extends Command
                     'Type'        => $tag_crawler->attr('type'),
                     'Writable'    => $tag_crawler->attr('writable'),
                     'Description' => $tag_crawler->filter('desc[lang="en"]')->first()->text(),
-                    ), $extra);
+                    ], $extra);
 
                 if ($tag_crawler->attr('count')) {
                     $properties['MaxLength'] = $tag_crawler->attr('count');
@@ -472,7 +472,7 @@ class ClassesBuilder extends Command
                 }
 
                 if (count($tag_crawler->filter('values')) > 0) {
-                    $values = array();
+                    $values = [];
 
                     $values_tag = $tag_crawler->filter('values')->first();
 
@@ -485,7 +485,7 @@ class ClassesBuilder extends Command
                         $Id = $KeyCrawler->attr('id');
                         $Label = $KeyCrawler->filter('val[lang="en"]')->first()->text();
 
-                        $values[$Id] = array('Id'    => $Id, 'Label' => $Label);
+                        $values[$Id] = ['Id'    => $Id, 'Label' => $Label];
                     }
 
                     $properties['Values'] = $values;
@@ -500,7 +500,7 @@ class ClassesBuilder extends Command
         $this->generateTypes();
     }
 
-    protected static $reservedNames = array(
+    protected static $reservedNames = [
         'abstract',
         'and',
         'array',
@@ -564,7 +564,7 @@ class ClassesBuilder extends Command
         'while',
         'xor',
         'yield',
-    );
+    ];
 
     /**
      *
@@ -591,7 +591,7 @@ class ClassesBuilder extends Command
 
     public static function generateNamespace($namespace)
     {
-        $values = explode('\\', $namespace);
+        $values = explode('\\', (string) $namespace);
 
         foreach ($values as $key => $value) {
             $values[$key] = ucfirst(self::generateClassname($value));

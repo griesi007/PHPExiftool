@@ -42,47 +42,47 @@ class Enhancement extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 1,
             'Label' => 'Off',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 2,
             'Label' => 'Red',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 3,
             'Label' => 'Green',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 4,
             'Label' => 'Blue',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 5,
             'Label' => 'Flesh Tones',
-        ),
-        5 => array(
+        ],
+        5 => [
             'Id' => 0,
             'Label' => 'Off',
-        ),
-        6 => array(
+        ],
+        6 => [
             'Id' => 1,
             'Label' => 'Scenery',
-        ),
-        7 => array(
+        ],
+        7 => [
             'Id' => 3,
             'Label' => 'Green',
-        ),
-        8 => array(
+        ],
+        8 => [
             'Id' => 5,
             'Label' => 'Underwater',
-        ),
-        9 => array(
+        ],
+        9 => [
             'Id' => 9,
             'Label' => 'Flesh Tones',
-        ),
-    );
+        ],
+    ];
 
 }

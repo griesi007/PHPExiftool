@@ -40,200 +40,200 @@ class CPUType extends AbstractTag
 
     protected $Description = 'CPU Type';
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'None',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'AT&T WE 32100',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'SPARC',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 3,
             'Label' => 'i386',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 4,
             'Label' => 'Motorola 68000',
-        ),
-        5 => array(
+        ],
+        5 => [
             'Id' => 5,
             'Label' => 'Motorola 88000',
-        ),
-        6 => array(
+        ],
+        6 => [
             'Id' => 6,
             'Label' => 'i486',
-        ),
-        7 => array(
+        ],
+        7 => [
             'Id' => 7,
             'Label' => 'i860',
-        ),
-        8 => array(
+        ],
+        8 => [
             'Id' => 8,
             'Label' => 'MIPS R3000',
-        ),
-        9 => array(
+        ],
+        9 => [
             'Id' => 10,
             'Label' => 'MIPS R4000',
-        ),
-        10 => array(
+        ],
+        10 => [
             'Id' => 15,
             'Label' => 'HPPA',
-        ),
-        11 => array(
+        ],
+        11 => [
             'Id' => 18,
             'Label' => 'Sun v8plus',
-        ),
-        12 => array(
+        ],
+        12 => [
             'Id' => 20,
             'Label' => 'PowerPC',
-        ),
-        13 => array(
+        ],
+        13 => [
             'Id' => 21,
             'Label' => 'PowerPC 64-bit',
-        ),
-        14 => array(
+        ],
+        14 => [
             'Id' => 22,
             'Label' => 'IBM S/390',
-        ),
-        15 => array(
+        ],
+        15 => [
             'Id' => 23,
             'Label' => 'Cell BE SPU',
-        ),
-        16 => array(
+        ],
+        16 => [
             'Id' => 42,
             'Label' => 'SuperH',
-        ),
-        17 => array(
+        ],
+        17 => [
             'Id' => 43,
             'Label' => 'SPARC v9 64-bit',
-        ),
-        18 => array(
+        ],
+        18 => [
             'Id' => 46,
             'Label' => 'Renesas H8/300,300H,H8S',
-        ),
-        19 => array(
+        ],
+        19 => [
             'Id' => 50,
             'Label' => 'HP/Intel IA-64',
-        ),
-        20 => array(
+        ],
+        20 => [
             'Id' => 62,
             'Label' => 'AMD x86-64',
-        ),
-        21 => array(
+        ],
+        21 => [
             'Id' => 76,
             'Label' => 'Axis Communications 32-bit embedded processor',
-        ),
-        22 => array(
+        ],
+        22 => [
             'Id' => 87,
             'Label' => 'NEC v850',
-        ),
-        23 => array(
+        ],
+        23 => [
             'Id' => 88,
             'Label' => 'Renesas M32R',
-        ),
-        24 => array(
+        ],
+        24 => [
             'Id' => 21569,
             'Label' => 'Fujitsu FR-V',
-        ),
-        25 => array(
+        ],
+        25 => [
             'Id' => 36902,
             'Label' => 'Alpha',
-        ),
-        26 => array(
+        ],
+        26 => [
             'Id' => 36929,
             'Label' => 'm32r (old)',
-        ),
-        27 => array(
+        ],
+        27 => [
             'Id' => 36992,
             'Label' => 'v850 (old)',
-        ),
-        28 => array(
+        ],
+        28 => [
             'Id' => 41872,
             'Label' => 'S/390 (old)',
-        ),
-        29 => array(
+        ],
+        29 => [
             'Id' => '-1',
             'Label' => 'Any',
-        ),
-        30 => array(
+        ],
+        30 => [
             'Id' => 1,
             'Label' => 'VAX',
-        ),
-        31 => array(
+        ],
+        31 => [
             'Id' => 2,
             'Label' => 'ROMP',
-        ),
-        32 => array(
+        ],
+        32 => [
             'Id' => 4,
             'Label' => 'NS32032',
-        ),
-        33 => array(
+        ],
+        33 => [
             'Id' => 5,
             'Label' => 'NS32332',
-        ),
-        34 => array(
+        ],
+        34 => [
             'Id' => 6,
             'Label' => 'MC680x0',
-        ),
-        35 => array(
+        ],
+        35 => [
             'Id' => 7,
             'Label' => 'x86',
-        ),
-        36 => array(
+        ],
+        36 => [
             'Id' => 8,
             'Label' => 'MIPS',
-        ),
-        37 => array(
+        ],
+        37 => [
             'Id' => 9,
             'Label' => 'NS32532',
-        ),
-        38 => array(
+        ],
+        38 => [
             'Id' => 10,
             'Label' => 'MC98000',
-        ),
-        39 => array(
+        ],
+        39 => [
             'Id' => 11,
             'Label' => 'HPPA',
-        ),
-        40 => array(
+        ],
+        40 => [
             'Id' => 12,
             'Label' => 'ARM',
-        ),
-        41 => array(
+        ],
+        41 => [
             'Id' => 13,
             'Label' => 'MC88000',
-        ),
-        42 => array(
+        ],
+        42 => [
             'Id' => 14,
             'Label' => 'SPARC',
-        ),
-        43 => array(
+        ],
+        43 => [
             'Id' => 15,
             'Label' => 'i860 big endian',
-        ),
-        44 => array(
+        ],
+        44 => [
             'Id' => 16,
             'Label' => 'i860 little endian',
-        ),
-        45 => array(
+        ],
+        45 => [
             'Id' => 17,
             'Label' => 'RS6000',
-        ),
-        46 => array(
+        ],
+        46 => [
             'Id' => 18,
             'Label' => 'PowerPC',
-        ),
-        47 => array(
+        ],
+        47 => [
             'Id' => 255,
             'Label' => 'VEO',
-        ),
-    );
+        ],
+    ];
 
     protected $flag_List = false;
 

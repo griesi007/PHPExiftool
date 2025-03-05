@@ -42,71 +42,71 @@ class DriveMode extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'Single Shot',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'Continuous Shooting',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'Continuous (2 fps)',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 3,
             'Label' => 'Continuous (3 fps)',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 4,
             'Label' => 'Continuous (4 fps)',
-        ),
-        5 => array(
+        ],
+        5 => [
             'Id' => 5,
             'Label' => 'Continuous (5 fps)',
-        ),
-        6 => array(
+        ],
+        6 => [
             'Id' => 6,
             'Label' => 'Continuous (6 fps)',
-        ),
-        7 => array(
+        ],
+        7 => [
             'Id' => 7,
             'Label' => 'Continuous (7 fps)',
-        ),
-        10 => array(
+        ],
+        10 => [
             'Id' => 10,
             'Label' => 'Continuous (10 fps)',
-        ),
-        12 => array(
+        ],
+        12 => [
             'Id' => 12,
             'Label' => 'Continuous (12 fps)',
-        ),
-        15 => array(
+        ],
+        15 => [
             'Id' => 15,
             'Label' => 'Continuous (15 fps)',
-        ),
-        20 => array(
+        ],
+        20 => [
             'Id' => 20,
             'Label' => 'Continuous (20 fps)',
-        ),
-        30 => array(
+        ],
+        30 => [
             'Id' => 30,
             'Label' => 'Continuous (30 fps)',
-        ),
-        40 => array(
+        ],
+        40 => [
             'Id' => 40,
             'Label' => 'Continuous (40 fps)',
-        ),
-        60 => array(
+        ],
+        60 => [
             'Id' => 60,
             'Label' => 'Continuous (60 fps)',
-        ),
-        240 => array(
+        ],
+        240 => [
             'Id' => 240,
             'Label' => 'Auto-N',
-        ),
-    );
+        ],
+    ];
 
 }

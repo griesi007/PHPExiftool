@@ -42,15 +42,15 @@ class DaylightSavings extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'Off',
-        ),
-        60 => array(
+        ],
+        60 => [
             'Id' => 60,
             'Label' => 'On',
-        ),
-    );
+        ],
+    ];
 
 }

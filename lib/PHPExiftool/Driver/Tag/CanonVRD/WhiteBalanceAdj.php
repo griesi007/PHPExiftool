@@ -40,87 +40,87 @@ class WhiteBalanceAdj extends AbstractTag
 
     protected $Description = 'White Balance Adj';
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => '-1',
             'Label' => 'Manual (Click)',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 0,
             'Label' => 'Auto',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 1,
             'Label' => 'Daylight',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 2,
             'Label' => 'Cloudy',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 3,
             'Label' => 'Tungsten',
-        ),
-        5 => array(
+        ],
+        5 => [
             'Id' => 4,
             'Label' => 'Fluorescent',
-        ),
-        6 => array(
+        ],
+        6 => [
             'Id' => 5,
             'Label' => 'Flash',
-        ),
-        7 => array(
+        ],
+        7 => [
             'Id' => 8,
             'Label' => 'Shade',
-        ),
-        8 => array(
+        ],
+        8 => [
             'Id' => 9,
             'Label' => 'Kelvin',
-        ),
-        9 => array(
+        ],
+        9 => [
             'Id' => 255,
             'Label' => 'Shot Settings',
-        ),
-        10 => array(
+        ],
+        10 => [
             'Id' => 0,
             'Label' => 'Auto',
-        ),
-        11 => array(
+        ],
+        11 => [
             'Id' => 1,
             'Label' => 'Daylight',
-        ),
-        12 => array(
+        ],
+        12 => [
             'Id' => 2,
             'Label' => 'Cloudy',
-        ),
-        13 => array(
+        ],
+        13 => [
             'Id' => 3,
             'Label' => 'Tungsten',
-        ),
-        14 => array(
+        ],
+        14 => [
             'Id' => 4,
             'Label' => 'Fluorescent',
-        ),
-        15 => array(
+        ],
+        15 => [
             'Id' => 5,
             'Label' => 'Flash',
-        ),
-        16 => array(
+        ],
+        16 => [
             'Id' => 8,
             'Label' => 'Shade',
-        ),
-        17 => array(
+        ],
+        17 => [
             'Id' => 9,
             'Label' => 'Kelvin',
-        ),
-        18 => array(
+        ],
+        18 => [
             'Id' => 30,
             'Label' => 'Manual (Click)',
-        ),
-        19 => array(
+        ],
+        19 => [
             'Id' => 31,
             'Label' => 'Shot Settings',
-        ),
-    );
+        ],
+    ];
 
 }

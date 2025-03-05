@@ -42,43 +42,43 @@ class Quality extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        '-1' => array(
+    protected $Values = [
+        '-1' => [
             'Id' => '-1',
             'Label' => 'n/a',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'Economy',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'Normal',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 3,
             'Label' => 'Fine',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 4,
             'Label' => 'RAW',
-        ),
-        5 => array(
+        ],
+        5 => [
             'Id' => 5,
             'Label' => 'Superfine',
-        ),
-        7 => array(
+        ],
+        7 => [
             'Id' => 7,
             'Label' => 'CRAW',
-        ),
-        130 => array(
+        ],
+        130 => [
             'Id' => 130,
             'Label' => 'Normal Movie',
-        ),
-        131 => array(
+        ],
+        131 => [
             'Id' => 131,
             'Label' => 'Movie (2)',
-        ),
-    );
+        ],
+    ];
 
 }

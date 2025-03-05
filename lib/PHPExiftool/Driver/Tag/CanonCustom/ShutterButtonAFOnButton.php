@@ -44,27 +44,27 @@ class ShutterButtonAFOnButton extends AbstractTag
 
     protected $Index = 3;
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'Metering + AF start',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'Metering + AF start/AF stop',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'Metering start/Meter + AF start',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 3,
             'Label' => 'AE lock/Metering + AF start',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 4,
             'Label' => 'Metering + AF start/disable',
-        ),
-    );
+        ],
+    ];
 
 }

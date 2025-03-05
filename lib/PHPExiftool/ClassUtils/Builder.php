@@ -30,13 +30,12 @@ class Builder
     protected $namespace;
     protected $classname;
     protected $properties;
-    protected $extends;
     protected $uses;
     protected $classAnnotations;
 
-    public function __construct($namespace, $classname, array $properties, $extends = null, Array $uses = array(), Array $classAnnotations = array())
+    public function __construct($namespace, $classname, array $properties, protected $extends = null, Array $uses = [], Array $classAnnotations = [])
     {
-        $namespace = trim($namespace, '\\');
+        $namespace = trim((string) $namespace, '\\');
 
         foreach (explode('\\', $namespace) as $piece) {
             if ($piece == '') {
@@ -54,7 +53,6 @@ class Builder
         $this->namespace = trim('PHPExiftool\\Driver\\' . $namespace, '\\');
         $this->classname = $classname;
         $this->properties = $properties;
-        $this->extends = $extends;
         $this->uses = $uses;
         $this->classAnnotations = $classAnnotations;
 
@@ -73,7 +71,7 @@ class Builder
 
     public function getProperty($property)
     {
-        return isset($this->properties[$property]) ? $this->properties[$property] : null;
+        return $this->properties[$property] ?? null;
     }
 
     public function setProperty($property, $value)
@@ -107,7 +105,7 @@ class Builder
         $content = "<?php\n\n<license>\n\nnamespace <namespace>;\n\n";
 
         foreach ($this->uses as $use) {
-            $content .= "use " . ltrim($use, "\\") . ";\n";
+            $content .= "use " . ltrim((string) $use, "\\") . ";\n";
         }
         if ($this->uses) {
             $content .= "\n";
@@ -133,13 +131,13 @@ class Builder
 
         $content .= "\n}\n";
 
-        if ( ! is_dir(dirname($this->getPathfile()))) {
-            mkdir(dirname($this->getPathfile()), 0754, true);
+        if ( ! is_dir(dirname((string) $this->getPathfile()))) {
+            mkdir(dirname((string) $this->getPathfile()), 0754, true);
         }
 
         $content = str_replace(
-            array('<license>', '<namespace>', '<classname>', '<spaces>', '<extends>')
-            , array($this->license, $this->namespace, $this->classname, '    ', $this->extends)
+            ['<license>', '<namespace>', '<classname>', '<spaces>', '<extends>']
+            , [$this->license, $this->namespace, $this->classname, '    ', $this->extends]
             , $content
         );
 
@@ -177,12 +175,12 @@ class Builder
 
     protected function checkPHPVarName($var)
     {
-        return preg_match('/^[a-zA-Z]+[a-zA-Z0-9]*$/', $var);
+        return preg_match('/^[a-zA-Z]+[a-zA-Z0-9]*$/', (string) $var);
     }
 
     protected function quote($value)
     {
-        if (ctype_digit(trim($value))) {
+        if (ctype_digit(trim((string) $value))) {
             $data = strval(intval($value));
 
             // Do not use PHP_INT_MAX as 32/64 bit dependant
@@ -192,10 +190,10 @@ class Builder
 
             return $data;
         }
-        if (in_array(strtolower($value), array('true', 'false'))) {
-            return strtolower($value);
+        if (in_array(strtolower((string) $value), ['true', 'false'])) {
+            return strtolower((string) $value);
         }
 
-        return "'" . str_replace(array('\\', '\''), array('\\\\', '\\\''), $value) . "'";
+        return "'" . str_replace(['\\', '\''], ['\\\\', '\\\''], $value) . "'";
     }
 }

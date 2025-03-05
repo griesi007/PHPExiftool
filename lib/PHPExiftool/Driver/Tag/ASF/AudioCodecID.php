@@ -40,979 +40,979 @@ class AudioCodecID extends AbstractTag
 
     protected $Description = 'Audio Codec ID';
 
-    protected $Values = array(
-        1 => array(
+    protected $Values = [
+        1 => [
             'Id' => 1,
             'Label' => 'Microsoft PCM',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'Microsoft ADPCM',
-        ),
-        3 => array(
+        ],
+        3 => [
             'Id' => 3,
             'Label' => 'Microsoft IEEE float',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 4,
             'Label' => 'Compaq VSELP',
-        ),
-        5 => array(
+        ],
+        5 => [
             'Id' => 5,
             'Label' => 'IBM CVSD',
-        ),
-        6 => array(
+        ],
+        6 => [
             'Id' => 6,
             'Label' => 'Microsoft a-Law',
-        ),
-        7 => array(
+        ],
+        7 => [
             'Id' => 7,
             'Label' => 'Microsoft u-Law',
-        ),
-        8 => array(
+        ],
+        8 => [
             'Id' => 8,
             'Label' => 'Microsoft DTS',
-        ),
-        9 => array(
+        ],
+        9 => [
             'Id' => 9,
             'Label' => 'DRM',
-        ),
-        10 => array(
+        ],
+        10 => [
             'Id' => 10,
             'Label' => 'WMA 9 Speech',
-        ),
-        11 => array(
+        ],
+        11 => [
             'Id' => 11,
             'Label' => 'Microsoft Windows Media RT Voice',
-        ),
-        16 => array(
+        ],
+        16 => [
             'Id' => 16,
             'Label' => 'OKI-ADPCM',
-        ),
-        17 => array(
+        ],
+        17 => [
             'Id' => 17,
             'Label' => 'Intel IMA/DVI-ADPCM',
-        ),
-        18 => array(
+        ],
+        18 => [
             'Id' => 18,
             'Label' => 'Videologic Mediaspace ADPCM',
-        ),
-        19 => array(
+        ],
+        19 => [
             'Id' => 19,
             'Label' => 'Sierra ADPCM',
-        ),
-        20 => array(
+        ],
+        20 => [
             'Id' => 20,
             'Label' => 'Antex G.723 ADPCM',
-        ),
-        21 => array(
+        ],
+        21 => [
             'Id' => 21,
             'Label' => 'DSP Solutions DIGISTD',
-        ),
-        22 => array(
+        ],
+        22 => [
             'Id' => 22,
             'Label' => 'DSP Solutions DIGIFIX',
-        ),
-        23 => array(
+        ],
+        23 => [
             'Id' => 23,
             'Label' => 'Dialoic OKI ADPCM',
-        ),
-        24 => array(
+        ],
+        24 => [
             'Id' => 24,
             'Label' => 'Media Vision ADPCM',
-        ),
-        25 => array(
+        ],
+        25 => [
             'Id' => 25,
             'Label' => 'HP CU',
-        ),
-        26 => array(
+        ],
+        26 => [
             'Id' => 26,
             'Label' => 'HP Dynamic Voice',
-        ),
-        32 => array(
+        ],
+        32 => [
             'Id' => 32,
             'Label' => 'Yamaha ADPCM',
-        ),
-        33 => array(
+        ],
+        33 => [
             'Id' => 33,
             'Label' => 'SONARC Speech Compression',
-        ),
-        34 => array(
+        ],
+        34 => [
             'Id' => 34,
             'Label' => 'DSP Group True Speech',
-        ),
-        35 => array(
+        ],
+        35 => [
             'Id' => 35,
             'Label' => 'Echo Speech Corp.',
-        ),
-        36 => array(
+        ],
+        36 => [
             'Id' => 36,
             'Label' => 'Virtual Music Audiofile AF36',
-        ),
-        37 => array(
+        ],
+        37 => [
             'Id' => 37,
             'Label' => 'Audio Processing Tech.',
-        ),
-        38 => array(
+        ],
+        38 => [
             'Id' => 38,
             'Label' => 'Virtual Music Audiofile AF10',
-        ),
-        39 => array(
+        ],
+        39 => [
             'Id' => 39,
             'Label' => 'Aculab Prosody 1612',
-        ),
-        40 => array(
+        ],
+        40 => [
             'Id' => 40,
             'Label' => 'Merging Tech. LRC',
-        ),
-        48 => array(
+        ],
+        48 => [
             'Id' => 48,
             'Label' => 'Dolby AC2',
-        ),
-        49 => array(
+        ],
+        49 => [
             'Id' => 49,
             'Label' => 'Microsoft GSM610',
-        ),
-        50 => array(
+        ],
+        50 => [
             'Id' => 50,
             'Label' => 'MSN Audio',
-        ),
-        51 => array(
+        ],
+        51 => [
             'Id' => 51,
             'Label' => 'Antex ADPCME',
-        ),
-        52 => array(
+        ],
+        52 => [
             'Id' => 52,
             'Label' => 'Control Resources VQLPC',
-        ),
-        53 => array(
+        ],
+        53 => [
             'Id' => 53,
             'Label' => 'DSP Solutions DIGIREAL',
-        ),
-        54 => array(
+        ],
+        54 => [
             'Id' => 54,
             'Label' => 'DSP Solutions DIGIADPCM',
-        ),
-        55 => array(
+        ],
+        55 => [
             'Id' => 55,
             'Label' => 'Control Resources CR10',
-        ),
-        56 => array(
+        ],
+        56 => [
             'Id' => 56,
             'Label' => 'Natural MicroSystems VBX ADPCM',
-        ),
-        57 => array(
+        ],
+        57 => [
             'Id' => 57,
             'Label' => 'Crystal Semiconductor IMA ADPCM',
-        ),
-        58 => array(
+        ],
+        58 => [
             'Id' => 58,
             'Label' => 'Echo Speech ECHOSC3',
-        ),
-        59 => array(
+        ],
+        59 => [
             'Id' => 59,
             'Label' => 'Rockwell ADPCM',
-        ),
-        60 => array(
+        ],
+        60 => [
             'Id' => 60,
             'Label' => 'Rockwell DIGITALK',
-        ),
-        61 => array(
+        ],
+        61 => [
             'Id' => 61,
             'Label' => 'Xebec Multimedia',
-        ),
-        64 => array(
+        ],
+        64 => [
             'Id' => 64,
             'Label' => 'Antex G.721 ADPCM',
-        ),
-        65 => array(
+        ],
+        65 => [
             'Id' => 65,
             'Label' => 'Antex G.728 CELP',
-        ),
-        66 => array(
+        ],
+        66 => [
             'Id' => 66,
             'Label' => 'Microsoft MSG723',
-        ),
-        67 => array(
+        ],
+        67 => [
             'Id' => 67,
             'Label' => 'IBM AVC ADPCM',
-        ),
-        69 => array(
+        ],
+        69 => [
             'Id' => 69,
             'Label' => 'ITU-T G.726',
-        ),
-        80 => array(
+        ],
+        80 => [
             'Id' => 80,
             'Label' => 'Microsoft MPEG',
-        ),
-        81 => array(
+        ],
+        81 => [
             'Id' => 81,
             'Label' => 'RT23 or PAC',
-        ),
-        82 => array(
+        ],
+        82 => [
             'Id' => 82,
             'Label' => 'InSoft RT24',
-        ),
-        83 => array(
+        ],
+        83 => [
             'Id' => 83,
             'Label' => 'InSoft PAC',
-        ),
-        85 => array(
+        ],
+        85 => [
             'Id' => 85,
             'Label' => 'MP3',
-        ),
-        89 => array(
+        ],
+        89 => [
             'Id' => 89,
             'Label' => 'Cirrus',
-        ),
-        96 => array(
+        ],
+        96 => [
             'Id' => 96,
             'Label' => 'Cirrus Logic',
-        ),
-        97 => array(
+        ],
+        97 => [
             'Id' => 97,
             'Label' => 'ESS Tech. PCM',
-        ),
-        98 => array(
+        ],
+        98 => [
             'Id' => 98,
             'Label' => 'Voxware Inc.',
-        ),
-        99 => array(
+        ],
+        99 => [
             'Id' => 99,
             'Label' => 'Canopus ATRAC',
-        ),
-        100 => array(
+        ],
+        100 => [
             'Id' => 100,
             'Label' => 'APICOM G.726 ADPCM',
-        ),
-        101 => array(
+        ],
+        101 => [
             'Id' => 101,
             'Label' => 'APICOM G.722 ADPCM',
-        ),
-        102 => array(
+        ],
+        102 => [
             'Id' => 102,
             'Label' => 'Microsoft DSAT',
-        ),
-        103 => array(
+        ],
+        103 => [
             'Id' => 103,
             'Label' => 'Micorsoft DSAT DISPLAY',
-        ),
-        105 => array(
+        ],
+        105 => [
             'Id' => 105,
             'Label' => 'Voxware Byte Aligned',
-        ),
-        112 => array(
+        ],
+        112 => [
             'Id' => 112,
             'Label' => 'Voxware AC8',
-        ),
-        113 => array(
+        ],
+        113 => [
             'Id' => 113,
             'Label' => 'Voxware AC10',
-        ),
-        114 => array(
+        ],
+        114 => [
             'Id' => 114,
             'Label' => 'Voxware AC16',
-        ),
-        115 => array(
+        ],
+        115 => [
             'Id' => 115,
             'Label' => 'Voxware AC20',
-        ),
-        116 => array(
+        ],
+        116 => [
             'Id' => 116,
             'Label' => 'Voxware MetaVoice',
-        ),
-        117 => array(
+        ],
+        117 => [
             'Id' => 117,
             'Label' => 'Voxware MetaSound',
-        ),
-        118 => array(
+        ],
+        118 => [
             'Id' => 118,
             'Label' => 'Voxware RT29HW',
-        ),
-        119 => array(
+        ],
+        119 => [
             'Id' => 119,
             'Label' => 'Voxware VR12',
-        ),
-        120 => array(
+        ],
+        120 => [
             'Id' => 120,
             'Label' => 'Voxware VR18',
-        ),
-        121 => array(
+        ],
+        121 => [
             'Id' => 121,
             'Label' => 'Voxware TQ40',
-        ),
-        122 => array(
+        ],
+        122 => [
             'Id' => 122,
             'Label' => 'Voxware SC3',
-        ),
-        123 => array(
+        ],
+        123 => [
             'Id' => 123,
             'Label' => 'Voxware SC3',
-        ),
-        128 => array(
+        ],
+        128 => [
             'Id' => 128,
             'Label' => 'Soundsoft',
-        ),
-        129 => array(
+        ],
+        129 => [
             'Id' => 129,
             'Label' => 'Voxware TQ60',
-        ),
-        130 => array(
+        ],
+        130 => [
             'Id' => 130,
             'Label' => 'Microsoft MSRT24',
-        ),
-        131 => array(
+        ],
+        131 => [
             'Id' => 131,
             'Label' => 'AT&T G.729A',
-        ),
-        132 => array(
+        ],
+        132 => [
             'Id' => 132,
             'Label' => 'Motion Pixels MVI MV12',
-        ),
-        133 => array(
+        ],
+        133 => [
             'Id' => 133,
             'Label' => 'DataFusion G.726',
-        ),
-        134 => array(
+        ],
+        134 => [
             'Id' => 134,
             'Label' => 'DataFusion GSM610',
-        ),
-        136 => array(
+        ],
+        136 => [
             'Id' => 136,
             'Label' => 'Iterated Systems Audio',
-        ),
-        137 => array(
+        ],
+        137 => [
             'Id' => 137,
             'Label' => 'Onlive',
-        ),
-        138 => array(
+        ],
+        138 => [
             'Id' => 138,
             'Label' => 'Multitude, Inc. FT SX20',
-        ),
-        139 => array(
+        ],
+        139 => [
             'Id' => 139,
             'Label' => 'Infocom ITS A/S G.721 ADPCM',
-        ),
-        140 => array(
+        ],
+        140 => [
             'Id' => 140,
             'Label' => 'Convedia G729',
-        ),
-        141 => array(
+        ],
+        141 => [
             'Id' => 141,
             'Label' => 'Not specified congruency, Inc.',
-        ),
-        145 => array(
+        ],
+        145 => [
             'Id' => 145,
             'Label' => 'Siemens SBC24',
-        ),
-        146 => array(
+        ],
+        146 => [
             'Id' => 146,
             'Label' => 'Sonic Foundry Dolby AC3 APDIF',
-        ),
-        147 => array(
+        ],
+        147 => [
             'Id' => 147,
             'Label' => 'MediaSonic G.723',
-        ),
-        148 => array(
+        ],
+        148 => [
             'Id' => 148,
             'Label' => 'Aculab Prosody 8kbps',
-        ),
-        151 => array(
+        ],
+        151 => [
             'Id' => 151,
             'Label' => 'ZyXEL ADPCM',
-        ),
-        152 => array(
+        ],
+        152 => [
             'Id' => 152,
             'Label' => 'Philips LPCBB',
-        ),
-        153 => array(
+        ],
+        153 => [
             'Id' => 153,
             'Label' => 'Studer Professional Audio Packed',
-        ),
-        160 => array(
+        ],
+        160 => [
             'Id' => 160,
             'Label' => 'Malden PhonyTalk',
-        ),
-        161 => array(
+        ],
+        161 => [
             'Id' => 161,
             'Label' => 'Racal Recorder GSM',
-        ),
-        162 => array(
+        ],
+        162 => [
             'Id' => 162,
             'Label' => 'Racal Recorder G720.a',
-        ),
-        163 => array(
+        ],
+        163 => [
             'Id' => 163,
             'Label' => 'Racal G723.1',
-        ),
-        164 => array(
+        ],
+        164 => [
             'Id' => 164,
             'Label' => 'Racal Tetra ACELP',
-        ),
-        176 => array(
+        ],
+        176 => [
             'Id' => 176,
             'Label' => 'NEC AAC NEC Corporation',
-        ),
-        255 => array(
+        ],
+        255 => [
             'Id' => 255,
             'Label' => 'AAC',
-        ),
-        256 => array(
+        ],
+        256 => [
             'Id' => 256,
             'Label' => 'Rhetorex ADPCM',
-        ),
-        257 => array(
+        ],
+        257 => [
             'Id' => 257,
             'Label' => 'IBM u-Law',
-        ),
-        258 => array(
+        ],
+        258 => [
             'Id' => 258,
             'Label' => 'IBM a-Law',
-        ),
-        259 => array(
+        ],
+        259 => [
             'Id' => 259,
             'Label' => 'IBM ADPCM',
-        ),
-        273 => array(
+        ],
+        273 => [
             'Id' => 273,
             'Label' => 'Vivo G.723',
-        ),
-        274 => array(
+        ],
+        274 => [
             'Id' => 274,
             'Label' => 'Vivo Siren',
-        ),
-        288 => array(
+        ],
+        288 => [
             'Id' => 288,
             'Label' => 'Philips Speech Processing CELP',
-        ),
-        289 => array(
+        ],
+        289 => [
             'Id' => 289,
             'Label' => 'Philips Speech Processing GRUNDIG',
-        ),
-        291 => array(
+        ],
+        291 => [
             'Id' => 291,
             'Label' => 'Digital G.723',
-        ),
-        293 => array(
+        ],
+        293 => [
             'Id' => 293,
             'Label' => 'Sanyo LD ADPCM',
-        ),
-        304 => array(
+        ],
+        304 => [
             'Id' => 304,
             'Label' => 'Sipro Lab ACEPLNET',
-        ),
-        305 => array(
+        ],
+        305 => [
             'Id' => 305,
             'Label' => 'Sipro Lab ACELP4800',
-        ),
-        306 => array(
+        ],
+        306 => [
             'Id' => 306,
             'Label' => 'Sipro Lab ACELP8V3',
-        ),
-        307 => array(
+        ],
+        307 => [
             'Id' => 307,
             'Label' => 'Sipro Lab G.729',
-        ),
-        308 => array(
+        ],
+        308 => [
             'Id' => 308,
             'Label' => 'Sipro Lab G.729A',
-        ),
-        309 => array(
+        ],
+        309 => [
             'Id' => 309,
             'Label' => 'Sipro Lab Kelvin',
-        ),
-        310 => array(
+        ],
+        310 => [
             'Id' => 310,
             'Label' => 'VoiceAge AMR',
-        ),
-        320 => array(
+        ],
+        320 => [
             'Id' => 320,
             'Label' => 'Dictaphone G.726 ADPCM',
-        ),
-        336 => array(
+        ],
+        336 => [
             'Id' => 336,
             'Label' => 'Qualcomm PureVoice',
-        ),
-        337 => array(
+        ],
+        337 => [
             'Id' => 337,
             'Label' => 'Qualcomm HalfRate',
-        ),
-        341 => array(
+        ],
+        341 => [
             'Id' => 341,
             'Label' => 'Ring Zero Systems TUBGSM',
-        ),
-        352 => array(
+        ],
+        352 => [
             'Id' => 352,
             'Label' => 'Microsoft Audio1',
-        ),
-        353 => array(
+        ],
+        353 => [
             'Id' => 353,
             'Label' => 'Windows Media Audio V2 V7 V8 V9 / DivX audio (WMA) / Alex AC3 Audio',
-        ),
-        354 => array(
+        ],
+        354 => [
             'Id' => 354,
             'Label' => 'Windows Media Audio Professional V9',
-        ),
-        355 => array(
+        ],
+        355 => [
             'Id' => 355,
             'Label' => 'Windows Media Audio Lossless V9',
-        ),
-        356 => array(
+        ],
+        356 => [
             'Id' => 356,
             'Label' => 'WMA Pro over S/PDIF',
-        ),
-        368 => array(
+        ],
+        368 => [
             'Id' => 368,
             'Label' => 'UNISYS NAP ADPCM',
-        ),
-        369 => array(
+        ],
+        369 => [
             'Id' => 369,
             'Label' => 'UNISYS NAP ULAW',
-        ),
-        370 => array(
+        ],
+        370 => [
             'Id' => 370,
             'Label' => 'UNISYS NAP ALAW',
-        ),
-        371 => array(
+        ],
+        371 => [
             'Id' => 371,
             'Label' => 'UNISYS NAP 16K',
-        ),
-        372 => array(
+        ],
+        372 => [
             'Id' => 372,
             'Label' => 'MM SYCOM ACM SYC008 SyCom Technologies',
-        ),
-        373 => array(
+        ],
+        373 => [
             'Id' => 373,
             'Label' => 'MM SYCOM ACM SYC701 G726L SyCom Technologies',
-        ),
-        374 => array(
+        ],
+        374 => [
             'Id' => 374,
             'Label' => 'MM SYCOM ACM SYC701 CELP54 SyCom Technologies',
-        ),
-        375 => array(
+        ],
+        375 => [
             'Id' => 375,
             'Label' => 'MM SYCOM ACM SYC701 CELP68 SyCom Technologies',
-        ),
-        376 => array(
+        ],
+        376 => [
             'Id' => 376,
             'Label' => 'Knowledge Adventure ADPCM',
-        ),
-        384 => array(
+        ],
+        384 => [
             'Id' => 384,
             'Label' => 'Fraunhofer IIS MPEG2AAC',
-        ),
-        400 => array(
+        ],
+        400 => [
             'Id' => 400,
             'Label' => 'Digital Theater Systems DTS DS',
-        ),
-        512 => array(
+        ],
+        512 => [
             'Id' => 512,
             'Label' => 'Creative Labs ADPCM',
-        ),
-        514 => array(
+        ],
+        514 => [
             'Id' => 514,
             'Label' => 'Creative Labs FASTSPEECH8',
-        ),
-        515 => array(
+        ],
+        515 => [
             'Id' => 515,
             'Label' => 'Creative Labs FASTSPEECH10',
-        ),
-        528 => array(
+        ],
+        528 => [
             'Id' => 528,
             'Label' => 'UHER ADPCM',
-        ),
-        533 => array(
+        ],
+        533 => [
             'Id' => 533,
             'Label' => 'Ulead DV ACM',
-        ),
-        534 => array(
+        ],
+        534 => [
             'Id' => 534,
             'Label' => 'Ulead DV ACM',
-        ),
-        544 => array(
+        ],
+        544 => [
             'Id' => 544,
             'Label' => 'Quarterdeck Corp.',
-        ),
-        560 => array(
+        ],
+        560 => [
             'Id' => 560,
             'Label' => 'I-Link VC',
-        ),
-        576 => array(
+        ],
+        576 => [
             'Id' => 576,
             'Label' => 'Aureal Semiconductor Raw Sport',
-        ),
-        577 => array(
+        ],
+        577 => [
             'Id' => 577,
             'Label' => 'ESST AC3',
-        ),
-        592 => array(
+        ],
+        592 => [
             'Id' => 592,
             'Label' => 'Interactive Products HSX',
-        ),
-        593 => array(
+        ],
+        593 => [
             'Id' => 593,
             'Label' => 'Interactive Products RPELP',
-        ),
-        608 => array(
+        ],
+        608 => [
             'Id' => 608,
             'Label' => 'Consistent CS2',
-        ),
-        624 => array(
+        ],
+        624 => [
             'Id' => 624,
             'Label' => 'Sony SCX',
-        ),
-        625 => array(
+        ],
+        625 => [
             'Id' => 625,
             'Label' => 'Sony SCY',
-        ),
-        626 => array(
+        ],
+        626 => [
             'Id' => 626,
             'Label' => 'Sony ATRAC3',
-        ),
-        627 => array(
+        ],
+        627 => [
             'Id' => 627,
             'Label' => 'Sony SPC',
-        ),
-        640 => array(
+        ],
+        640 => [
             'Id' => 640,
             'Label' => 'TELUM Telum Inc.',
-        ),
-        641 => array(
+        ],
+        641 => [
             'Id' => 641,
             'Label' => 'TELUMIA Telum Inc.',
-        ),
-        645 => array(
+        ],
+        645 => [
             'Id' => 645,
             'Label' => 'Norcom Voice Systems ADPCM',
-        ),
-        768 => array(
+        ],
+        768 => [
             'Id' => 768,
             'Label' => 'Fujitsu FM TOWNS SND',
-        ),
-        769 => array(
+        ],
+        769 => [
             'Id' => 769,
             'Label' => 'Fujitsu (not specified)',
-        ),
-        770 => array(
+        ],
+        770 => [
             'Id' => 770,
             'Label' => 'Fujitsu (not specified)',
-        ),
-        771 => array(
+        ],
+        771 => [
             'Id' => 771,
             'Label' => 'Fujitsu (not specified)',
-        ),
-        772 => array(
+        ],
+        772 => [
             'Id' => 772,
             'Label' => 'Fujitsu (not specified)',
-        ),
-        773 => array(
+        ],
+        773 => [
             'Id' => 773,
             'Label' => 'Fujitsu (not specified)',
-        ),
-        774 => array(
+        ],
+        774 => [
             'Id' => 774,
             'Label' => 'Fujitsu (not specified)',
-        ),
-        775 => array(
+        ],
+        775 => [
             'Id' => 775,
             'Label' => 'Fujitsu (not specified)',
-        ),
-        776 => array(
+        ],
+        776 => [
             'Id' => 776,
             'Label' => 'Fujitsu (not specified)',
-        ),
-        848 => array(
+        ],
+        848 => [
             'Id' => 848,
             'Label' => 'Micronas Semiconductors, Inc. Development',
-        ),
-        849 => array(
+        ],
+        849 => [
             'Id' => 849,
             'Label' => 'Micronas Semiconductors, Inc. CELP833',
-        ),
-        1024 => array(
+        ],
+        1024 => [
             'Id' => 1024,
             'Label' => 'Brooktree Digital',
-        ),
-        1025 => array(
+        ],
+        1025 => [
             'Id' => 1025,
             'Label' => 'Intel Music Coder (IMC)',
-        ),
-        1026 => array(
+        ],
+        1026 => [
             'Id' => 1026,
             'Label' => 'Ligos Indeo Audio',
-        ),
-        1104 => array(
+        ],
+        1104 => [
             'Id' => 1104,
             'Label' => 'QDesign Music',
-        ),
-        1280 => array(
+        ],
+        1280 => [
             'Id' => 1280,
             'Label' => 'On2 VP7 On2 Technologies',
-        ),
-        1281 => array(
+        ],
+        1281 => [
             'Id' => 1281,
             'Label' => 'On2 VP6 On2 Technologies',
-        ),
-        1664 => array(
+        ],
+        1664 => [
             'Id' => 1664,
             'Label' => 'AT&T VME VMPCM',
-        ),
-        1665 => array(
+        ],
+        1665 => [
             'Id' => 1665,
             'Label' => 'AT&T TCP',
-        ),
-        1792 => array(
+        ],
+        1792 => [
             'Id' => 1792,
             'Label' => 'YMPEG Alpha (dummy for MPEG-2 compressor)',
-        ),
-        2222 => array(
+        ],
+        2222 => [
             'Id' => 2222,
             'Label' => 'ClearJump LiteWave (lossless)',
-        ),
-        4096 => array(
+        ],
+        4096 => [
             'Id' => 4096,
             'Label' => 'Olivetti GSM',
-        ),
-        4097 => array(
+        ],
+        4097 => [
             'Id' => 4097,
             'Label' => 'Olivetti ADPCM',
-        ),
-        4098 => array(
+        ],
+        4098 => [
             'Id' => 4098,
             'Label' => 'Olivetti CELP',
-        ),
-        4099 => array(
+        ],
+        4099 => [
             'Id' => 4099,
             'Label' => 'Olivetti SBC',
-        ),
-        4100 => array(
+        ],
+        4100 => [
             'Id' => 4100,
             'Label' => 'Olivetti OPR',
-        ),
-        4352 => array(
+        ],
+        4352 => [
             'Id' => 4352,
             'Label' => 'Lernout & Hauspie',
-        ),
-        4353 => array(
+        ],
+        4353 => [
             'Id' => 4353,
             'Label' => 'Lernout & Hauspie CELP codec',
-        ),
-        4354 => array(
+        ],
+        4354 => [
             'Id' => 4354,
             'Label' => 'Lernout & Hauspie SBC codec',
-        ),
-        4355 => array(
+        ],
+        4355 => [
             'Id' => 4355,
             'Label' => 'Lernout & Hauspie SBC codec',
-        ),
-        4356 => array(
+        ],
+        4356 => [
             'Id' => 4356,
             'Label' => 'Lernout & Hauspie SBC codec',
-        ),
-        5120 => array(
+        ],
+        5120 => [
             'Id' => 5120,
             'Label' => 'Norris Comm. Inc.',
-        ),
-        5121 => array(
+        ],
+        5121 => [
             'Id' => 5121,
             'Label' => 'ISIAudio',
-        ),
-        5376 => array(
+        ],
+        5376 => [
             'Id' => 5376,
             'Label' => 'AT&T Soundspace Music Compression',
-        ),
-        6172 => array(
+        ],
+        6172 => [
             'Id' => 6172,
             'Label' => 'VoxWare RT24 speech codec',
-        ),
-        6174 => array(
+        ],
+        6174 => [
             'Id' => 6174,
             'Label' => 'Lucent elemedia AX24000P Music codec',
-        ),
-        6513 => array(
+        ],
+        6513 => [
             'Id' => 6513,
             'Label' => 'Sonic Foundry LOSSLESS',
-        ),
-        6521 => array(
+        ],
+        6521 => [
             'Id' => 6521,
             'Label' => 'Innings Telecom Inc. ADPCM',
-        ),
-        7175 => array(
+        ],
+        7175 => [
             'Id' => 7175,
             'Label' => 'Lucent SX8300P speech codec',
-        ),
-        7180 => array(
+        ],
+        7180 => [
             'Id' => 7180,
             'Label' => 'Lucent SX5363S G.723 compliant codec',
-        ),
-        7939 => array(
+        ],
+        7939 => [
             'Id' => 7939,
             'Label' => 'CUseeMe DigiTalk (ex-Rocwell)',
-        ),
-        8132 => array(
+        ],
+        8132 => [
             'Id' => 8132,
             'Label' => 'NCT Soft ALF2CD ACM',
-        ),
-        8192 => array(
+        ],
+        8192 => [
             'Id' => 8192,
             'Label' => 'FAST Multimedia DVM',
-        ),
-        8193 => array(
+        ],
+        8193 => [
             'Id' => 8193,
             'Label' => 'Dolby DTS (Digital Theater System)',
-        ),
-        8194 => array(
+        ],
+        8194 => [
             'Id' => 8194,
             'Label' => 'RealAudio 1 / 2 14.4',
-        ),
-        8195 => array(
+        ],
+        8195 => [
             'Id' => 8195,
             'Label' => 'RealAudio 1 / 2 28.8',
-        ),
-        8196 => array(
+        ],
+        8196 => [
             'Id' => 8196,
             'Label' => 'RealAudio G2 / 8 Cook (low bitrate)',
-        ),
-        8197 => array(
+        ],
+        8197 => [
             'Id' => 8197,
             'Label' => 'RealAudio 3 / 4 / 5 Music (DNET)',
-        ),
-        8198 => array(
+        ],
+        8198 => [
             'Id' => 8198,
             'Label' => 'RealAudio 10 AAC (RAAC)',
-        ),
-        8199 => array(
+        ],
+        8199 => [
             'Id' => 8199,
             'Label' => 'RealAudio 10 AAC+ (RACP)',
-        ),
-        9472 => array(
+        ],
+        9472 => [
             'Id' => 9472,
             'Label' => 'Reserved range to 0x2600 Microsoft',
-        ),
-        13075 => array(
+        ],
+        13075 => [
             'Id' => 13075,
             'Label' => 'makeAVIS (ffvfw fake AVI sound from AviSynth scripts)',
-        ),
-        16707 => array(
+        ],
+        16707 => [
             'Id' => 16707,
             'Label' => 'Divio MPEG-4 AAC audio',
-        ),
-        16897 => array(
+        ],
+        16897 => [
             'Id' => 16897,
             'Label' => 'Nokia adaptive multirate',
-        ),
-        16963 => array(
+        ],
+        16963 => [
             'Id' => 16963,
             'Label' => 'Divio G726 Divio, Inc.',
-        ),
-        17228 => array(
+        ],
+        17228 => [
             'Id' => 17228,
             'Label' => 'LEAD Speech',
-        ),
-        22092 => array(
+        ],
+        22092 => [
             'Id' => 22092,
             'Label' => 'LEAD Vorbis',
-        ),
-        22358 => array(
+        ],
+        22358 => [
             'Id' => 22358,
             'Label' => 'WavPack Audio',
-        ),
-        26447 => array(
+        ],
+        26447 => [
             'Id' => 26447,
             'Label' => 'Ogg Vorbis (mode 1)',
-        ),
-        26448 => array(
+        ],
+        26448 => [
             'Id' => 26448,
             'Label' => 'Ogg Vorbis (mode 2)',
-        ),
-        26449 => array(
+        ],
+        26449 => [
             'Id' => 26449,
             'Label' => 'Ogg Vorbis (mode 3)',
-        ),
-        26479 => array(
+        ],
+        26479 => [
             'Id' => 26479,
             'Label' => 'Ogg Vorbis (mode 1+)',
-        ),
-        26480 => array(
+        ],
+        26480 => [
             'Id' => 26480,
             'Label' => 'Ogg Vorbis (mode 2+)',
-        ),
-        26481 => array(
+        ],
+        26481 => [
             'Id' => 26481,
             'Label' => 'Ogg Vorbis (mode 3+)',
-        ),
-        28672 => array(
+        ],
+        28672 => [
             'Id' => 28672,
             'Label' => '3COM NBX 3Com Corporation',
-        ),
-        28781 => array(
+        ],
+        28781 => [
             'Id' => 28781,
             'Label' => 'FAAD AAC',
-        ),
-        31265 => array(
+        ],
+        31265 => [
             'Id' => 31265,
             'Label' => 'GSM-AMR (CBR, no SID)',
-        ),
-        31266 => array(
+        ],
+        31266 => [
             'Id' => 31266,
             'Label' => 'GSM-AMR (VBR, including SID)',
-        ),
-        41216 => array(
+        ],
+        41216 => [
             'Id' => 41216,
             'Label' => 'Comverse Infosys Ltd. G723 1',
-        ),
-        41217 => array(
+        ],
+        41217 => [
             'Id' => 41217,
             'Label' => 'Comverse Infosys Ltd. AVQSBC',
-        ),
-        41218 => array(
+        ],
+        41218 => [
             'Id' => 41218,
             'Label' => 'Comverse Infosys Ltd. OLDSBC',
-        ),
-        41219 => array(
+        ],
+        41219 => [
             'Id' => 41219,
             'Label' => 'Symbol Technologies G729A',
-        ),
-        41220 => array(
+        ],
+        41220 => [
             'Id' => 41220,
             'Label' => 'VoiceAge AMR WB VoiceAge Corporation',
-        ),
-        41221 => array(
+        ],
+        41221 => [
             'Id' => 41221,
             'Label' => 'Ingenient Technologies Inc. G726',
-        ),
-        41222 => array(
+        ],
+        41222 => [
             'Id' => 41222,
             'Label' => 'ISO/MPEG-4 advanced audio Coding',
-        ),
-        41223 => array(
+        ],
+        41223 => [
             'Id' => 41223,
             'Label' => 'Encore Software Ltd G726',
-        ),
-        41225 => array(
+        ],
+        41225 => [
             'Id' => 41225,
             'Label' => 'Speex ACM Codec xiph.org',
-        ),
-        57260 => array(
+        ],
+        57260 => [
             'Id' => 57260,
             'Label' => 'DebugMode SonicFoundry Vegas FrameServer ACM Codec',
-        ),
-        59144 => array(
+        ],
+        59144 => [
             'Id' => 59144,
             'Label' => 'Unknown -',
-        ),
-        61868 => array(
+        ],
+        61868 => [
             'Id' => 61868,
             'Label' => 'Free Lossless Audio Codec FLAC',
-        ),
-        65534 => array(
+        ],
+        65534 => [
             'Id' => 65534,
             'Label' => 'Extensible',
-        ),
-        65535 => array(
+        ],
+        65535 => [
             'Id' => 65535,
             'Label' => 'Development',
-        ),
-    );
+        ],
+    ];
 
 }

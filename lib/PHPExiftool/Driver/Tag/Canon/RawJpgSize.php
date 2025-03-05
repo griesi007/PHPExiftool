@@ -42,83 +42,83 @@ class RawJpgSize extends AbstractTag
 
     protected $flag_Permanent = true;
 
-    protected $Values = array(
-        '-1' => array(
+    protected $Values = [
+        '-1' => [
             'Id' => '-1',
             'Label' => 'n/a',
-        ),
-        0 => array(
+        ],
+        0 => [
             'Id' => 0,
             'Label' => 'Large',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'Medium',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'Small',
-        ),
-        5 => array(
+        ],
+        5 => [
             'Id' => 5,
             'Label' => 'Medium 1',
-        ),
-        6 => array(
+        ],
+        6 => [
             'Id' => 6,
             'Label' => 'Medium 2',
-        ),
-        7 => array(
+        ],
+        7 => [
             'Id' => 7,
             'Label' => 'Medium 3',
-        ),
-        8 => array(
+        ],
+        8 => [
             'Id' => 8,
             'Label' => 'Postcard',
-        ),
-        9 => array(
+        ],
+        9 => [
             'Id' => 9,
             'Label' => 'Widescreen',
-        ),
-        10 => array(
+        ],
+        10 => [
             'Id' => 10,
             'Label' => 'Medium Widescreen',
-        ),
-        14 => array(
+        ],
+        14 => [
             'Id' => 14,
             'Label' => 'Small 1',
-        ),
-        15 => array(
+        ],
+        15 => [
             'Id' => 15,
             'Label' => 'Small 2',
-        ),
-        16 => array(
+        ],
+        16 => [
             'Id' => 16,
             'Label' => 'Small 3',
-        ),
-        128 => array(
+        ],
+        128 => [
             'Id' => 128,
             'Label' => '640x480 Movie',
-        ),
-        129 => array(
+        ],
+        129 => [
             'Id' => 129,
             'Label' => 'Medium Movie',
-        ),
-        130 => array(
+        ],
+        130 => [
             'Id' => 130,
             'Label' => 'Small Movie',
-        ),
-        137 => array(
+        ],
+        137 => [
             'Id' => 137,
             'Label' => '1280x720 Movie',
-        ),
-        142 => array(
+        ],
+        142 => [
             'Id' => 142,
             'Label' => '1920x1080 Movie',
-        ),
-        143 => array(
+        ],
+        143 => [
             'Id' => 143,
             'Label' => '4096x2160 Movie',
-        ),
-    );
+        ],
+    ];
 
 }

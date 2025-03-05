@@ -40,67 +40,67 @@ class ImageFileCharacteristics extends AbstractTag
 
     protected $Description = 'Image File Characteristics';
 
-    protected $Values = array(
-        1 => array(
+    protected $Values = [
+        1 => [
             'Id' => 1,
             'Label' => 'No relocs',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'Executable',
-        ),
-        4 => array(
+        ],
+        4 => [
             'Id' => 4,
             'Label' => 'No line numbers',
-        ),
-        8 => array(
+        ],
+        8 => [
             'Id' => 8,
             'Label' => 'No symbols',
-        ),
-        16 => array(
+        ],
+        16 => [
             'Id' => 16,
             'Label' => 'Aggressive working-set trim',
-        ),
-        32 => array(
+        ],
+        32 => [
             'Id' => 32,
             'Label' => 'Large address aware',
-        ),
-        128 => array(
+        ],
+        128 => [
             'Id' => 128,
             'Label' => 'Bytes reversed lo',
-        ),
-        256 => array(
+        ],
+        256 => [
             'Id' => 256,
             'Label' => '32-bit',
-        ),
-        512 => array(
+        ],
+        512 => [
             'Id' => 512,
             'Label' => 'No debug',
-        ),
-        1024 => array(
+        ],
+        1024 => [
             'Id' => 1024,
             'Label' => 'Removable run from swap',
-        ),
-        2048 => array(
+        ],
+        2048 => [
             'Id' => 2048,
             'Label' => 'Net run from swap',
-        ),
-        4096 => array(
+        ],
+        4096 => [
             'Id' => 4096,
             'Label' => 'System file',
-        ),
-        8192 => array(
+        ],
+        8192 => [
             'Id' => 8192,
             'Label' => 'DLL',
-        ),
-        16384 => array(
+        ],
+        16384 => [
             'Id' => 16384,
             'Label' => 'Uniprocessor only',
-        ),
-        32768 => array(
+        ],
+        32768 => [
             'Id' => 32768,
             'Label' => 'Bytes reversed hi',
-        ),
-    );
+        ],
+    ];
 
 }

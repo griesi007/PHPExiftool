@@ -44,19 +44,19 @@ class AFMicroadjustment extends AbstractTag
 
     protected $MaxLength = 5;
 
-    protected $Values = array(
-        0 => array(
+    protected $Values = [
+        0 => [
             'Id' => 0,
             'Label' => 'Disable',
-        ),
-        1 => array(
+        ],
+        1 => [
             'Id' => 1,
             'Label' => 'Adjust all by same amount',
-        ),
-        2 => array(
+        ],
+        2 => [
             'Id' => 2,
             'Label' => 'Adjust by lens',
-        ),
-    );
+        ],
+    ];
 
 }
